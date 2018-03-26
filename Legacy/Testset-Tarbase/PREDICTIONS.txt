@@ -1,0 +1,50 @@
+MIRANDA: 
+
+###################
+Class: Positive
+Total instances in input file: 172
+Correct predictions: 137
+Wrong predictions : 35
+###################
+
+
+###################
+Class: Negative
+Total instances in input file: 33
+Correct predictions: 11
+Wrong predictions : 22
+###################
+
+
+								PREDICTION
+						POSITIVE			NEGATIVE
+REAL	POSITIVE			137				35
+		NEGATIVE		22				11	
+
+SPE 0.33
+SEN 0.79
+ACC 0.72
+
+
+##########
+RFMirTarget TOP 12 
+MCC2
+0.136903954034987
+SE2
+88.5802469135803
+SP2
+23.3766233766234
+ACC2
+76.0598503740648
+
+
+RFMirTarget 34 feat
+ACC2
+77.0573566084788
+MCC2
+0.0868347202108011
+SE2
+87.5739644970414
+SP2
+20.6349206349206
+

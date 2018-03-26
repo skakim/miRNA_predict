@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_63.fas
+Reference Filename:	target_63.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-153 MIMAT0000439(22 nt)
+Read Sequence:gi|126507086|ref|NM_001201.2| Homo sapiens bone morphogenetic protein 3 (BMP3), mRNA(5734 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-153 vs gi|126507086|ref|NM_001201.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 155.000000  Q:2 to 20  R:3125 to 3146 Align Len (18) (72.22%) (88.89%)
+
+   Query:    3' ctaGTGAAAACACTGATACGTt 5'
+                   ||:||| | |:||:|||| 
+   Ref:      5' agcCATTTTGGAGGCTGTGCAg 3'
+
+   Energy:  -19.709999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-153	gi|126507086|ref|NM_001201.2|	155.00	-19.71	2 20	3125 3146	18	72.22%	88.89%
+
+
+   Forward:	Score: 143.000000  Q:2 to 12  R:5181 to 5202 Align Len (10) (80.00%) (90.00%)
+
+   Query:    3' ctagtgaaaacACTGATACGTt 5'
+                           | :||||||| 
+   Ref:      5' tgggttaggcaTAGCTATGCAc 3'
+
+   Energy:  -10.740000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-153	gi|126507086|ref|NM_001201.2|	143.00	-10.74	2 12	5181 5202	10	80.00%	90.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-153	gi|126507086|ref|NM_001201.2|	298.00	-30.45	155.00	-19.71	1	22	5734	 3125 5181
+Complete
+
+Scan Complete
+

@@ -1,0 +1,116 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_97.fas
+Reference Filename:	target_97.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-15a* MIMAT0004488(22 nt)
+Read Sequence:gi|140972288|ref|NM_005529.5| Homo sapiens heparan sulfate proteoglycan 2 (HSPG2), mRNA(14294 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-15a* vs gi|140972288|ref|NM_005529.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 144.000000  Q:2 to 18  R:12743 to 12766 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' actccGTCGTGTT--ATACCGGAc 5'
+                     |||||||:   :|||||| 
+   Ref:      5' cggacCAGCACAGCCAGTGGCCTc 3'
+
+   Energy:  -24.059999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a*	gi|140972288|ref|NM_005529.5|	144.00	-24.06	2 18	12743 12766	18	72.22%	83.33%
+
+
+   Forward:	Score: 141.000000  Q:2 to 21  R:117 to 136 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' acTCCGTCGTGTTATACCGGAc 5'
+                  |||  |||:|  |||||:| 
+   Ref:      5' tgAGG--GCATACGATGGCTTg 3'
+
+   Energy:  -24.480000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a*	gi|140972288|ref|NM_005529.5|	141.00	-24.48	2 21	117 136	19	68.42%	78.95%
+
+
+   Forward:	Score: 141.000000  Q:2 to 15  R:12651 to 12673 Align Len (14) (78.57%) (92.86%)
+
+   Query:    3' actccgtcGTGTTA-TACCGGAc 5'
+                        |||:|| |||||:| 
+   Ref:      5' cctatttcCACGATGATGGCTTc 3'
+
+   Energy:  -15.330000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a*	gi|140972288|ref|NM_005529.5|	141.00	-15.33	2 15	12651 12673	14	78.57%	92.86%
+
+
+   Forward:	Score: 140.000000  Q:2 to 18  R:545 to 567 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' actccGTCG-TGTTATACCGGAc 5'
+                     |||| :|  |:|||||| 
+   Ref:      5' atctcCAGCGGCTCTGTGGCCTc 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a*	gi|140972288|ref|NM_005529.5|	140.00	-19.95	2 18	545 567	17	70.59%	82.35%
+
+
+   Forward:	Score: 140.000000  Q:3 to 18  R:2129 to 2151 Align Len (16) (81.25%) (81.25%)
+
+   Query:    3' actccGTCGT-GTTATACCGGac 5'
+                     || || ||| ||||||  
+   Ref:      5' gtgtaCAACACCAAGATGGCCag 3'
+
+   Energy:  -14.890000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a*	gi|140972288|ref|NM_005529.5|	140.00	-14.89	3 18	2129 2151	16	81.25%	81.25%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:13530 to 13551 Align Len (19) (57.89%) (78.95%)
+
+   Query:    3' acTCCGTCGTGTTATACCGGAc 5'
+                  || :|| :| : :|||||| 
+   Ref:      5' ccAGATAGAGCTGGGTGGCCTg 3'
+
+   Energy:  -19.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a*	gi|140972288|ref|NM_005529.5|	140.00	-19.84	2 21	13530 13551	19	57.89%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-15a*	gi|140972288|ref|NM_005529.5|	846.00	-118.55	144.00	-24.48	1	22	14294	 12743 117 12651 545 2129 13530
+Complete
+
+Scan Complete
+

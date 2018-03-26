@@ -1,0 +1,3 @@
+>gi|216547880|ref|NM_015948.3| Homo sapiens solute carrier family 35, member B3 (SLC35B3), transcript variant 1, mRNA
+>hsa-miR-15a MIMAT0000068
+.(((((((..............((((((((((((.&))))))))))))..))))))). 754,788 :   1,22  (-20.89)

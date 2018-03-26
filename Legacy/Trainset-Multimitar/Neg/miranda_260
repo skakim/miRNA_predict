@@ -1,0 +1,86 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_260.fas
+Reference Filename:	target_260.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-7-1* MIMAT0004553(22 nt)
+Read Sequence:gi|55770853|ref|NM_000835.3| Homo sapiens glutamate receptor, ionotropic, N-methyl D-aspartate 2C (GRIN2C), mRNA(4298 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7-1* vs gi|55770853|ref|NM_000835.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-7 MIMAT0000252(23 nt)
+Read Sequence:gi|55770853|ref|NM_000835.3| Homo sapiens glutamate receptor, ionotropic, N-methyl D-aspartate 2C (GRIN2C), mRNA(4298 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7 vs gi|55770853|ref|NM_000835.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 22  R:3979 to 3998 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' tgTTGTTTTAGTGATCAGAAGGt 5'
+                  :|| |:|| |:  ||||||| 
+   Ref:      5' gtGAC-AGATGAT--GTCTTCCa 3'
+
+   Energy:  -16.240000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|55770853|ref|NM_000835.3|	148.00	-16.24	2 22	3979 3998	20	65.00%	80.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 22  R:2591 to 2615 Align Len (22) (63.64%) (72.73%)
+
+   Query:    3' tgTTGTTTTA--GTGATCAGAAGGt 5'
+                  :|||| ||  ||   ||||||: 
+   Ref:      5' tcGACAACATGGCAGGCGTCTTCTa 3'
+
+   Energy:  -18.340000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|55770853|ref|NM_000835.3|	140.00	-18.34	2 22	2591 2615	22	63.64%	72.73%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7	gi|55770853|ref|NM_000835.3|	288.00	-34.58	148.00	-18.34	2	23	4298	 3979 2591
+Complete
+
+Read Sequence:hsa-miR-7-2* MIMAT0004554(22 nt)
+Read Sequence:gi|55770853|ref|NM_000835.3| Homo sapiens glutamate receptor, ionotropic, N-methyl D-aspartate 2C (GRIN2C), mRNA(4298 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7-2* vs gi|55770853|ref|NM_000835.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

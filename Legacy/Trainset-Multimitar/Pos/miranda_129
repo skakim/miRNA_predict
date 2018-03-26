@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_129.fas
+Reference Filename:	target_129.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-16 MIMAT0000069(22 nt)
+Read Sequence:gi|216547880|ref|NM_015948.3| Homo sapiens solute carrier family 35, member B3 (SLC35B3), transcript variant 1, mRNA(2237 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-16 vs gi|216547880|ref|NM_015948.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:763 to 787 Align Len (22) (63.64%) (81.82%)
+
+   Query:    3' gcGGTTATAA---ATGCACGACGAt 5'
+                  :||:| ||   ||:|||:|||| 
+   Ref:      5' acTCAGTTTTTCATATGTGTTGCTg 3'
+
+   Energy:  -19.740000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16	gi|216547880|ref|NM_015948.3|	147.00	-19.74	2 21	763 787	22	63.64%	81.82%
+
+
+   Forward:	Score: 141.000000  Q:3 to 18  R:1043 to 1064 Align Len (15) (80.00%) (80.00%)
+
+   Query:    3' gcggtTATAAATGCACGACGat 5'
+                     || || | |||||||  
+   Ref:      5' aagtcATCTTCAAGTGCTGCaa 3'
+
+   Energy:  -15.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16	gi|216547880|ref|NM_015948.3|	141.00	-15.10	3 18	1043 1064	15	80.00%	80.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-16	gi|216547880|ref|NM_015948.3|	288.00	-34.84	147.00	-19.74	1	22	2237	 763 1043
+Complete
+
+Scan Complete
+

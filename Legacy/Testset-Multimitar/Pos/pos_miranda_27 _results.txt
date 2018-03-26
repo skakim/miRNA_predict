@@ -1,0 +1,92 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_27.txt
+Reference Filename:	target_27.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-1 MIMAT0000416(22 nt)
+Read Sequence:gi|219842286|ref|NM_170735.5| Homo sapiens brain-derived neurotrophic factor (BDNF), transcript variant 1, mRNA(4755 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-1 vs gi|219842286|ref|NM_170735.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:2 to 21  R:2035 to 2056 Align Len (19) (73.68%) (73.68%)
+
+   Query:    3' uaUGUAUGAAGAAAUGUAAGGu 5'
+                  | |  || | ||||||||| 
+   Ref:      5' aaAAAGTCTGCATTACATTCCt 3'
+
+   Energy:  -12.540000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|219842286|ref|NM_170735.5|	160.00	-12.54	2 21	2035 2056	19	73.68%	73.68%
+
+
+   Forward:	Score: 151.000000  Q:2 to 21  R:3134 to 3157 Align Len (21) (61.90%) (76.19%)
+
+   Query:    3' uaUGUAUGAAGAA--AUGUAAGGu 5'
+                  :|||: | :||   ||||||| 
+   Ref:      5' ggGCATGGTATTTGAGACATTCCa 3'
+
+   Energy:  -17.750000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|219842286|ref|NM_170735.5|	151.00	-17.75	2 21	3134 3157	21	61.90%	76.19%
+
+
+   Forward:	Score: 144.000000  Q:2 to 18  R:603 to 627 Align Len (19) (63.16%) (73.68%)
+
+   Query:    3' uauguAUGAAGAAA---UGUAAGGu 5'
+                     |::| || |   ||||||| 
+   Ref:      5' actgcTGTTCCTGTCACACATTCCt 3'
+
+   Energy:  -11.320000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|219842286|ref|NM_170735.5|	144.00	-11.32	2 18	603 627	19	63.16%	73.68%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:2204 to 2225 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' uauguaugaagaaaUGUAAGGu 5'
+                              ||||||| 
+   Ref:      5' aaatttgaaccaaaACATTCCg 3'
+
+   Energy:  -11.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|219842286|ref|NM_170735.5|	140.00	-11.10	2 9	2204 2225	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1	gi|219842286|ref|NM_170735.5|	595.00	-52.71	160.00	-17.75	1	22	4755	 2035 3134 603 2204
+Complete
+
+Scan Complete
+

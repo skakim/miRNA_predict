@@ -1,0 +1,98 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_254.fas
+Reference Filename:	target_254.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-7-1* MIMAT0004553(22 nt)
+Read Sequence:gi|346716180|ref|NM_139348.2| Homo sapiens bridging integrator 1 (BIN1), transcript variant 6, mRNA(2353 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7-1* vs gi|346716180|ref|NM_139348.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-7 MIMAT0000252(23 nt)
+Read Sequence:gi|346716180|ref|NM_139348.2| Homo sapiens bridging integrator 1 (BIN1), transcript variant 6, mRNA(2353 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7 vs gi|346716180|ref|NM_139348.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 141.000000  Q:2 to 19  R:1978 to 2001 Align Len (18) (66.67%) (83.33%)
+
+   Query:    3' tgttgTTTTAGT-GATCAGAAGGt 5'
+                     ||:||:|  | ||:|||| 
+   Ref:      5' tcccaAAGATTAGGTCGTTTTCCa 3'
+
+   Energy:  -13.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|346716180|ref|NM_139348.2|	141.00	-13.27	2 19	1978 2001	18	66.67%	83.33%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1783 to 1805 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' tgttgttttagtgatCAGAAGGt 5'
+                               ||||||| 
+   Ref:      5' gagaagtgccgtggcGTCTTCCc 3'
+
+   Energy:  -11.570000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|346716180|ref|NM_139348.2|	140.00	-11.57	2 9	1783 1805	7	100.00%	100.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 22  R:2023 to 2046 Align Len (21) (66.67%) (85.71%)
+
+   Query:    3' tgTTGTTTT-AGTGATCAGAAGGt 5'
+                  ::|::|| |||| ||| |||| 
+   Ref:      5' ccGGCGGAATTCACCAGTGTTCCt 3'
+
+   Energy:  -22.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|346716180|ref|NM_139348.2|	140.00	-22.14	2 22	2023 2046	21	66.67%	85.71%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7	gi|346716180|ref|NM_139348.2|	421.00	-46.98	141.00	-22.14	2	23	2353	 1978 1783 2023
+Complete
+
+Read Sequence:hsa-miR-7-2* MIMAT0004554(22 nt)
+Read Sequence:gi|346716180|ref|NM_139348.2| Homo sapiens bridging integrator 1 (BIN1), transcript variant 6, mRNA(2353 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7-2* vs gi|346716180|ref|NM_139348.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

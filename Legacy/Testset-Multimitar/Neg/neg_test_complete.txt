@@ -1,0 +1,4042 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_10.txt
+Reference Filename:	target_10.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-103a-3p MIMAT0000101(23 nt)
+Read Sequence:gi|380714666|ref|NM_005276.3| Homo sapiens glycerol-3-phosphate dehydrogenase 1 (soluble) (GPD1), transcript variant 1, mRNA(3083 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-103a-3p vs gi|380714666|ref|NM_005276.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-103b MIMAT0007402(23 nt)
+Read Sequence:gi|380714666|ref|NM_005276.3| Homo sapiens glycerol-3-phosphate dehydrogenase 1 (soluble) (GPD1), transcript variant 1, mRNA(3083 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-103b vs gi|380714666|ref|NM_005276.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 152.000000  Q:2 to 22  R:1399 to 1423 Align Len (22) (63.64%) (72.73%)
+
+   Query:    3' ucGUCGUAACAUGUC--CCGAUACu 5'
+                  || ::  | ||||  ||||||| 
+   Ref:      5' ttCACTGGAGGACAGGAGGCTATGg 3'
+
+   Energy:  -18.790001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-103b	gi|380714666|ref|NM_005276.3|	152.00	-18.79	2 22	1399 1423	22	63.64%	72.73%
+
+
+   Forward:	Score: 150.000000  Q:2 to 19  R:1186 to 1208 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ucgucGUAACAUGUCCCGAUACu 5'
+                     | |||| || ||||:|| 
+   Ref:      5' gtttcCCTTGTTCATGGCTGTGt 3'
+
+   Energy:  -15.740000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-103b	gi|380714666|ref|NM_005276.3|	150.00	-15.74	2 19	1186 1208	17	76.47%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-103b	gi|380714666|ref|NM_005276.3|	302.00	-34.53	152.00	-18.79	2	23	3083	 1399 1186
+Complete
+
+Read Sequence:hsa-miR-103a-2-5p MIMAT0009196(23 nt)
+Read Sequence:gi|380714666|ref|NM_005276.3| Homo sapiens glycerol-3-phosphate dehydrogenase 1 (soluble) (GPD1), transcript variant 1, mRNA(3083 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-103a-2-5p vs gi|380714666|ref|NM_005276.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_11.txt
+Reference Filename:	target_11.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|42544205|ref|NM_004781.3| Homo sapiens vesicle-associated membrane protein 3 (cellubrevin) (VAMP3), mRNA(2225 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|42544205|ref|NM_004781.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 19  R:607 to 627 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' ccGUAAGUGGCG-CACGGAAu 5'
+                  ||||:  | | ||||||| 
+   Ref:      5' caCATTTTGCACAGTGCCTTt 3'
+
+   Energy:  -17.330000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|42544205|ref|NM_004781.3|	153.00	-17.33	2 19	607 627	18	72.22%	77.78%
+
+
+   Forward:	Score: 145.000000  Q:2 to 10  R:546 to 565 Align Len (8) (100.00%) (100.00%)
+
+   Query:    3' ccguaaguggcGCACGGAAu 5'
+                           |||||||| 
+   Ref:      5' tttctaggaaaCGTGCCTTt 3'
+
+   Energy:  -15.280000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|42544205|ref|NM_004781.3|	145.00	-15.28	2 10	546 565	8	100.00%	100.00%
+
+
+   Forward:	Score: 142.000000  Q:2 to 15  R:843 to 862 Align Len (13) (69.23%) (76.92%)
+
+   Query:    3' ccguaaGUGGCGCACGGAAu 5'
+                      ||   :||||||| 
+   Ref:      5' taacaaCAGGCTGTGCCTTa 3'
+
+   Energy:  -15.930000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|42544205|ref|NM_004781.3|	142.00	-15.93	2 15	843 862	13	69.23%	76.92%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|42544205|ref|NM_004781.3|	440.00	-48.54	153.00	-17.33	1	20	2225	 607 546 843
+Complete
+
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|42544205|ref|NM_004781.3| Homo sapiens vesicle-associated membrane protein 3 (cellubrevin) (VAMP3), mRNA(2225 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|42544205|ref|NM_004781.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_12.txt
+Reference Filename:	target_12.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|229577137|ref|NM_001621.4| Homo sapiens aryl hydrocarbon receptor (AHR), mRNA(6247 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|229577137|ref|NM_001621.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 152.000000  Q:2 to 18  R:3945 to 3965 Align Len (17) (64.71%) (88.24%)
+
+   Query:    3' ccgUA-AGUGGCGCACGGAAu 5'
+                   || |::|: :||||||| 
+   Ref:      5' taaATGTTGCTATGTGCCTTa 3'
+
+   Energy:  -16.330000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|229577137|ref|NM_001621.4|	152.00	-16.33	2 18	3945 3965	17	64.71%	88.24%
+
+
+   Forward:	Score: 150.000000  Q:2 to 15  R:2579 to 2598 Align Len (13) (76.92%) (84.62%)
+
+   Query:    3' ccguaaGUGGCGCACGGAAu 5'
+                      || : |||||||| 
+   Ref:      5' tctaacCAATTCGTGCCTTt 3'
+
+   Energy:  -16.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|229577137|ref|NM_001621.4|	150.00	-16.49	2 15	2579 2598	13	76.92%	84.62%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|229577137|ref|NM_001621.4|	302.00	-32.82	152.00	-16.49	1	20	6247	 3945 2579
+Complete
+
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|229577137|ref|NM_001621.4| Homo sapiens aryl hydrocarbon receptor (AHR), mRNA(6247 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|229577137|ref|NM_001621.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_13.txt
+Reference Filename:	target_13.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|38261972|ref|NM_024551.2| Homo sapiens adiponectin receptor 2 (ADIPOR2), mRNA(3982 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|38261972|ref|NM_024551.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 142.000000  Q:3 to 19  R:665 to 684 Align Len (16) (68.75%) (87.50%)
+
+   Query:    3' ccGUAAGUGGCGCACGGAau 5'
+                  :|||| :| :||||||  
+   Ref:      5' tgTATTCTTCCTGTGCCTgg 3'
+
+   Energy:  -19.370001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|38261972|ref|NM_024551.2|	142.00	-19.37	3 19	665 684	16	68.75%	87.50%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|38261972|ref|NM_024551.2|	142.00	-19.37	142.00	-19.37	1	20	3982	 665
+Complete
+
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|38261972|ref|NM_024551.2| Homo sapiens adiponectin receptor 2 (ADIPOR2), mRNA(3982 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|38261972|ref|NM_024551.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_14.txt
+Reference Filename:	target_14.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|333440464|ref|NM_138973.3| Homo sapiens beta-site APP-cleaving enzyme 1 (BACE1), transcript variant d, mRNA(5657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|333440464|ref|NM_138973.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|333440464|ref|NM_138973.3| Homo sapiens beta-site APP-cleaving enzyme 1 (BACE1), transcript variant d, mRNA(5657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|333440464|ref|NM_138973.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_15.txt
+Reference Filename:	target_15.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-126-5p MIMAT0000444(21 nt)
+Read Sequence:gi|93277086|ref|NM_033102.2| Homo sapiens solute carrier family 45, member 3 (SLC45A3), mRNA(3398 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-126-5p vs gi|93277086|ref|NM_033102.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 20  R:2861 to 2879 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' gcGCAUGGUUUUCAUUAUUAc 5'
+                  | | |||||  |:||||| 
+   Ref:      5' ctCATCCCAAA--TGATAATt 3'
+
+   Energy:  -6.510000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-126-5p	gi|93277086|ref|NM_033102.2|	140.00	-6.51	2 20	2861 2879	18	72.22%	77.78%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-126-5p	gi|93277086|ref|NM_033102.2|	140.00	-6.51	140.00	-6.51	1	21	3398	 2861
+Complete
+
+Read Sequence:hsa-miR-126-3p MIMAT0000445(22 nt)
+Read Sequence:gi|93277086|ref|NM_033102.2| Homo sapiens solute carrier family 45, member 3 (SLC45A3), mRNA(3398 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-126-3p vs gi|93277086|ref|NM_033102.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_16.txt
+Reference Filename:	target_16.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-128 MIMAT0000424(21 nt)
+Read Sequence:gi|34878903|ref|NM_003176.2| Homo sapiens synaptonemal complex protein 1 (SYCP1), mRNA(3503 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-128 vs gi|34878903|ref|NM_003176.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_17.txt
+Reference Filename:	target_17.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-138-1-3p MIMAT0004607(22 nt)
+Read Sequence:gi|93277086|ref|NM_033102.2| Homo sapiens solute carrier family 45, member 3 (SLC45A3), mRNA(3398 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-1-3p vs gi|93277086|ref|NM_033102.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 150.000000  Q:2 to 21  R:459 to 479 Align Len (19) (73.68%) (84.21%)
+
+   Query:    3' ccGGGACCACAACACUUCAUCg 5'
+                  |:||| || || |||||:| 
+   Ref:      5' gcCTCTGCTGCTG-GAAGTGGg 3'
+
+   Energy:  -20.549999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-1-3p	gi|93277086|ref|NM_033102.2|	150.00	-20.55	2 21	459 479	19	73.68%	84.21%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-1-3p	gi|93277086|ref|NM_033102.2|	150.00	-20.55	150.00	-20.55	1	22	3398	 459
+Complete
+
+Read Sequence:hsa-miR-138-5p MIMAT0000430(23 nt)
+Read Sequence:gi|93277086|ref|NM_033102.2| Homo sapiens solute carrier family 45, member 3 (SLC45A3), mRNA(3398 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-5p vs gi|93277086|ref|NM_033102.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 155.000000  Q:2 to 21  R:1101 to 1127 Align Len (23) (65.22%) (73.91%)
+
+   Query:    3' gccGGACUAAG----UGUUGUGGUCGa 5'
+                   |||| |||    :| :||||||| 
+   Ref:      5' cgcCCTGCTTCCCCGGCTGCACCAGCt 3'
+
+   Energy:  -25.260000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	gi|93277086|ref|NM_033102.2|	155.00	-25.26	2 21	1101 1127	23	65.22%	73.91%
+
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:3073 to 3095 Align Len (19) (63.16%) (68.42%)
+
+   Query:    3' gccGGACUAAGUGUUGUGGUCGa 5'
+                   ||  | |: |  ||||||| 
+   Ref:      5' accCCCAACTTTCCCCACCAGCt 3'
+
+   Energy:  -16.420000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	gi|93277086|ref|NM_033102.2|	148.00	-16.42	2 21	3073 3095	19	63.16%	68.42%
+
+
+   Forward:	Score: 147.000000  Q:2 to 22  R:871 to 898 Align Len (25) (68.00%) (76.00%)
+
+   Query:    3' gcCGGAC--UAAGUG---UUGUGGUCGa 5'
+                  |||||  ||| ||   :|||||||: 
+   Ref:      5' ctGCCTGCCATTGACTGGGACACCAGTg 3'
+
+   Energy:  -22.160000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	gi|93277086|ref|NM_033102.2|	147.00	-22.16	2 22	871 898	25	68.00%	76.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-5p	gi|93277086|ref|NM_033102.2|	450.00	-63.84	155.00	-25.26	2	23	3398	 1101 3073 871
+Complete
+
+Read Sequence:hsa-miR-138-2-3p MIMAT0004596(22 nt)
+Read Sequence:gi|93277086|ref|NM_033102.2| Homo sapiens solute carrier family 45, member 3 (SLC45A3), mRNA(3398 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-2-3p vs gi|93277086|ref|NM_033102.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 143.000000  Q:2 to 20  R:2753 to 2774 Align Len (18) (66.67%) (77.78%)
+
+   Query:    3' uugGGACCACAGCACUUUAUCg 5'
+                   :| |||  | |||:|||| 
+   Ref:      5' caaTCAGGTCCCCTGAGATAGc 3'
+
+   Energy:  -17.660000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-2-3p	gi|93277086|ref|NM_033102.2|	143.00	-17.66	2 20	2753 2774	18	66.67%	77.78%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-2-3p	gi|93277086|ref|NM_033102.2|	143.00	-17.66	143.00	-17.66	3	22	3398	 2753
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_18.txt
+Reference Filename:	target_18.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-141-3p MIMAT0000432(22 nt)
+Read Sequence:gi|372622368|ref|NM_006281.3| Homo sapiens serine/threonine kinase 3 (STK3), transcript variant 1, mRNA(2828 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-141-3p vs gi|372622368|ref|NM_006281.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 14  R:2736 to 2757 Align Len (12) (83.33%) (91.67%)
+
+   Query:    3' gguagaaauGGUCUGUCACAAu 5'
+                         |: ||||||||| 
+   Ref:      5' tatggccatCTTGACAGTGTTt 3'
+
+   Energy:  -23.200001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-141-3p	gi|372622368|ref|NM_006281.3|	153.00	-23.20	2 14	2736 2757	12	83.33%	91.67%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-141-3p	gi|372622368|ref|NM_006281.3|	153.00	-23.20	153.00	-23.20	1	22	2828	 2736
+Complete
+
+Read Sequence:hsa-miR-141-5p MIMAT0004598(22 nt)
+Read Sequence:gi|372622368|ref|NM_006281.3| Homo sapiens serine/threonine kinase 3 (STK3), transcript variant 1, mRNA(2828 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-141-5p vs gi|372622368|ref|NM_006281.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 142.000000  Q:3 to 21  R:1055 to 1075 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' agGUUGUGACAUGACCUUCUac 5'
+                  ||||:  | |:|||||||  
+   Ref:      5' agCAACG-AGAATTGGAAGAgg 3'
+
+   Energy:  -19.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-141-5p	gi|372622368|ref|NM_006281.3|	142.00	-19.84	3 21	1055 1075	18	72.22%	83.33%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-141-5p	gi|372622368|ref|NM_006281.3|	142.00	-19.84	142.00	-19.84	2	22	2828	 1055
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_19.txt
+Reference Filename:	target_19.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-141-3p MIMAT0000432(22 nt)
+Read Sequence:gi|52630441|ref|NM_001730.3| Homo sapiens Kruppel-like factor 5 (intestinal) (KLF5), mRNA(3350 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-141-3p vs gi|52630441|ref|NM_001730.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 166.000000  Q:2 to 21  R:2019 to 2042 Align Len (21) (76.19%) (85.71%)
+
+   Query:    3' ggUAG-AAAUGGU-CUGUCACAAu 5'
+                  ||| |||| :: ||||||||| 
+   Ref:      5' ccATCATTTAATGTGACAGTGTTc 3'
+
+   Energy:  -22.219999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-141-3p	gi|52630441|ref|NM_001730.3|	166.00	-22.22	2 21	2019 2042	21	76.19%	85.71%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-141-3p	gi|52630441|ref|NM_001730.3|	166.00	-22.22	166.00	-22.22	1	22	3350	 2019
+Complete
+
+Read Sequence:hsa-miR-141-5p MIMAT0004598(22 nt)
+Read Sequence:gi|52630441|ref|NM_001730.3| Homo sapiens Kruppel-like factor 5 (intestinal) (KLF5), mRNA(3350 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-141-5p vs gi|52630441|ref|NM_001730.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_1.txt
+Reference Filename:	target_1.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:dme-miR-278-5p MIMAT0020805(23 nt)
+Read Sequence:gi|24585069|ref|NM_057426.3| Drosophila melanogaster tailup (tup), transcript variant B, mRNA(3316 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-278-5p vs gi|24585069|ref|NM_057426.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 145.000000  Q:2 to 22  R:1300 to 1319 Align Len (20) (65.00%) (70.00%)
+
+   Query:    3' ccAGCAACACUUGGUAGUAGGCc 5'
+                  |||  | ||   :||||||| 
+   Ref:      5' tgTCGCCGCGA---GTCATCCGa 3'
+
+   Energy:  -18.510000 kCal/Mol
+
+Scores for this hit:
+>dme-miR-278-5p	gi|24585069|ref|NM_057426.3|	145.00	-18.51	2 22	1300 1319	20	65.00%	70.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>dme-miR-278-5p	gi|24585069|ref|NM_057426.3|	145.00	-18.51	145.00	-18.51	1	23	3316	 1300
+Complete
+
+Read Sequence:dme-miR-278-3p MIMAT0000339(22 nt)
+Read Sequence:gi|24585069|ref|NM_057426.3| Drosophila melanogaster tailup (tup), transcript variant B, mRNA(3316 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-278-3p vs gi|24585069|ref|NM_057426.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_20.txt
+Reference Filename:	target_20.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-145-3p MIMAT0004601(22 nt)
+Read Sequence:gi|296317329|ref|NM_014547.4| Homo sapiens tropomodulin 3 (ubiquitous) (TMOD3), mRNA(4682 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-145-3p vs gi|296317329|ref|NM_014547.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-145-5p MIMAT0000437(23 nt)
+Read Sequence:gi|296317329|ref|NM_014547.4| Homo sapiens tropomodulin 3 (ubiquitous) (TMOD3), mRNA(4682 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-145-5p vs gi|296317329|ref|NM_014547.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 151.000000  Q:2 to 16  R:360 to 382 Align Len (14) (78.57%) (78.57%)
+
+   Query:    3' ucccuaagGACCCUUUUGACCUg 5'
+                        |||  | ||||||| 
+   Ref:      5' aaacagaaCTGAAACAACTGGAa 3'
+
+   Energy:  -13.550000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145-5p	gi|296317329|ref|NM_014547.4|	151.00	-13.55	2 16	360 382	14	78.57%	78.57%
+
+
+   Forward:	Score: 140.000000  Q:2 to 22  R:1420 to 1444 Align Len (22) (63.64%) (72.73%)
+
+   Query:    3' ucCCUAAGGACCC--UUUUGACCUg 5'
+                  ||:|    |||  ||:|||||| 
+   Ref:      5' ctGGGTAGAAGGGAAAAGACTGGAa 3'
+
+   Energy:  -21.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145-5p	gi|296317329|ref|NM_014547.4|	140.00	-21.87	2 22	1420 1444	22	63.64%	72.73%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-145-5p	gi|296317329|ref|NM_014547.4|	291.00	-35.42	151.00	-21.87	2	23	4682	 360 1420
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_21.txt
+Reference Filename:	target_21.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-155-5p MIMAT0000646(23 nt)
+Read Sequence:gi|111154093|ref|NM_024900.3| Homo sapiens PHD finger protein 17 (PHF17), transcript variant S, mRNA(4190 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-155-5p vs gi|111154093|ref|NM_024900.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:4060 to 4084 Align Len (21) (61.90%) (80.95%)
+
+   Query:    3' uggGGAUAGUGCUA--AUCGUAAUu 5'
+                   |||:| |:|:|   :|||||| 
+   Ref:      5' atgCCTGTGATGGTGAAGGCATTAa 3'
+
+   Energy:  -22.320000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-155-5p	gi|111154093|ref|NM_024900.3|	143.00	-22.32	2 21	4060 4084	21	61.90%	80.95%
+
+
+   Forward:	Score: 142.000000  Q:2 to 19  R:3054 to 3076 Align Len (17) (58.82%) (70.59%)
+
+   Query:    3' uggggAUAGUGCUAAUCGUAAUu 5'
+                     | |:|  :  ||||||| 
+   Ref:      5' gaaagTCTTAAAGGGAGCATTAg 3'
+
+   Energy:  -12.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-155-5p	gi|111154093|ref|NM_024900.3|	142.00	-12.41	2 19	3054 3076	17	58.82%	70.59%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-155-5p	gi|111154093|ref|NM_024900.3|	285.00	-34.73	143.00	-22.32	1	23	4190	 4060 3054
+Complete
+
+Read Sequence:hsa-miR-155-3p MIMAT0004658(22 nt)
+Read Sequence:gi|111154093|ref|NM_024900.3| Homo sapiens PHD finger protein 17 (PHF17), transcript variant S, mRNA(4190 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-155-3p vs gi|111154093|ref|NM_024900.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_22.txt
+Reference Filename:	target_22.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-15a-3p MIMAT0004488(22 nt)
+Read Sequence:gi|333440464|ref|NM_138973.3| Homo sapiens beta-site APP-cleaving enzyme 1 (BACE1), transcript variant d, mRNA(5657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-15a-3p vs gi|333440464|ref|NM_138973.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-15a-5p MIMAT0000068(22 nt)
+Read Sequence:gi|333440464|ref|NM_138973.3| Homo sapiens beta-site APP-cleaving enzyme 1 (BACE1), transcript variant d, mRNA(5657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-15a-5p vs gi|333440464|ref|NM_138973.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 152.000000  Q:2 to 21  R:3542 to 3563 Align Len (19) (68.42%) (68.42%)
+
+   Query:    3' guGUUUGGUAAUACACGACGAu 5'
+                  ||   || |  |||||||| 
+   Ref:      5' ccCACTGCACTTGGTGCTGCTt 3'
+
+   Energy:  -17.610001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a-5p	gi|333440464|ref|NM_138973.3|	152.00	-17.61	2 21	3542 3563	19	68.42%	68.42%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:2010 to 2034 Align Len (22) (54.55%) (72.73%)
+
+   Query:    3' guGUUUGGUAAU---ACACGACGAu 5'
+                  :||::|:  |   | ||||||| 
+   Ref:      5' ttTAAGTCGGGAAATTCTGCTGCTt 3'
+
+   Energy:  -14.900000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a-5p	gi|333440464|ref|NM_138973.3|	143.00	-14.90	2 21	2010 2034	22	54.55%	72.73%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:4061 to 4080 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' guGUUUGGUAAUACACGACGAu 5'
+                  | || || | ||||:|||| 
+   Ref:      5' cgCCAA-CACT-TGTGTTGCTt 3'
+
+   Energy:  -17.120001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-15a-5p	gi|333440464|ref|NM_138973.3|	140.00	-17.12	2 21	4061 4080	19	73.68%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-15a-5p	gi|333440464|ref|NM_138973.3|	435.00	-49.63	152.00	-17.61	2	22	5657	 3542 2010 4061
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_23.txt
+Reference Filename:	target_23.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-16-2-3p MIMAT0004518(22 nt)
+Read Sequence:gi|315075317|ref|NM_001241.3| Homo sapiens cyclin T2 (CCNT2), transcript variant a, mRNA(6822 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-16-2-3p vs gi|315075317|ref|NM_001241.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 152.000000  Q:2 to 18  R:3928 to 3951 Align Len (18) (66.67%) (83.33%)
+
+   Query:    3' auuucGUCGUGUC--AUUAUAACc 5'
+                     | |:|::|  |||||||| 
+   Ref:      5' ttgctCTGTATGGCATAATATTGt 3'
+
+   Energy:  -9.230000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-2-3p	gi|315075317|ref|NM_001241.3|	152.00	-9.23	2 18	3928 3951	18	66.67%	83.33%
+
+
+   Forward:	Score: 145.000000  Q:2 to 18  R:4984 to 5005 Align Len (16) (62.50%) (75.00%)
+
+   Query:    3' auuucGUCGUGUCAUUAUAACc 5'
+                     |||: :   ||||||| 
+   Ref:      5' ccattCAGTTTTCCAATATTGa 3'
+
+   Energy:  -8.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-2-3p	gi|315075317|ref|NM_001241.3|	145.00	-8.59	2 18	4984 5005	16	62.50%	75.00%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:746 to 766 Align Len (20) (65.00%) (75.00%)
+
+   Query:    3' auUUCGUCG-UGUCAUUAUAACc 5'
+                  :||:  | |||  ||||||| 
+   Ref:      5' atGAGTTTCTACA--AATATTGg 3'
+
+   Energy:  -12.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-2-3p	gi|315075317|ref|NM_001241.3|	144.00	-12.99	2 21	746 766	20	65.00%	75.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-16-2-3p	gi|315075317|ref|NM_001241.3|	441.00	-30.81	152.00	-12.99	1	22	6822	 3928 4984 746
+Complete
+
+Read Sequence:hsa-miR-16-5p MIMAT0000069(22 nt)
+Read Sequence:gi|315075317|ref|NM_001241.3| Homo sapiens cyclin T2 (CCNT2), transcript variant a, mRNA(6822 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-16-5p vs gi|315075317|ref|NM_001241.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 175.000000  Q:2 to 21  R:2233 to 2256 Align Len (21) (80.95%) (85.71%)
+
+   Query:    3' gcGGUUAUAA--AUGCACGACGAu 5'
+                  :|||||||  || |||||||| 
+   Ref:      5' ctTCAATATTTGTAAGTGCTGCTt 3'
+
+   Energy:  -23.920000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-5p	gi|315075317|ref|NM_001241.3|	175.00	-23.92	2 21	2233 2256	21	80.95%	85.71%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-16-5p	gi|315075317|ref|NM_001241.3|	175.00	-23.92	175.00	-23.92	2	22	6822	 2233
+Complete
+
+Read Sequence:hsa-miR-16-1-3p MIMAT0004489(22 nt)
+Read Sequence:gi|315075317|ref|NM_001241.3| Homo sapiens cyclin T2 (CCNT2), transcript variant a, mRNA(6822 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-16-1-3p vs gi|315075317|ref|NM_001241.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 150.000000  Q:2 to 19  R:2311 to 2332 Align Len (17) (58.82%) (82.35%)
+
+   Query:    3' agucGUCGUGUCAAUUAUGACc 5'
+                    :||:::  | ||||||| 
+   Ref:      5' atgaTAGTGTTATAAATACTGt 3'
+
+   Energy:  -11.850000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	150.00	-11.85	2 19	2311 2332	17	58.82%	82.35%
+
+
+   Forward:	Score: 143.000000  Q:2 to 16  R:1487 to 1508 Align Len (14) (64.29%) (78.57%)
+
+   Query:    3' agucgucGUGUCAAUUAUGACc 5'
+                       :|: |  ||||||| 
+   Ref:      5' aaataccTATCGCAAATACTGa 3'
+
+   Energy:  -9.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	143.00	-9.99	2 16	1487 1508	14	64.29%	78.57%
+
+
+   Forward:	Score: 143.000000  Q:2 to 13  R:2436 to 2458 Align Len (12) (83.33%) (83.33%)
+
+   Query:    3' agucgucgugUCAA-UUAUGACc 5'
+                          | || ||||||| 
+   Ref:      5' attatttatgATTTGAATACTGt 3'
+
+   Energy:  -7.190000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	143.00	-7.19	2 13	2436 2458	12	83.33%	83.33%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:2990 to 3011 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' agUCGUCGUGUCAAUUAUGACc 5'
+                  | ||| :| ||||||| || 
+   Ref:      5' gaAACAGAGCTGTTAATAATGg 3'
+
+   Energy:  -18.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	140.00	-18.49	2 21	2990 3011	19	73.68%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	576.00	-47.52	150.00	-18.49	3	22	6822	 2311 1487 2436 2990
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_24.txt
+Reference Filename:	target_24.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-19a-3p MIMAT0000073(23 nt)
+Read Sequence:gi|324073512|ref|NM_019102.3| Homo sapiens homeobox A5 (HOXA5), mRNA(1657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-19a-3p vs gi|324073512|ref|NM_019102.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 143.000000  Q:2 to 19  R:1440 to 1464 Align Len (20) (65.00%) (75.00%)
+
+   Query:    3' agucaAAACGUAUCU---AAACGUGu 5'
+                     ||| :| :||   ||||||| 
+   Ref:      5' gtgccTTTATA-GGACCCTTTGCACg 3'
+
+   Energy:  -13.860000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-19a-3p	gi|324073512|ref|NM_019102.3|	143.00	-13.86	2 19	1440 1464	20	65.00%	75.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-19a-3p	gi|324073512|ref|NM_019102.3|	143.00	-13.86	143.00	-13.86	1	23	1657	 1440
+Complete
+
+Read Sequence:hsa-miR-19a-5p MIMAT0004490(22 nt)
+Read Sequence:gi|324073512|ref|NM_019102.3| Homo sapiens homeobox A5 (HOXA5), mRNA(1657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-19a-5p vs gi|324073512|ref|NM_019102.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_25.txt
+Reference Filename:	target_25.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-19b-3p MIMAT0000074(23 nt)
+Read Sequence:gi|333440464|ref|NM_138973.3| Homo sapiens beta-site APP-cleaving enzyme 1 (BACE1), transcript variant d, mRNA(5657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-19b-3p vs gi|333440464|ref|NM_138973.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 150.000000  Q:2 to 20  R:5191 to 5215 Align Len (20) (70.00%) (70.00%)
+
+   Query:    3' agucAAAACGUACCU--AAACGUGu 5'
+                    || | || | |  ||||||| 
+   Ref:      5' atcaTTCTACAAGTAATTTTGCACa 3'
+
+   Energy:  -10.600000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-19b-3p	gi|333440464|ref|NM_138973.3|	150.00	-10.60	2 20	5191 5215	20	70.00%	70.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-19b-3p	gi|333440464|ref|NM_138973.3|	150.00	-10.60	150.00	-10.60	1	23	5657	 5191
+Complete
+
+Read Sequence:hsa-miR-19b-2-5p MIMAT0004492(22 nt)
+Read Sequence:gi|333440464|ref|NM_138973.3| Homo sapiens beta-site APP-cleaving enzyme 1 (BACE1), transcript variant d, mRNA(5657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-19b-2-5p vs gi|333440464|ref|NM_138973.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 19  R:4125 to 4148 Align Len (19) (84.21%) (84.21%)
+
+   Query:    3' acuuUACGU-UUG-GACGUUUUGa 5'
+                    ||||| ||| || |||||| 
+   Ref:      5' tcccATGCACAACTCTCCAAAACa 3'
+
+   Energy:  -13.720000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-19b-2-5p	gi|333440464|ref|NM_138973.3|	140.00	-13.72	2 19	4125 4148	19	84.21%	84.21%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-19b-2-5p	gi|333440464|ref|NM_138973.3|	140.00	-13.72	140.00	-13.72	2	22	5657	 4125
+Complete
+
+Read Sequence:hsa-miR-19b-1-5p MIMAT0004491(23 nt)
+Read Sequence:gi|333440464|ref|NM_138973.3| Homo sapiens beta-site APP-cleaving enzyme 1 (BACE1), transcript variant d, mRNA(5657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-19b-1-5p vs gi|333440464|ref|NM_138973.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 19  R:4124 to 4148 Align Len (19) (84.21%) (84.21%)
+
+   Query:    3' cgaccUACGU-UUG-GACGUUUUGa 5'
+                     ||||| ||| || |||||| 
+   Ref:      5' ctcccATGCACAACTCTCCAAAACa 3'
+
+   Energy:  -13.520000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-19b-1-5p	gi|333440464|ref|NM_138973.3|	140.00	-13.52	2 19	4124 4148	19	84.21%	84.21%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-19b-1-5p	gi|333440464|ref|NM_138973.3|	140.00	-13.52	140.00	-13.52	3	23	5657	 4124
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_26.txt
+Reference Filename:	target_26.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-200a-5p MIMAT0001620(22 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-200a-5p vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-200a-3p MIMAT0000682(22 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-200a-3p vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 171.000000  Q:2 to 17  R:2322 to 2344 Align Len (16) (93.75%) (93.75%)
+
+   Query:    3' uguagcAAUGGUC-UGUCACAAu 5'
+                      ||||||| |||||||| 
+   Ref:      5' tagtgtTTACCAGAACAGTGTTt 3'
+
+   Energy:  -23.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	171.00	-23.76	2 17	2322 2344	16	93.75%	93.75%
+
+
+   Forward:	Score: 170.000000  Q:2 to 15  R:246 to 267 Align Len (13) (100.00%) (100.00%)
+
+   Query:    3' uguagcaaUGGUCUGUCACAAu 5'
+                        ||||||||||||| 
+   Ref:      5' gccaacagACCAGACAGTGTTa 3'
+
+   Energy:  -27.040001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	170.00	-27.04	2 15	246 267	13	100.00%	100.00%
+
+
+   Forward:	Score: 170.000000  Q:2 to 21  R:2510 to 2533 Align Len (21) (80.95%) (85.71%)
+
+   Query:    3' ugUAGC-AAUGGUC-UGUCACAAu 5'
+                  ||:| | ||||| |||||||| 
+   Ref:      5' ccATTGCTGACCAGAACAGTGTTc 3'
+
+   Energy:  -25.309999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	170.00	-25.31	2 21	2510 2533	21	80.95%	85.71%
+
+
+   Forward:	Score: 155.000000  Q:2 to 17  R:4204 to 4227 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' uguagcAAUGGUCU--GUCACAAu 5'
+                      | |:||||  ||||||| 
+   Ref:      5' gcaaaaTCATCAGAATCAGTGTTt 3'
+
+   Energy:  -16.110001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	155.00	-16.11	2 17	4204 4227	17	76.47%	82.35%
+
+
+   Forward:	Score: 150.000000  Q:2 to 21  R:4958 to 4978 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' ugUAGCAAUGGUCUGUCACAAu 5'
+                  ||: | |::  |||||||| 
+   Ref:      5' agATT-TGATTTAACAGTGTTa 3'
+
+   Energy:  -13.060000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	150.00	-13.06	2 21	4958 4978	19	63.16%	78.95%
+
+
+   Forward:	Score: 149.000000  Q:2 to 16  R:5198 to 5218 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' uguagcaAUGGUCUGUCACAAu 5'
+                       || :| |||||||| 
+   Ref:      5' taacttcTA-TAAACAGTGTTg 3'
+
+   Energy:  -12.460000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	149.00	-12.46	2 16	5198 5218	14	78.57%	85.71%
+
+
+   Forward:	Score: 144.000000  Q:3 to 17  R:4832 to 4853 Align Len (14) (78.57%) (92.86%)
+
+   Query:    3' uguagcAAUGGUCUGUCACAau 5'
+                      |||::| |||||||  
+   Ref:      5' ctttatTTATTACACAGTGTag 3'
+
+   Energy:  -12.210000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	144.00	-12.21	3 17	4832 4853	14	78.57%	92.86%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:977 to 998 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' uguagcaauggucuGUCACAAu 5'
+                              ||||||| 
+   Ref:      5' gactcaagacatctCAGTGTTc 3'
+
+   Energy:  -11.800000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	140.00	-11.80	2 9	977 998	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-200a-3p	gi|291575186|ref|NM_030751.5|	1249.00	-141.75	171.00	-27.04	2	22	5998	 2322 246 2510 4204 4958 5198 4832 977
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_27.txt
+Reference Filename:	target_27.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-29c-3p MIMAT0000681(22 nt)
+Read Sequence:gi|300360541|ref|NM_054016.2| Homo sapiens serine/arginine-rich splicing factor 10 (SRSF10), transcript variant 2, mRNA(3056 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29c-3p vs gi|300360541|ref|NM_054016.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-29c-5p MIMAT0004673(22 nt)
+Read Sequence:gi|300360541|ref|NM_054016.2| Homo sapiens serine/arginine-rich splicing factor 10 (SRSF10), transcript variant 2, mRNA(3056 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29c-5p vs gi|300360541|ref|NM_054016.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 149.000000  Q:2 to 21  R:588 to 607 Align Len (19) (73.68%) (84.21%)
+
+   Query:    3' cuUGUGGUCCUCUUUAGCCAGu 5'
+                  | |:||  ||||:|||||| 
+   Ref:      5' ggAGATCA--AGAAGTCGGTCt 3'
+
+   Energy:  -23.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c-5p	gi|300360541|ref|NM_054016.2|	149.00	-23.44	2 21	588 607	19	73.68%	84.21%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-29c-5p	gi|300360541|ref|NM_054016.2|	149.00	-23.44	149.00	-23.44	2	22	3056	 588
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_28.txt
+Reference Filename:	target_28.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-302a-3p MIMAT0000684(23 nt)
+Read Sequence:gi|166158917|ref|NM_003182.2| Homo sapiens tachykinin, precursor 1 (TAC1), transcript variant beta, mRNA(1188 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-302a-3p vs gi|166158917|ref|NM_003182.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-302a-5p MIMAT0000683(23 nt)
+Read Sequence:gi|166158917|ref|NM_003182.2| Homo sapiens tachykinin, precursor 1 (TAC1), transcript variant beta, mRNA(1188 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-302a-5p vs gi|166158917|ref|NM_003182.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_29.txt
+Reference Filename:	target_29.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-375 MIMAT0000728(22 nt)
+Read Sequence:gi|57242780|ref|NM_130439.3| Homo sapiens MAX interactor 1 (MXI1), transcript variant 2, mRNA(3470 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-375 vs gi|57242780|ref|NM_130439.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_2.txt
+Reference Filename:	target_2.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:dme-miR-286-5p MIMAT0020820(22 nt)
+Read Sequence:gi|28571893|ref|NM_080709.3| Drosophila melanogaster bride of sevenless (boss), mRNA(3013 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-286-5p vs gi|28571893|ref|NM_080709.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:dme-miR-286-3p MIMAT0000359(23 nt)
+Read Sequence:gi|28571893|ref|NM_080709.3| Drosophila melanogaster bride of sevenless (boss), mRNA(3013 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-286-3p vs gi|28571893|ref|NM_080709.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 151.000000  Q:2 to 22  R:2864 to 2895 Align Len (29) (65.52%) (65.52%)
+
+   Query:    3' ucGUGCUCACAAG-----CC----AGAUCAGu 5'
+                  ||||||||| |     ||    ||||||| 
+   Ref:      5' ccCACGAGTGTACAATGTGGCACTTCTAGTCa 3'
+
+   Energy:  -29.840000 kCal/Mol
+
+Scores for this hit:
+>dme-miR-286-3p	gi|28571893|ref|NM_080709.3|	151.00	-29.84	2 22	2864 2895	29	65.52%	65.52%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>dme-miR-286-3p	gi|28571893|ref|NM_080709.3|	151.00	-29.84	151.00	-29.84	2	23	3013	 2864
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_30.txt
+Reference Filename:	target_30.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-375 MIMAT0000728(22 nt)
+Read Sequence:gi|44890063|ref|NM_002196.2| Homo sapiens insulinoma-associated 1 (INSM1), mRNA(2838 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-375 vs gi|44890063|ref|NM_002196.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_31.txt
+Reference Filename:	target_31.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-429 MIMAT0001536(22 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-429 vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 166.000000  Q:2 to 20  R:3792 to 3814 Align Len (19) (78.95%) (84.21%)
+
+   Query:    3' ugcCAAAAUGGUCU-GUCAUAAu 5'
+                   ||||||:|  | ||||||| 
+   Ref:      5' attGTTTTATCTTATCAGTATTa 3'
+
+   Energy:  -17.469999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	166.00	-17.47	2 20	3792 3814	19	78.95%	84.21%
+
+
+   Forward:	Score: 166.000000  Q:2 to 19  R:4667 to 4688 Align Len (17) (82.35%) (82.35%)
+
+   Query:    3' ugccAAAAUGGUCUGUCAUAAu 5'
+                    |||||||   ||||||| 
+   Ref:      5' tgatTTTTACCTATCAGTATTa 3'
+
+   Energy:  -17.230000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	166.00	-17.23	2 19	4667 4688	17	82.35%	82.35%
+
+
+   Forward:	Score: 161.000000  Q:2 to 20  R:2321 to 2344 Align Len (20) (85.00%) (90.00%)
+
+   Query:    3' ugcCA-AAAUGGUC-UGUCAUAAu 5'
+                   || |||||||| |||||:|| 
+   Ref:      5' ctaGTGTTTACCAGAACAGTGTTt 3'
+
+   Energy:  -21.969999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	161.00	-21.97	2 20	2321 2344	20	85.00%	90.00%
+
+
+   Forward:	Score: 158.000000  Q:2 to 15  R:4737 to 4758 Align Len (13) (84.62%) (92.31%)
+
+   Query:    3' ugccaaaaUGGUCUGUCAUAAu 5'
+                        ||| |:||||||| 
+   Ref:      5' gtcttcaaACCTGGCAGTATTa 3'
+
+   Energy:  -18.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	158.00	-18.43	2 15	4737 4758	13	84.62%	92.31%
+
+
+   Forward:	Score: 154.000000  Q:2 to 15  R:246 to 267 Align Len (13) (92.31%) (100.00%)
+
+   Query:    3' ugccaaaaUGGUCUGUCAUAAu 5'
+                        ||||||||||:|| 
+   Ref:      5' gccaacagACCAGACAGTGTTa 3'
+
+   Energy:  -23.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	154.00	-23.50	2 15	246 267	13	92.31%	100.00%
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:5386 to 5409 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' ugccAAAAUGGU-CU-GUCAUAAu 5'
+                    ||| |:||  | ||||||| 
+   Ref:      5' ttctTTTCATCATTATCAGTATTt 3'
+
+   Energy:  -9.810000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	152.00	-9.81	2 19	5386 5409	19	73.68%	78.95%
+
+
+   Forward:	Score: 147.000000  Q:2 to 17  R:2511 to 2533 Align Len (16) (81.25%) (87.50%)
+
+   Query:    3' ugccaaAAUGGUC-UGUCAUAAu 5'
+                      | ||||| |||||:|| 
+   Ref:      5' cattgcTGACCAGAACAGTGTTc 3'
+
+   Energy:  -17.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	147.00	-17.50	2 17	2511 2533	16	81.25%	87.50%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:4957 to 4978 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' ugCCAAAAUGGUCUGUCAUAAu 5'
+                  | ||| |::  |||||:|| 
+   Ref:      5' gaGATTTGATTTAACAGTGTTa 3'
+
+   Energy:  -12.620000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	144.00	-12.62	2 21	4957 4978	19	63.16%	78.95%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:3887 to 3908 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ugccaaaauggucuGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' tgctaaatccgcttCAGTATTt 3'
+
+   Energy:  -11.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	140.00	-11.59	2 9	3887 3908	7	100.00%	100.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:4316 to 4337 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ugccaaaauggucuGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' taagtgccatttctCAGTATTt 3'
+
+   Energy:  -12.110000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	140.00	-12.11	2 9	4316 4337	7	100.00%	100.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 19  R:5198 to 5218 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ugccAAAAUGGUCUGUCAUAAu 5'
+                    || || :| |||||:|| 
+   Ref:      5' taacTTCTA-TAAACAGTGTTg 3'
+
+   Energy:  -12.520000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	140.00	-12.52	2 19	5198 5218	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-429	gi|291575186|ref|NM_030751.5|	1668.00	-174.75	166.00	-23.50	1	22	5998	 3792 4667 2321 4737 246 5386 2511 4957 3887 4316 5198
+Complete
+
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-429 vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 166.000000  Q:2 to 20  R:3792 to 3814 Align Len (19) (78.95%) (84.21%)
+
+   Query:    3' ugcCAAAAUGGUCU-GUCAUAAu 5'
+                   ||||||:|  | ||||||| 
+   Ref:      5' attGTTTTATCTTATCAGTATTa 3'
+
+   Energy:  -17.469999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	166.00	-17.47	2 20	3792 3814	19	78.95%	84.21%
+
+
+   Forward:	Score: 166.000000  Q:2 to 19  R:4667 to 4688 Align Len (17) (82.35%) (82.35%)
+
+   Query:    3' ugccAAAAUGGUCUGUCAUAAu 5'
+                    |||||||   ||||||| 
+   Ref:      5' tgatTTTTACCTATCAGTATTa 3'
+
+   Energy:  -17.230000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	166.00	-17.23	2 19	4667 4688	17	82.35%	82.35%
+
+
+   Forward:	Score: 161.000000  Q:2 to 20  R:2321 to 2344 Align Len (20) (85.00%) (90.00%)
+
+   Query:    3' ugcCA-AAAUGGUC-UGUCAUAAu 5'
+                   || |||||||| |||||:|| 
+   Ref:      5' ctaGTGTTTACCAGAACAGTGTTt 3'
+
+   Energy:  -21.969999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	161.00	-21.97	2 20	2321 2344	20	85.00%	90.00%
+
+
+   Forward:	Score: 158.000000  Q:2 to 15  R:4737 to 4758 Align Len (13) (84.62%) (92.31%)
+
+   Query:    3' ugccaaaaUGGUCUGUCAUAAu 5'
+                        ||| |:||||||| 
+   Ref:      5' gtcttcaaACCTGGCAGTATTa 3'
+
+   Energy:  -18.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	158.00	-18.43	2 15	4737 4758	13	84.62%	92.31%
+
+
+   Forward:	Score: 154.000000  Q:2 to 15  R:246 to 267 Align Len (13) (92.31%) (100.00%)
+
+   Query:    3' ugccaaaaUGGUCUGUCAUAAu 5'
+                        ||||||||||:|| 
+   Ref:      5' gccaacagACCAGACAGTGTTa 3'
+
+   Energy:  -23.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	154.00	-23.50	2 15	246 267	13	92.31%	100.00%
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:5386 to 5409 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' ugccAAAAUGGU-CU-GUCAUAAu 5'
+                    ||| |:||  | ||||||| 
+   Ref:      5' ttctTTTCATCATTATCAGTATTt 3'
+
+   Energy:  -9.810000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	152.00	-9.81	2 19	5386 5409	19	73.68%	78.95%
+
+
+   Forward:	Score: 147.000000  Q:2 to 17  R:2511 to 2533 Align Len (16) (81.25%) (87.50%)
+
+   Query:    3' ugccaaAAUGGUC-UGUCAUAAu 5'
+                      | ||||| |||||:|| 
+   Ref:      5' cattgcTGACCAGAACAGTGTTc 3'
+
+   Energy:  -17.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	147.00	-17.50	2 17	2511 2533	16	81.25%	87.50%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:4957 to 4978 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' ugCCAAAAUGGUCUGUCAUAAu 5'
+                  | ||| |::  |||||:|| 
+   Ref:      5' gaGATTTGATTTAACAGTGTTa 3'
+
+   Energy:  -12.620000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	144.00	-12.62	2 21	4957 4978	19	63.16%	78.95%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:3887 to 3908 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ugccaaaauggucuGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' tgctaaatccgcttCAGTATTt 3'
+
+   Energy:  -11.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	140.00	-11.59	2 9	3887 3908	7	100.00%	100.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:4316 to 4337 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ugccaaaauggucuGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' taagtgccatttctCAGTATTt 3'
+
+   Energy:  -12.110000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	140.00	-12.11	2 9	4316 4337	7	100.00%	100.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 19  R:5198 to 5218 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ugccAAAAUGGUCUGUCAUAAu 5'
+                    || || :| |||||:|| 
+   Ref:      5' taacTTCTA-TAAACAGTGTTg 3'
+
+   Energy:  -12.520000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-429	gi|291575186|ref|NM_030751.5|	140.00	-12.52	2 19	5198 5218	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-429	gi|291575186|ref|NM_030751.5|	1668.00	-174.75	166.00	-23.50	2	22	5998	 3792 4667 2321 4737 246 5386 2511 4957 3887 4316 5198
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_32.txt
+Reference Filename:	target_32.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-let-7b-5p MIMAT0000522(22 nt)
+Read Sequence:gi|94536843|ref|NM_009075.2| Mus musculus ribose 5-phosphate isomerase A (Rpia), mRNA(1789 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-let-7b-5p vs gi|94536843|ref|NM_009075.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-let-7b-3p MIMAT0004621(22 nt)
+Read Sequence:gi|94536843|ref|NM_009075.2| Mus musculus ribose 5-phosphate isomerase A (Rpia), mRNA(1789 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-let-7b-3p vs gi|94536843|ref|NM_009075.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_33.txt
+Reference Filename:	target_33.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-let-7b-5p MIMAT0000522(22 nt)
+Read Sequence:gi|48762677|ref|NM_009609.2| Mus musculus actin, gamma, cytoplasmic 1 (Actg1), mRNA(1931 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-let-7b-5p vs gi|48762677|ref|NM_009609.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 19  R:613 to 634 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' uuggUGUGUUGGAUGAUGGAGu 5'
+                    || ::||  |||||||| 
+   Ref:      5' cgggACCTGACAGACTACCTCa 3'
+
+   Energy:  -22.510000 kCal/Mol
+
+Scores for this hit:
+>mmu-let-7b-5p	gi|48762677|ref|NM_009609.2|	158.00	-22.51	2 19	613 634	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-let-7b-5p	gi|48762677|ref|NM_009609.2|	158.00	-22.51	158.00	-22.51	1	22	1931	 613
+Complete
+
+Read Sequence:mmu-let-7b-3p MIMAT0004621(22 nt)
+Read Sequence:gi|48762677|ref|NM_009609.2| Mus musculus actin, gamma, cytoplasmic 1 (Actg1), mRNA(1931 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-let-7b-3p vs gi|48762677|ref|NM_009609.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_34.txt
+Reference Filename:	target_34.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-1a-2-5p MIMAT0017047(23 nt)
+Read Sequence:gi|86476080|ref|NM_021278.2| Mus musculus thymosin, beta 4, X chromosome (Tmsb4x), mRNA(670 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-1a-2-5p vs gi|86476080|ref|NM_021278.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-1a-3p MIMAT0000123(22 nt)
+Read Sequence:gi|86476080|ref|NM_021278.2| Mus musculus thymosin, beta 4, X chromosome (Tmsb4x), mRNA(670 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-1a-3p vs gi|86476080|ref|NM_021278.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:279 to 299 Align Len (19) (73.68%) (84.21%)
+
+   Query:    3' uaUGUAUGAAGAAAUGUAAGGu 5'
+                  |:||:|  || |||||||| 
+   Ref:      5' caATATGC-ACTGTACATTCCa 3'
+
+   Energy:  -18.719999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-1a-3p	gi|86476080|ref|NM_021278.2|	162.00	-18.72	2 21	279 299	19	73.68%	84.21%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-1a-3p	gi|86476080|ref|NM_021278.2|	162.00	-18.72	162.00	-18.72	2	22	670	 279
+Complete
+
+Read Sequence:mmu-miR-1a-1-5p MIMAT0016979(23 nt)
+Read Sequence:gi|86476080|ref|NM_021278.2| Mus musculus thymosin, beta 4, X chromosome (Tmsb4x), mRNA(670 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-1a-1-5p vs gi|86476080|ref|NM_021278.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_35.txt
+Reference Filename:	target_35.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-124-5p MIMAT0004527(22 nt)
+Read Sequence:gi|142365904|ref|NM_009498.4| Mus musculus vesicle-associated membrane protein 3 (Vamp3), mRNA(2115 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-5p vs gi|142365904|ref|NM_009498.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-124-3p MIMAT0000134(20 nt)
+Read Sequence:gi|142365904|ref|NM_009498.4| Mus musculus vesicle-associated membrane protein 3 (Vamp3), mRNA(2115 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-3p vs gi|142365904|ref|NM_009498.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 19  R:590 to 610 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' ccGUAAGUGGCG-CACGGAAu 5'
+                  ||||:  | | ||||||| 
+   Ref:      5' caCATTTTGCACAGTGCCTTt 3'
+
+   Energy:  -17.330000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	153.00	-17.33	2 19	590 610	18	72.22%	77.78%
+
+
+   Forward:	Score: 150.000000  Q:2 to 15  R:839 to 858 Align Len (13) (76.92%) (84.62%)
+
+   Query:    3' ccguaaGUGGCGCACGGAAu 5'
+                      ||  |:||||||| 
+   Ref:      5' caatagCAGGGTGTGCCTTa 3'
+
+   Energy:  -18.790001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	150.00	-18.79	2 15	839 858	13	76.92%	84.62%
+
+
+   Forward:	Score: 149.000000  Q:2 to 19  R:78 to 98 Align Len (18) (61.11%) (83.33%)
+
+   Query:    3' ccGUAAGUG-GCGCACGGAAu 5'
+                  ::| :||  |:||||||| 
+   Ref:      5' aaTGTCTACAGGTGTGCCTTc 3'
+
+   Energy:  -16.080000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	149.00	-16.08	2 19	78 98	18	61.11%	83.33%
+
+
+   Forward:	Score: 141.000000  Q:2 to 10  R:526 to 545 Align Len (8) (87.50%) (100.00%)
+
+   Query:    3' ccguaaguggcGCACGGAAu 5'
+                           :||||||| 
+   Ref:      5' tgcctagaaaaTGTGCCTTt 3'
+
+   Energy:  -12.840000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	141.00	-12.84	2 10	526 545	8	87.50%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	593.00	-65.04	153.00	-18.79	2	20	2115	 590 839 78 526
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_36.txt
+Reference Filename:	target_36.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-124-5p MIMAT0004527(22 nt)
+Read Sequence:gi|118130777|ref|NM_197985.3| Mus musculus adiponectin receptor 2 (Adipor2), mRNA(3963 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-5p vs gi|118130777|ref|NM_197985.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 141.000000  Q:3 to 20  R:3225 to 3245 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' uagUUCCAGGCGACACUUGUgc 5'
+                   ||| ||:|  |||||||  
+   Ref:      5' aggAAGCTCTG-GGTGAACAgc 3'
+
+   Energy:  -17.700001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-5p	gi|118130777|ref|NM_197985.3|	141.00	-17.70	3 20	3225 3245	17	76.47%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-124-5p	gi|118130777|ref|NM_197985.3|	141.00	-17.70	141.00	-17.70	1	22	3963	 3225
+Complete
+
+Read Sequence:mmu-miR-124-3p MIMAT0000134(20 nt)
+Read Sequence:gi|118130777|ref|NM_197985.3| Mus musculus adiponectin receptor 2 (Adipor2), mRNA(3963 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-3p vs gi|118130777|ref|NM_197985.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 149.000000  Q:2 to 16  R:1214 to 1232 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' ccguaAGUGGCGCACGGAAu 5'
+                     |::|:| ||||||| 
+   Ref:      5' tgtggTTGCTG-GTGCCTTt 3'
+
+   Energy:  -16.940001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|118130777|ref|NM_197985.3|	149.00	-16.94	2 16	1214 1232	14	71.43%	92.86%
+
+
+   Forward:	Score: 148.000000  Q:2 to 18  R:2029 to 2049 Align Len (17) (70.59%) (76.47%)
+
+   Query:    3' ccgUAAGUGG-CGCACGGAAu 5'
+                   :| ||||   ||||||| 
+   Ref:      5' ttgGTGCACCAAGGTGCCTTc 3'
+
+   Energy:  -18.530001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|118130777|ref|NM_197985.3|	148.00	-18.53	2 18	2029 2049	17	70.59%	76.47%
+
+
+   Forward:	Score: 142.000000  Q:3 to 19  R:620 to 639 Align Len (16) (68.75%) (87.50%)
+
+   Query:    3' ccGUAAGUGGCGCACGGAau 5'
+                  :|||| :| :||||||  
+   Ref:      5' tgTATTCTTCCTGTGCCTgg 3'
+
+   Energy:  -19.370001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|118130777|ref|NM_197985.3|	142.00	-19.37	3 19	620 639	16	68.75%	87.50%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-124-3p	gi|118130777|ref|NM_197985.3|	439.00	-54.84	149.00	-19.37	2	20	3963	 1214 2029 620
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_37.txt
+Reference Filename:	target_37.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-124-5p MIMAT0004527(22 nt)
+Read Sequence:gi|142369296|ref|NM_013464.4| Mus musculus aryl-hydrocarbon receptor (Ahr), mRNA(5494 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-5p vs gi|142369296|ref|NM_013464.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 150.000000  Q:2 to 21  R:478 to 498 Align Len (19) (68.42%) (73.68%)
+
+   Query:    3' uaGUUCCAGGCGACACUUGUGc 5'
+                  ||: | |||   ||||||| 
+   Ref:      5' caCAGAGACCG-GCTGAACACa 3'
+
+   Energy:  -16.889999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-5p	gi|142369296|ref|NM_013464.4|	150.00	-16.89	2 21	478 498	19	68.42%	73.68%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:5254 to 5275 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' uaguuccaggcgacACUUGUGc 5'
+                              ||||||| 
+   Ref:      5' tttcttacagcaccTGAACACt 3'
+
+   Energy:  -9.970000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-5p	gi|142369296|ref|NM_013464.4|	140.00	-9.97	2 9	5254 5275	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-124-5p	gi|142369296|ref|NM_013464.4|	290.00	-26.86	150.00	-16.89	1	22	5494	 478 5254
+Complete
+
+Read Sequence:mmu-miR-124-3p MIMAT0000134(20 nt)
+Read Sequence:gi|142369296|ref|NM_013464.4| Mus musculus aryl-hydrocarbon receptor (Ahr), mRNA(5494 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-3p vs gi|142369296|ref|NM_013464.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 14  R:2440 to 2459 Align Len (12) (83.33%) (91.67%)
+
+   Query:    3' ccguaagUGGCGCACGGAAu 5'
+                       || |:||||||| 
+   Ref:      5' gaggtggACAGTGTGCCTTa 3'
+
+   Energy:  -19.700001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142369296|ref|NM_013464.4|	153.00	-19.70	2 14	2440 2459	12	83.33%	91.67%
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:3620 to 3638 Align Len (17) (64.71%) (88.24%)
+
+   Query:    3' ccGUAAGUGGCGCACGGAAu 5'
+                  ::||| |: :||||||| 
+   Ref:      5' gaTGTTC-CTCTGTGCCTTa 3'
+
+   Energy:  -18.469999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142369296|ref|NM_013464.4|	152.00	-18.47	2 19	3620 3638	17	64.71%	88.24%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-124-3p	gi|142369296|ref|NM_013464.4|	305.00	-38.17	153.00	-19.70	2	20	5494	 2440 3620
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_38.txt
+Reference Filename:	target_38.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-141-3p MIMAT0000153(22 nt)
+Read Sequence:gi|145966754|ref|NM_009769.4| Mus musculus Kruppel-like factor 5 (Klf5), mRNA(1728 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-141-3p vs gi|145966754|ref|NM_009769.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-141-5p MIMAT0004533(22 nt)
+Read Sequence:gi|145966754|ref|NM_009769.4| Mus musculus Kruppel-like factor 5 (Klf5), mRNA(1728 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-141-5p vs gi|145966754|ref|NM_009769.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_39.txt
+Reference Filename:	target_39.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-141-3p MIMAT0000153(22 nt)
+Read Sequence:gi|118150663|ref|NM_019635.2| Mus musculus serine/threonine kinase 3 (Ste20, yeast homolog) (Stk3), mRNA(2928 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-141-3p vs gi|118150663|ref|NM_019635.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 19  R:1524 to 1545 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' gguaGAAAUGGUCUGUCACAAu 5'
+                    || |::|  |||||||| 
+   Ref:      5' ggccCTATGTCCAACAGTGTTt 3'
+
+   Energy:  -17.150000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-3p	gi|118150663|ref|NM_019635.2|	158.00	-17.15	2 19	1524 1545	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-141-3p	gi|118150663|ref|NM_019635.2|	158.00	-17.15	158.00	-17.15	1	22	2928	 1524
+Complete
+
+Read Sequence:mmu-miR-141-5p MIMAT0004533(22 nt)
+Read Sequence:gi|118150663|ref|NM_019635.2| Mus musculus serine/threonine kinase 3 (Ste20, yeast homolog) (Stk3), mRNA(2928 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-141-5p vs gi|118150663|ref|NM_019635.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_3.txt
+Reference Filename:	target_3.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:dme-miR-287-3p MIMAT0000360(21 nt)
+Read Sequence:gi|24640746|ref|NM_080265.2| Drosophila melanogaster dorsal interacting protein 1 (Dip1), mRNA(659 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-287-3p vs gi|24640746|ref|NM_080265.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_40.txt
+Reference Filename:	target_40.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-141-3p MIMAT0000153(22 nt)
+Read Sequence:gi|158518435|ref|NM_025656.4| Mus musculus survival of motor neuron protein interacting protein 1 (Sip1), mRNA(1106 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-141-3p vs gi|158518435|ref|NM_025656.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-141-5p MIMAT0004533(22 nt)
+Read Sequence:gi|158518435|ref|NM_025656.4| Mus musculus survival of motor neuron protein interacting protein 1 (Sip1), mRNA(1106 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-141-5p vs gi|158518435|ref|NM_025656.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:3 to 21  R:100 to 121 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' agGUUGUGACGUGACCUUCUac 5'
+                  |:|  ||||: |||||||  
+   Ref:      5' gcCGAGTCTGCGGTGGAAGAgt 3'
+
+   Energy:  -27.459999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-5p	gi|158518435|ref|NM_025656.4|	148.00	-27.46	3 21	100 121	18	72.22%	83.33%
+
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:670 to 692 Align Len (20) (60.00%) (75.00%)
+
+   Query:    3' agGUUGUGACGUGA-CCUUCUAc 5'
+                  :| : | | |:| ||||||| 
+   Ref:      5' ttTACTCCAGAATTGGGAAGATg 3'
+
+   Energy:  -20.850000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-5p	gi|158518435|ref|NM_025656.4|	147.00	-20.85	2 21	670 692	20	60.00%	75.00%
+
+
+   Forward:	Score: 146.000000  Q:2 to 16  R:901 to 923 Align Len (15) (73.33%) (80.00%)
+
+   Query:    3' agguuguGA-CGUGACCUUCUAc 5'
+                       || | : |||||||| 
+   Ref:      5' ttacctcCTAGGGATGGAAGATg 3'
+
+   Energy:  -19.250000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-5p	gi|158518435|ref|NM_025656.4|	146.00	-19.25	2 16	901 923	15	73.33%	80.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-141-5p	gi|158518435|ref|NM_025656.4|	441.00	-67.56	148.00	-27.46	2	22	1106	 100 670 901
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_41.txt
+Reference Filename:	target_41.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-141-3p MIMAT0000153(22 nt)
+Read Sequence:gi|284413744|ref|NM_014795.3| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 1, mRNA(9243 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-141-3p vs gi|284413744|ref|NM_014795.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 21  R:4924 to 4949 Align Len (23) (73.91%) (73.91%)
+
+   Query:    3' ggUAGAAA--UGGUC--UGUCACAAu 5'
+                  | ||||  |||||   ||||||| 
+   Ref:      5' ttACCTTTGCACCAGCTTCAGTGTTa 3'
+
+   Energy:  -24.059999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-3p	gi|284413744|ref|NM_014795.3|	158.00	-24.06	2 21	4924 4949	23	73.91%	73.91%
+
+
+   Forward:	Score: 155.000000  Q:2 to 21  R:3048 to 3070 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' ggUAGAAAUGGU-CUGUCACAAu 5'
+                  :|:|  |:||  |||||||| 
+   Ref:      5' caGTTTAGATCATAACAGTGTTt 3'
+
+   Energy:  -15.210000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-3p	gi|284413744|ref|NM_014795.3|	155.00	-15.21	2 21	3048 3070	20	65.00%	80.00%
+
+
+   Forward:	Score: 152.000000  Q:2 to 21  R:4890 to 4908 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' ggUAGAAAUGGUCUGUCACAAu 5'
+                  ||| ||::   |||||||| 
+   Ref:      5' ccATCCTTGT---ACAGTGTTa 3'
+
+   Energy:  -18.650000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-3p	gi|284413744|ref|NM_014795.3|	152.00	-18.65	2 21	4890 4908	19	68.42%	78.95%
+
+
+   Forward:	Score: 151.000000  Q:2 to 16  R:5978 to 5999 Align Len (14) (71.43%) (85.71%)
+
+   Query:    3' gguagaaAUGGUCUGUCACAAu 5'
+                       ||::|  ||||||| 
+   Ref:      5' agacagcTATTATTCAGTGTTa 3'
+
+   Energy:  -14.990000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-3p	gi|284413744|ref|NM_014795.3|	151.00	-14.99	2 16	5978 5999	14	71.43%	85.71%
+
+
+   Forward:	Score: 148.000000  Q:2 to 14  R:2754 to 2776 Align Len (13) (84.62%) (84.62%)
+
+   Query:    3' gguagaaauGGU-CUGUCACAAu 5'
+                         |||  |||||||| 
+   Ref:      5' agcagaactCCACAACAGTGTTa 3'
+
+   Energy:  -17.040001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-3p	gi|284413744|ref|NM_014795.3|	148.00	-17.04	2 14	2754 2776	13	84.62%	84.62%
+
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:4364 to 4382 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' ggUAGAAAUGGUCUGUCACAAu 5'
+                  | :|||::   |||||||| 
+   Ref:      5' aaAATTTTGT---ACAGTGTTa 3'
+
+   Energy:  -13.260000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-3p	gi|284413744|ref|NM_014795.3|	148.00	-13.26	2 21	4364 4382	19	63.16%	78.95%
+
+
+   Forward:	Score: 141.000000  Q:2 to 15  R:3152 to 3174 Align Len (14) (71.43%) (78.57%)
+
+   Query:    3' gguagaaaUGG-UCUGUCACAAu 5'
+                        ||: |  ||||||| 
+   Ref:      5' acaaaagcACTAACCCAGTGTTc 3'
+
+   Energy:  -11.730000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-3p	gi|284413744|ref|NM_014795.3|	141.00	-11.73	2 15	3152 3174	14	71.43%	78.57%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-141-3p	gi|284413744|ref|NM_014795.3|	1053.00	-114.94	158.00	-24.06	1	22	9243	 4924 3048 4890 5978 2754 4364 3152
+Complete
+
+Read Sequence:mmu-miR-141-5p MIMAT0004533(22 nt)
+Read Sequence:gi|284413744|ref|NM_014795.3| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 1, mRNA(9243 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-141-5p vs gi|284413744|ref|NM_014795.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 20  R:4139 to 4159 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' aggUUGUGACGUGACCUUCUAc 5'
+                   || ||  :| |||||||| 
+   Ref:      5' aggAAGACAATA-TGGAAGATg 3'
+
+   Energy:  -17.170000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-5p	gi|284413744|ref|NM_014795.3|	153.00	-17.17	2 20	4139 4159	18	72.22%	77.78%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:759 to 781 Align Len (20) (65.00%) (65.00%)
+
+   Query:    3' agGUUGU-GACGUGACCUUCUAc 5'
+                  ||| |   | |  ||||||| 
+   Ref:      5' gcCAAGAGAGGAAGAGGAAGATg 3'
+
+   Energy:  -19.180000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-141-5p	gi|284413744|ref|NM_014795.3|	143.00	-19.18	2 21	759 781	20	65.00%	65.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-141-5p	gi|284413744|ref|NM_014795.3|	296.00	-36.35	153.00	-19.18	2	22	9243	 4139 759
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_42.txt
+Reference Filename:	target_42.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-16-5p MIMAT0000527(22 nt)
+Read Sequence:gi|56550068|ref|NM_028399.1| Mus musculus cyclin T2 (Ccnt2), mRNA(3514 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-16-5p vs gi|56550068|ref|NM_028399.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 167.000000  Q:2 to 21  R:2327 to 2349 Align Len (20) (80.00%) (80.00%)
+
+   Query:    3' gcGGU-UAUAAAUGCACGACGAu 5'
+                  ||| || | || |||||||| 
+   Ref:      5' ttCCATATTTGTAAGTGCTGCTt 3'
+
+   Energy:  -22.049999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-16-5p	gi|56550068|ref|NM_028399.1|	167.00	-22.05	2 21	2327 2349	20	80.00%	80.00%
+
+
+   Forward:	Score: 150.000000  Q:2 to 19  R:2455 to 2476 Align Len (17) (64.71%) (76.47%)
+
+   Query:    3' gcggUUAUAAAUGCACGACGAu 5'
+                    |||:  |:  ||||||| 
+   Ref:      5' gatgAATGGCTGGCTGCTGCTa 3'
+
+   Energy:  -15.440000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-16-5p	gi|56550068|ref|NM_028399.1|	150.00	-15.44	2 19	2455 2476	17	64.71%	76.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-16-5p	gi|56550068|ref|NM_028399.1|	317.00	-37.49	167.00	-22.05	1	22	3514	 2327 2455
+Complete
+
+Read Sequence:mmu-miR-16-1-3p MIMAT0004625(22 nt)
+Read Sequence:gi|56550068|ref|NM_028399.1| Mus musculus cyclin T2 (Ccnt2), mRNA(3514 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-16-1-3p vs gi|56550068|ref|NM_028399.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-16-2-3p MIMAT0017018(22 nt)
+Read Sequence:gi|56550068|ref|NM_028399.1| Mus musculus cyclin T2 (Ccnt2), mRNA(3514 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-16-2-3p vs gi|56550068|ref|NM_028399.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 16  R:779 to 798 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' uuucgucGUGUUAUUAUAACCa 5'
+                       :|||  |||||||| 
+   Ref:      5' gagtttcTACA--AATATTGGa 3'
+
+   Energy:  -12.070000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-16-2-3p	gi|56550068|ref|NM_028399.1|	148.00	-12.07	2 16	779 798	14	78.57%	85.71%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-16-2-3p	gi|56550068|ref|NM_028399.1|	148.00	-12.07	148.00	-12.07	3	22	3514	 779
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_43.txt
+Reference Filename:	target_43.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-200a-3p MIMAT0000519(22 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-200a-3p vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 171.000000  Q:2 to 17  R:2322 to 2344 Align Len (16) (93.75%) (93.75%)
+
+   Query:    3' uguagcAAUGGUC-UGUCACAAu 5'
+                      ||||||| |||||||| 
+   Ref:      5' tagtgtTTACCAGAACAGTGTTt 3'
+
+   Energy:  -23.760000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	171.00	-23.76	2 17	2322 2344	16	93.75%	93.75%
+
+
+   Forward:	Score: 170.000000  Q:2 to 15  R:246 to 267 Align Len (13) (100.00%) (100.00%)
+
+   Query:    3' uguagcaaUGGUCUGUCACAAu 5'
+                        ||||||||||||| 
+   Ref:      5' gccaacagACCAGACAGTGTTa 3'
+
+   Energy:  -27.040001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	170.00	-27.04	2 15	246 267	13	100.00%	100.00%
+
+
+   Forward:	Score: 170.000000  Q:2 to 21  R:2510 to 2533 Align Len (21) (80.95%) (85.71%)
+
+   Query:    3' ugUAGC-AAUGGUC-UGUCACAAu 5'
+                  ||:| | ||||| |||||||| 
+   Ref:      5' ccATTGCTGACCAGAACAGTGTTc 3'
+
+   Energy:  -25.309999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	170.00	-25.31	2 21	2510 2533	21	80.95%	85.71%
+
+
+   Forward:	Score: 155.000000  Q:2 to 17  R:4204 to 4227 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' uguagcAAUGGUCU--GUCACAAu 5'
+                      | |:||||  ||||||| 
+   Ref:      5' gcaaaaTCATCAGAATCAGTGTTt 3'
+
+   Energy:  -16.110001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	155.00	-16.11	2 17	4204 4227	17	76.47%	82.35%
+
+
+   Forward:	Score: 150.000000  Q:2 to 21  R:4958 to 4978 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' ugUAGCAAUGGUCUGUCACAAu 5'
+                  ||: | |::  |||||||| 
+   Ref:      5' agATT-TGATTTAACAGTGTTa 3'
+
+   Energy:  -13.060000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	150.00	-13.06	2 21	4958 4978	19	63.16%	78.95%
+
+
+   Forward:	Score: 149.000000  Q:2 to 16  R:5198 to 5218 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' uguagcaAUGGUCUGUCACAAu 5'
+                       || :| |||||||| 
+   Ref:      5' taacttcTA-TAAACAGTGTTg 3'
+
+   Energy:  -12.460000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	149.00	-12.46	2 16	5198 5218	14	78.57%	85.71%
+
+
+   Forward:	Score: 144.000000  Q:3 to 17  R:4832 to 4853 Align Len (14) (78.57%) (92.86%)
+
+   Query:    3' uguagcAAUGGUCUGUCACAau 5'
+                      |||::| |||||||  
+   Ref:      5' ctttatTTATTACACAGTGTag 3'
+
+   Energy:  -12.210000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	144.00	-12.21	3 17	4832 4853	14	78.57%	92.86%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:977 to 998 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' uguagcaauggucuGUCACAAu 5'
+                              ||||||| 
+   Ref:      5' gactcaagacatctCAGTGTTc 3'
+
+   Energy:  -11.800000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	140.00	-11.80	2 9	977 998	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-200a-3p	gi|291575186|ref|NM_030751.5|	1249.00	-141.75	171.00	-27.04	1	22	5998	 2322 246 2510 4204 4958 5198 4832 977
+Complete
+
+Read Sequence:mmu-miR-200a-5p MIMAT0004619(22 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-200a-5p vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_44.txt
+Reference Filename:	target_44.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-215-3p MIMAT0017169(21 nt)
+Read Sequence:gi|284413744|ref|NM_014795.3| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 1, mRNA(9243 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-215-3p vs gi|284413744|ref|NM_014795.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 164.000000  Q:2 to 19  R:3442 to 3464 Align Len (19) (84.21%) (84.21%)
+
+   Query:    3' uaaCCGGAUGU-CU-UACUGUCu 5'
+                   |||||| | || ||||||| 
+   Ref:      5' tcaGGCCTAGATGATATGACAGa 3'
+
+   Energy:  -25.020000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-215-3p	gi|284413744|ref|NM_014795.3|	164.00	-25.02	2 19	3442 3464	19	84.21%	84.21%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-215-3p	gi|284413744|ref|NM_014795.3|	164.00	-25.02	164.00	-25.02	1	21	9243	 3442
+Complete
+
+Read Sequence:mmu-miR-215-5p MIMAT0000904(21 nt)
+Read Sequence:gi|284413744|ref|NM_014795.3| Homo sapiens zinc finger E-box binding homeobox 2 (ZEB2), transcript variant 1, mRNA(9243 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-215-5p vs gi|284413744|ref|NM_014795.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 156.000000  Q:2 to 17  R:5110 to 5130 Align Len (15) (73.33%) (86.67%)
+
+   Query:    3' cagacAGUUUAGUAUCCAGUa 5'
+                     |: |||: ||||||| 
+   Ref:      5' attcaTTTAATTTTAGGTCAa 3'
+
+   Energy:  -10.600000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-215-5p	gi|284413744|ref|NM_014795.3|	156.00	-10.60	2 17	5110 5130	15	73.33%	86.67%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-215-5p	gi|284413744|ref|NM_014795.3|	156.00	-10.60	156.00	-10.60	2	21	9243	 5110
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_45.txt
+Reference Filename:	target_45.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-375-3p MIMAT0000739(22 nt)
+Read Sequence:gi|227430365|ref|NM_016889.3| Mus musculus insulinoma-associated 1 (Insm1), mRNA(3038 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-375-3p vs gi|227430365|ref|NM_016889.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-375-5p MIMAT0017078(22 nt)
+Read Sequence:gi|227430365|ref|NM_016889.3| Mus musculus insulinoma-associated 1 (Insm1), mRNA(3038 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-375-5p vs gi|227430365|ref|NM_016889.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_46.txt
+Reference Filename:	target_46.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-375-3p MIMAT0000739(22 nt)
+Read Sequence:gi|114520595|ref|NM_001008542.2| Mus musculus Max interacting protein 1 (Mxi1), transcript variant 2, mRNA(5156 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-375-3p vs gi|114520595|ref|NM_001008542.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-375-5p MIMAT0017078(22 nt)
+Read Sequence:gi|114520595|ref|NM_001008542.2| Mus musculus Max interacting protein 1 (Mxi1), transcript variant 2, mRNA(5156 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-375-5p vs gi|114520595|ref|NM_001008542.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_47.txt
+Reference Filename:	target_47.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-429-5p MIMAT0017178(21 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-429-5p vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-429-3p MIMAT0001537(22 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-429-3p vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 15  R:4737 to 4758 Align Len (13) (84.62%) (92.31%)
+
+   Query:    3' ugccguaaUGGUCUGUCAUAAu 5'
+                        ||| |:||||||| 
+   Ref:      5' gtcttcaaACCTGGCAGTATTa 3'
+
+   Energy:  -18.430000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	158.00	-18.43	2 15	4737 4758	13	84.62%	92.31%
+
+
+   Forward:	Score: 156.000000  Q:2 to 17  R:4667 to 4688 Align Len (15) (80.00%) (80.00%)
+
+   Query:    3' ugccguAAUGGUCUGUCAUAAu 5'
+                      |||||   ||||||| 
+   Ref:      5' tgatttTTACCTATCAGTATTa 3'
+
+   Energy:  -15.140000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	156.00	-15.14	2 17	4667 4688	15	80.00%	80.00%
+
+
+   Forward:	Score: 155.000000  Q:2 to 17  R:2322 to 2344 Align Len (16) (87.50%) (93.75%)
+
+   Query:    3' ugccguAAUGGUC-UGUCAUAAu 5'
+                      ||||||| |||||:|| 
+   Ref:      5' tagtgtTTACCAGAACAGTGTTt 3'
+
+   Energy:  -20.629999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	155.00	-20.63	2 17	2322 2344	16	87.50%	93.75%
+
+
+   Forward:	Score: 154.000000  Q:2 to 15  R:246 to 267 Align Len (13) (92.31%) (100.00%)
+
+   Query:    3' ugccguaaUGGUCUGUCAUAAu 5'
+                        ||||||||||:|| 
+   Ref:      5' gccaacagACCAGACAGTGTTa 3'
+
+   Energy:  -24.480000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	154.00	-24.48	2 15	246 267	13	92.31%	100.00%
+
+
+   Forward:	Score: 154.000000  Q:2 to 20  R:3792 to 3814 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' ugcCGUAAUGGUCU-GUCAUAAu 5'
+                   |: |||:|  | ||||||| 
+   Ref:      5' attGTTTTATCTTATCAGTATTa 3'
+
+   Energy:  -12.960000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	154.00	-12.96	2 20	3792 3814	19	68.42%	78.95%
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:5389 to 5409 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ugccGUAAUGGUCUGUCAUAAu 5'
+                    ||| |::|  ||||||| 
+   Ref:      5' ttttCATCATTA-TCAGTATTt 3'
+
+   Energy:  -11.400000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	152.00	-11.40	2 19	5389 5409	17	70.59%	82.35%
+
+
+   Forward:	Score: 148.000000  Q:2 to 20  R:2512 to 2533 Align Len (19) (78.95%) (84.21%)
+
+   Query:    3' ugcCGUAAUGGUC-UGUCAUAAu 5'
+                   || | ||||| |||||:|| 
+   Ref:      5' attGC-TGACCAGAACAGTGTTc 3'
+
+   Energy:  -19.290001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	148.00	-19.29	2 20	2512 2533	19	78.95%	84.21%
+
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:4319 to 4337 Align Len (19) (68.42%) (73.68%)
+
+   Query:    3' ugCCGUAAUGGUCUGUCAUAAu 5'
+                  | |||| |:   ||||||| 
+   Ref:      5' gtGCCATTTCT---CAGTATTt 3'
+
+   Energy:  -12.110000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	148.00	-12.11	2 21	4319 4337	19	68.42%	73.68%
+
+
+   Forward:	Score: 144.000000  Q:2 to 18  R:4204 to 4227 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' ugccgUAAUGGUCU--GUCAUAAu 5'
+                     || |:||||  ||||:|| 
+   Ref:      5' gcaaaATCATCAGAATCAGTGTTt 3'
+
+   Energy:  -13.820000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	144.00	-13.82	2 18	4204 4227	18	72.22%	83.33%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:3887 to 3908 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ugccguaauggucuGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' tgctaaatccgcttCAGTATTt 3'
+
+   Energy:  -12.560000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	140.00	-12.56	2 9	3887 3908	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	1509.00	-160.82	158.00	-24.48	2	22	5998	 4737 4667 2322 246 3792 5389 2512 4319 4204 3887
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_4.txt
+Reference Filename:	target_4.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:dme-miR-317-5p MIMAT0020843(22 nt)
+Read Sequence:gi|24584381|ref|NM_078846.2| Drosophila melanogaster yellow-c (yellow-c), mRNA(1524 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-317-5p vs gi|24584381|ref|NM_078846.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:388 to 409 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ucgcucgugucccaCAUAGGGu 5'
+                              ||||||| 
+   Ref:      5' ccaaagctgcatccGTATCCCa 3'
+
+   Energy:  -18.459999 kCal/Mol
+
+Scores for this hit:
+>dme-miR-317-5p	gi|24584381|ref|NM_078846.2|	140.00	-18.46	2 9	388 409	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>dme-miR-317-5p	gi|24584381|ref|NM_078846.2|	140.00	-18.46	140.00	-18.46	1	22	1524	 388
+Complete
+
+Read Sequence:dme-miR-317-3p MIMAT0000409(24 nt)
+Read Sequence:gi|24584381|ref|NM_078846.2| Drosophila melanogaster yellow-c (yellow-c), mRNA(1524 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-317-3p vs gi|24584381|ref|NM_078846.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 145.000000  Q:2 to 20  R:1422 to 1444 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' ugaccUAUGGUGGUCGACACAAGu 5'
+                     || |:||  ||||||||: 
+   Ref:      5' tttaaAT-CTACATGCTGTGTTTa 3'
+
+   Energy:  -19.750000 kCal/Mol
+
+Scores for this hit:
+>dme-miR-317-3p	gi|24584381|ref|NM_078846.2|	145.00	-19.75	2 20	1422 1444	18	72.22%	83.33%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>dme-miR-317-3p	gi|24584381|ref|NM_078846.2|	145.00	-19.75	145.00	-19.75	2	24	1524	 1422
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_5.txt
+Reference Filename:	target_5.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:dme-miR-318-5p MIMAT0020844(22 nt)
+Read Sequence:gi|85725179|ref|NM_001038941.1| Drosophila melanogaster CG13380 (CG13380), mRNA(2732 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-318-5p vs gi|85725179|ref|NM_001038941.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:dme-miR-318-3p MIMAT0000410(22 nt)
+Read Sequence:gi|85725179|ref|NM_001038941.1| Drosophila melanogaster CG13380 (CG13380), mRNA(2732 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-318-3p vs gi|85725179|ref|NM_001038941.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 157.000000  Q:2 to 21  R:1150 to 1172 Align Len (21) (71.43%) (80.95%)
+
+   Query:    3' acUCUAUUUGUUU--CGGGUCACu 5'
+                  ||| |: |:||  |||||||| 
+   Ref:      5' gaAGA-AGCCGAATTGCCCAGTGa 3'
+
+   Energy:  -20.980000 kCal/Mol
+
+Scores for this hit:
+>dme-miR-318-3p	gi|85725179|ref|NM_001038941.1|	157.00	-20.98	2 21	1150 1172	21	71.43%	80.95%
+
+
+   Forward:	Score: 146.000000  Q:3 to 20  R:1392 to 1417 Align Len (21) (76.19%) (76.19%)
+
+   Query:    3' acuCUAUUUG----UUUCGGGUCAcu 5'
+                   |||||||    | ||||||||  
+   Ref:      5' cacGATAAACCCTTATAGCCCAGTct 3'
+
+   Energy:  -19.260000 kCal/Mol
+
+Scores for this hit:
+>dme-miR-318-3p	gi|85725179|ref|NM_001038941.1|	146.00	-19.26	3 20	1392 1417	21	76.19%	76.19%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>dme-miR-318-3p	gi|85725179|ref|NM_001038941.1|	303.00	-40.24	157.00	-20.98	2	22	2732	 1150 1392
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_6.txt
+Reference Filename:	target_6.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7b-5p MIMAT0000063(22 nt)
+Read Sequence:gi|316659407|ref|NM_001614.3| Homo sapiens actin, gamma 1 (ACTG1), transcript variant 2, mRNA(2004 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs gi|316659407|ref|NM_001614.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 166.000000  Q:2 to 19  R:686 to 707 Align Len (17) (76.47%) (88.24%)
+
+   Query:    3' uuggUGUGUUGGAUGAUGGAGu 5'
+                    || ::||| |||||||| 
+   Ref:      5' cgggACCTGACCGACTACCTCa 3'
+
+   Energy:  -23.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	gi|316659407|ref|NM_001614.3|	166.00	-23.65	2 19	686 707	17	76.47%	88.24%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-5p	gi|316659407|ref|NM_001614.3|	166.00	-23.65	166.00	-23.65	1	22	2004	 686
+Complete
+
+Read Sequence:hsa-let-7b-3p MIMAT0004482(22 nt)
+Read Sequence:gi|316659407|ref|NM_001614.3| Homo sapiens actin, gamma 1 (ACTG1), transcript variant 2, mRNA(2004 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-3p vs gi|316659407|ref|NM_001614.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_7.txt
+Reference Filename:	target_7.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7b-5p MIMAT0000063(22 nt)
+Read Sequence:gi|166197663|ref|NM_001237.3| Homo sapiens cyclin A2 (CCNA2), mRNA(2811 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs gi|166197663|ref|NM_001237.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:1485 to 1503 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' uuGGUGUGUUGGAUGAUGGAGu 5'
+                  :||| ||: |  ||||||| 
+   Ref:      5' ctTCAC-CAGAC--CTACCTCa 3'
+
+   Energy:  -20.469999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	gi|166197663|ref|NM_001237.3|	147.00	-20.47	2 21	1485 1503	19	68.42%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-5p	gi|166197663|ref|NM_001237.3|	147.00	-20.47	147.00	-20.47	1	22	2811	 1485
+Complete
+
+Read Sequence:hsa-let-7b-3p MIMAT0004482(22 nt)
+Read Sequence:gi|166197663|ref|NM_001237.3| Homo sapiens cyclin A2 (CCNA2), mRNA(2811 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-3p vs gi|166197663|ref|NM_001237.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:1747 to 1768 Align Len (18) (66.67%) (72.22%)
+
+   Query:    3' cccUUCCGUCAUCCAACAUAUc 5'
+                   | ||:  ||  ||||||| 
+   Ref:      5' taaATGGTTTTAATTTGTATAt 3'
+
+   Energy:  -6.910000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-3p	gi|166197663|ref|NM_001237.3|	151.00	-6.91	2 20	1747 1768	18	66.67%	72.22%
+
+
+   Forward:	Score: 149.000000  Q:2 to 21  R:1123 to 1145 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' ccCUUC--CGUCAUCCAACAUAUc 5'
+                  ||||  |||| || ||||:|| 
+   Ref:      5' caGAAGTAGCAG-AGTTTGTGTAc 3'
+
+   Energy:  -16.010000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-3p	gi|166197663|ref|NM_001237.3|	149.00	-16.01	2 21	1123 1145	21	76.19%	80.95%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1758 to 1779 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' cccuuccgucauccAACAUAUc 5'
+                              ||||||| 
+   Ref:      5' aatttgtatatcttTTGTATAt 3'
+
+   Energy:  -3.380000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-3p	gi|166197663|ref|NM_001237.3|	140.00	-3.38	2 9	1758 1779	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-3p	gi|166197663|ref|NM_001237.3|	440.00	-26.30	151.00	-16.01	2	22	2811	 1747 1123 1758
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_8.txt
+Reference Filename:	target_8.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-1 MIMAT0000416(22 nt)
+Read Sequence:gi|169259767|ref|NM_021109.3| Homo sapiens thymosin beta 4, X-linked (TMSB4X), mRNA(657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-1 vs gi|169259767|ref|NM_021109.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:229 to 249 Align Len (19) (73.68%) (84.21%)
+
+   Query:    3' uaUGUAUGAAGAAAUGUAAGGu 5'
+                  |:||:|  || |||||||| 
+   Ref:      5' caATATGC-ACTGTACATTCCa 3'
+
+   Energy:  -18.719999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|169259767|ref|NM_021109.3|	162.00	-18.72	2 21	229 249	19	73.68%	84.21%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1	gi|169259767|ref|NM_021109.3|	162.00	-18.72	162.00	-18.72	1	22	657	 229
+Complete
+
+Scan Complete
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_9.txt
+Reference Filename:	target_9.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-1 MIMAT0000416(22 nt)
+Read Sequence:gi|163659902|ref|NM_001111285.1| Homo sapiens insulin-like growth factor 1 (somatomedin C) (IGF1), transcript variant 3, mRNA(949 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-1 vs gi|163659902|ref|NM_001111285.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

@@ -1,0 +1,92 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_257.fas
+Reference Filename:	target_257.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-373 MIMAT0000726(23 nt)
+Read Sequence:gi|190885489|ref|NM_019555.2| Homo sapiens Rho guanine nucleotide exchange factor (GEF) 3 (ARHGEF3), transcript variant 3, mRNA(3612 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-373 vs gi|190885489|ref|NM_019555.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 22  R:1008 to 1030 Align Len (21) (71.43%) (80.95%)
+
+   Query:    3' tgTGGGGTTTTAG-CTTCGTGAAg 5'
+                  | :|| |:||| | ||||||| 
+   Ref:      5' atAATCC-AGATCAGCAGCACTTg 3'
+
+   Energy:  -17.670000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|190885489|ref|NM_019555.2|	158.00	-17.67	2 22	1008 1030	21	71.43%	80.95%
+
+
+   Forward:	Score: 152.000000  Q:2 to 22  R:2678 to 2701 Align Len (21) (57.14%) (80.95%)
+
+   Query:    3' tgTGGGGTTTTA-GCTTCGTGAAg 5'
+                  | :::::|||   |||||||| 
+   Ref:      5' agAATTTGGAATGAAAAGCACTTc 3'
+
+   Energy:  -15.360000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|190885489|ref|NM_019555.2|	152.00	-15.36	2 22	2678 2701	21	57.14%	80.95%
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:1817 to 1839 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' tgtggggttttagCTTCGTGAAg 5'
+                             ||||||||| 
+   Ref:      5' ggaacggtttggaGAAGCACTTt 3'
+
+   Energy:  -17.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|190885489|ref|NM_019555.2|	150.00	-17.49	2 11	1817 1839	9	100.00%	100.00%
+
+
+   Forward:	Score: 145.000000  Q:2 to 22  R:336 to 358 Align Len (20) (60.00%) (80.00%)
+
+   Query:    3' tgTGGGGTTTTAGCTTCGTGAAg 5'
+                  :|| |:  ||: ||||:||| 
+   Ref:      5' agGCCACGCCATTAAAGCGCTTc 3'
+
+   Energy:  -20.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|190885489|ref|NM_019555.2|	145.00	-20.95	2 22	336 358	20	60.00%	80.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-373	gi|190885489|ref|NM_019555.2|	605.00	-71.47	158.00	-20.95	1	23	3612	 1008 2678 1817 336
+Complete
+
+Scan Complete
+

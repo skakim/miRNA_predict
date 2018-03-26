@@ -1,0 +1,104 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_26.fas
+Reference Filename:	target_26.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-122 MIMAT0000421(22 nt)
+Read Sequence:gi|209571525|ref|NM_003045.4| Homo sapiens solute carrier family 7 (cationic amino acid transporter, y+ system), member 1 (SLC7A1), mRNA(7357 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-122 vs gi|209571525|ref|NM_003045.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 163.000000  Q:2 to 20  R:3354 to 3375 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' gttTGTGGTAACAGTGTGAGGt 5'
+                   |::  ||||| ||||||| 
+   Ref:      5' tccATGAAATTGTGACACTCCa 3'
+
+   Energy:  -22.219999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-122	gi|209571525|ref|NM_003045.4|	163.00	-22.22	2 20	3354 3375	18	72.22%	83.33%
+
+
+   Forward:	Score: 163.000000  Q:2 to 21  R:3624 to 3648 Align Len (22) (72.73%) (77.27%)
+
+   Query:    3' gtTTGTGGTAA---CAGTGTGAGGt 5'
+                  |:|||||||     |||||||| 
+   Ref:      5' ccAGCACCATTTCACACACACTCCt 3'
+
+   Energy:  -25.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-122	gi|209571525|ref|NM_003045.4|	163.00	-25.44	2 21	3624 3648	22	72.73%	77.27%
+
+
+   Forward:	Score: 145.000000  Q:2 to 15  R:2657 to 2679 Align Len (14) (85.71%) (92.86%)
+
+   Query:    3' gtttgtggTAACA-GTGTGAGGt 5'
+                        ||||| ||:||||| 
+   Ref:      5' ggattgaaATTGTGCATACTCCa 3'
+
+   Energy:  -19.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-122	gi|209571525|ref|NM_003045.4|	145.00	-19.62	2 15	2657 2679	14	85.71%	92.86%
+
+
+   Forward:	Score: 143.000000  Q:2 to 12  R:6373 to 6394 Align Len (10) (80.00%) (90.00%)
+
+   Query:    3' gtttgtggtaaCAGTGTGAGGt 5'
+                           | :||||||| 
+   Ref:      5' tggtgcaagaaGCTACACTCCa 3'
+
+   Energy:  -16.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-122	gi|209571525|ref|NM_003045.4|	143.00	-16.44	2 12	6373 6394	10	80.00%	90.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 17  R:1619 to 1640 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' gtttgtGGTAACAGTGTGAGGt 5'
+                      |||||| ||| |||| 
+   Ref:      5' tcatgtCCATTGGCACTCTCCt 3'
+
+   Energy:  -21.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-122	gi|209571525|ref|NM_003045.4|	140.00	-21.14	2 17	1619 1640	15	86.67%	86.67%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-122	gi|209571525|ref|NM_003045.4|	754.00	-104.86	163.00	-25.44	1	22	7357	 3354 3624 2657 6373 1619
+Complete
+
+Scan Complete
+

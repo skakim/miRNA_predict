@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_4.fas
+Reference Filename:	target_4.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7a MIMAT0000062(22 nt)
+Read Sequence:gi|94536796|ref|NM_024674.4| Homo sapiens lin-28 homolog A (C. elegans) (LIN28A), mRNA(4014 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7a vs gi|94536796|ref|NM_024674.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 154.000000  Q:2 to 20  R:1630 to 1656 Align Len (23) (65.22%) (73.91%)
+
+   Query:    3' ttgATATGTTGGA-----TGATGGAGt 5'
+                   |: |||:|||     |||||||| 
+   Ref:      5' gagTGCACAGCCTATTGAACTACCTCa 3'
+
+   Energy:  -24.379999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7a	gi|94536796|ref|NM_024674.4|	154.00	-24.38	2 20	1630 1656	23	65.22%	73.91%
+
+
+   Forward:	Score: 147.000000  Q:2 to 18  R:2898 to 2918 Align Len (16) (75.00%) (93.75%)
+
+   Query:    3' ttgatATGTTGGATGATGGAGt 5'
+                     |:||:||| ||:|||| 
+   Ref:      5' ctcacTGCAGCCT-CTGCCTCt 3'
+
+   Energy:  -23.010000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7a	gi|94536796|ref|NM_024674.4|	147.00	-23.01	2 18	2898 2918	16	75.00%	93.75%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7a	gi|94536796|ref|NM_024674.4|	301.00	-47.39	154.00	-24.38	1	22	4014	 1630 2898
+Complete
+
+Scan Complete
+

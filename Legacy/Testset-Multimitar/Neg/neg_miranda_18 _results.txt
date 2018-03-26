@@ -1,0 +1,78 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_18.txt
+Reference Filename:	target_18.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-141-3p MIMAT0000432(22 nt)
+Read Sequence:gi|372622368|ref|NM_006281.3| Homo sapiens serine/threonine kinase 3 (STK3), transcript variant 1, mRNA(2828 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-141-3p vs gi|372622368|ref|NM_006281.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 14  R:2736 to 2757 Align Len (12) (83.33%) (91.67%)
+
+   Query:    3' gguagaaauGGUCUGUCACAAu 5'
+                         |: ||||||||| 
+   Ref:      5' tatggccatCTTGACAGTGTTt 3'
+
+   Energy:  -23.200001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-141-3p	gi|372622368|ref|NM_006281.3|	153.00	-23.20	2 14	2736 2757	12	83.33%	91.67%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-141-3p	gi|372622368|ref|NM_006281.3|	153.00	-23.20	153.00	-23.20	1	22	2828	 2736
+Complete
+
+Read Sequence:hsa-miR-141-5p MIMAT0004598(22 nt)
+Read Sequence:gi|372622368|ref|NM_006281.3| Homo sapiens serine/threonine kinase 3 (STK3), transcript variant 1, mRNA(2828 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-141-5p vs gi|372622368|ref|NM_006281.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 142.000000  Q:3 to 21  R:1055 to 1075 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' agGUUGUGACAUGACCUUCUac 5'
+                  ||||:  | |:|||||||  
+   Ref:      5' agCAACG-AGAATTGGAAGAgg 3'
+
+   Energy:  -19.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-141-5p	gi|372622368|ref|NM_006281.3|	142.00	-19.84	3 21	1055 1075	18	72.22%	83.33%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-141-5p	gi|372622368|ref|NM_006281.3|	142.00	-19.84	142.00	-19.84	2	22	2828	 1055
+Complete
+
+Scan Complete
+

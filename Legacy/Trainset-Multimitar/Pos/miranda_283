@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_283.fas
+Reference Filename:	target_283.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-7 MIMAT0000252(23 nt)
+Read Sequence:gi|38683859|ref|NM_003749.2| Homo sapiens insulin receptor substrate 2 (IRS2), mRNA(7014 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7 vs gi|38683859|ref|NM_003749.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 159.000000  Q:2 to 22  R:6102 to 6126 Align Len (22) (68.18%) (81.82%)
+
+   Query:    3' tgTTGTT-TTA-GTGATCAGAAGGt 5'
+                  ||::: ||| ||  |||||||| 
+   Ref:      5' ttAATGGCAATGCAAAAGTCTTCCt 3'
+
+   Energy:  -18.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|38683859|ref|NM_003749.2|	159.00	-18.78	2 22	6102 6126	22	68.18%	81.82%
+
+
+   Forward:	Score: 147.000000  Q:2 to 22  R:6821 to 6845 Align Len (22) (63.64%) (72.73%)
+
+   Query:    3' tgTTG-TTTTAGTGA-TCAGAAGGt 5'
+                  |||  |  |::||  ||||||| 
+   Ref:      5' ttAACTTATCTTGCTCTGTCTTCCa 3'
+
+   Energy:  -17.709999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|38683859|ref|NM_003749.2|	147.00	-17.71	2 22	6821 6845	22	63.64%	72.73%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7	gi|38683859|ref|NM_003749.2|	306.00	-36.49	159.00	-18.78	1	23	7014	 6102 6821
+Complete
+
+Scan Complete
+

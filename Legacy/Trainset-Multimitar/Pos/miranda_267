@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_267.fas
+Reference Filename:	target_267.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-373 MIMAT0000726(23 nt)
+Read Sequence:gi|284447286|ref|NM_173647.3| Homo sapiens ring finger protein 149 (RNF149), mRNA(2968 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-373 vs gi|284447286|ref|NM_173647.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 167.000000  Q:2 to 22  R:1861 to 1885 Align Len (22) (72.73%) (86.36%)
+
+   Query:    3' tgTGGGGTTTTAG-CT-TCGTGAAg 5'
+                  |:::||||| | || ||||||| 
+   Ref:      5' agATTTCAAAACCTGAGAGCACTTt 3'
+
+   Energy:  -19.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|284447286|ref|NM_173647.3|	167.00	-19.43	2 22	1861 1885	22	72.73%	86.36%
+
+
+   Forward:	Score: 164.000000  Q:2 to 22  R:2845 to 2868 Align Len (21) (71.43%) (80.95%)
+
+   Query:    3' tgTG-GGGTTTTAGCTTCGTGAAg 5'
+                  || ||:: ||||  ||||||| 
+   Ref:      5' tcACGCCTGTAATCCCAGCACTTt 3'
+
+   Energy:  -22.250000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|284447286|ref|NM_173647.3|	164.00	-22.25	2 22	2845 2868	21	71.43%	80.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-373	gi|284447286|ref|NM_173647.3|	331.00	-41.68	167.00	-22.25	1	23	2968	 1861 2845
+Complete
+
+Scan Complete
+

@@ -1,0 +1,116 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_70.fas
+Reference Filename:	target_70.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-145 MIMAT0000437(23 nt)
+Read Sequence:gi|295844830|ref|NM_024615.3| Homo sapiens poly (ADP-ribose) polymerase family, member 8 (PARP8), transcript variant 2, mRNA(7177 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-145 vs gi|295844830|ref|NM_024615.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 149.000000  Q:2 to 22  R:74 to 96 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' tcCCTAAGGACCCTTTTGACCTg 5'
+                  | || ::|  ||||:||||| 
+   Ref:      5' ctGAATATTTACGAAAGCTGGAa 3'
+
+   Energy:  -15.820000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|295844830|ref|NM_024615.3|	149.00	-15.82	2 22	74 96	20	65.00%	80.00%
+
+
+   Forward:	Score: 148.000000  Q:2 to 19  R:2753 to 2779 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' tccctAAGGA-CCC---TTTTGACCTg 5'
+                     ||||| |||   |||:||||| 
+   Ref:      5' aagccTTCCTCGGGTTCAAAGCTGGAt 3'
+
+   Energy:  -23.530001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|295844830|ref|NM_024615.3|	148.00	-23.53	2 19	2753 2779	21	76.19%	80.95%
+
+
+   Forward:	Score: 145.000000  Q:2 to 22  R:4715 to 4737 Align Len (20) (60.00%) (65.00%)
+
+   Query:    3' tcCCTAAGGACCCTTTTGACCTg 5'
+                  | |||   |   :||||||| 
+   Ref:      5' taGTATTGGAGTCTGAACTGGAa 3'
+
+   Energy:  -16.559999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|295844830|ref|NM_024615.3|	145.00	-16.56	2 22	4715 4737	20	60.00%	65.00%
+
+
+   Forward:	Score: 142.000000  Q:2 to 11  R:601 to 623 Align Len (9) (88.89%) (88.89%)
+
+   Query:    3' tccctaaggacccTTTTGACCTg 5'
+                             | ||||||| 
+   Ref:      5' tgcacaagcacccACAACTGGAa 3'
+
+   Energy:  -11.730000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|295844830|ref|NM_024615.3|	142.00	-11.73	2 11	601 623	9	88.89%	88.89%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1799 to 1821 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' tccctaaggacccttTTGACCTg 5'
+                               ||||||| 
+   Ref:      5' tgctgatgaaatagcAACTGGAg 3'
+
+   Energy:  -13.230000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|295844830|ref|NM_024615.3|	140.00	-13.23	2 9	1799 1821	7	100.00%	100.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:3017 to 3039 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' tccctaaggacccttTTGACCTg 5'
+                               ||||||| 
+   Ref:      5' tatactaaactctttAACTGGAt 3'
+
+   Energy:  -12.030000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|295844830|ref|NM_024615.3|	140.00	-12.03	2 9	3017 3039	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-145	gi|295844830|ref|NM_024615.3|	864.00	-92.90	149.00	-23.53	1	23	7177	 74 2753 4715 601 1799 3017
+Complete
+
+Scan Complete
+

@@ -1,0 +1,80 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_147.fas
+Reference Filename:	target_147.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-182 MIMAT0000259(24 nt)
+Read Sequence:gi|168480141|ref|NM_015270.3| Homo sapiens adenylate cyclase 6 (ADCY6), transcript variant 1, mRNA(6583 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-182 vs gi|168480141|ref|NM_015270.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 181.000000  Q:2 to 23  R:2916 to 2940 Align Len (22) (81.82%) (86.36%)
+
+   Query:    3' tcAC-ACTCAAGATGGTAACGGTTt 5'
+                  || | | ||||:|||||||||| 
+   Ref:      5' tgTGTTTACTTCTGCCATTGCCAAc 3'
+
+   Energy:  -27.090000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-182	gi|168480141|ref|NM_015270.3|	181.00	-27.09	2 23	2916 2940	22	81.82%	86.36%
+
+
+   Forward:	Score: 164.000000  Q:2 to 23  R:3595 to 3621 Align Len (24) (75.00%) (75.00%)
+
+   Query:    3' tcACACT-CAA--GATGGTAACGGTTt 5'
+                  ||| | |||  |  |||||||||| 
+   Ref:      5' gcTGTTATGTTTGCCTCCATTGCCAAc 3'
+
+   Energy:  -19.110001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-182	gi|168480141|ref|NM_015270.3|	164.00	-19.11	2 23	3595 3621	24	75.00%	75.00%
+
+
+   Forward:	Score: 159.000000  Q:2 to 16  R:5090 to 5113 Align Len (14) (78.57%) (92.86%)
+
+   Query:    3' tcacactcaAGATGGTAACGGTTt 5'
+                         ||| |::||||||| 
+   Ref:      5' atctcttccTCTTCTGTTGCCAAa 3'
+
+   Energy:  -15.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-182	gi|168480141|ref|NM_015270.3|	159.00	-15.27	2 16	5090 5113	14	78.57%	92.86%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-182	gi|168480141|ref|NM_015270.3|	504.00	-61.47	181.00	-27.09	1	24	6583	 2916 3595 5090
+Complete
+
+Scan Complete
+

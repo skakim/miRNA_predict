@@ -1,0 +1,102 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_37.txt
+Reference Filename:	target_37.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-124-5p MIMAT0004527(22 nt)
+Read Sequence:gi|142369296|ref|NM_013464.4| Mus musculus aryl-hydrocarbon receptor (Ahr), mRNA(5494 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-5p vs gi|142369296|ref|NM_013464.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 150.000000  Q:2 to 21  R:478 to 498 Align Len (19) (68.42%) (73.68%)
+
+   Query:    3' uaGUUCCAGGCGACACUUGUGc 5'
+                  ||: | |||   ||||||| 
+   Ref:      5' caCAGAGACCG-GCTGAACACa 3'
+
+   Energy:  -16.889999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-5p	gi|142369296|ref|NM_013464.4|	150.00	-16.89	2 21	478 498	19	68.42%	73.68%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:5254 to 5275 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' uaguuccaggcgacACUUGUGc 5'
+                              ||||||| 
+   Ref:      5' tttcttacagcaccTGAACACt 3'
+
+   Energy:  -9.970000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-5p	gi|142369296|ref|NM_013464.4|	140.00	-9.97	2 9	5254 5275	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-124-5p	gi|142369296|ref|NM_013464.4|	290.00	-26.86	150.00	-16.89	1	22	5494	 478 5254
+Complete
+
+Read Sequence:mmu-miR-124-3p MIMAT0000134(20 nt)
+Read Sequence:gi|142369296|ref|NM_013464.4| Mus musculus aryl-hydrocarbon receptor (Ahr), mRNA(5494 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-3p vs gi|142369296|ref|NM_013464.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 14  R:2440 to 2459 Align Len (12) (83.33%) (91.67%)
+
+   Query:    3' ccguaagUGGCGCACGGAAu 5'
+                       || |:||||||| 
+   Ref:      5' gaggtggACAGTGTGCCTTa 3'
+
+   Energy:  -19.700001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142369296|ref|NM_013464.4|	153.00	-19.70	2 14	2440 2459	12	83.33%	91.67%
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:3620 to 3638 Align Len (17) (64.71%) (88.24%)
+
+   Query:    3' ccGUAAGUGGCGCACGGAAu 5'
+                  ::||| |: :||||||| 
+   Ref:      5' gaTGTTC-CTCTGTGCCTTa 3'
+
+   Energy:  -18.469999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142369296|ref|NM_013464.4|	152.00	-18.47	2 19	3620 3638	17	64.71%	88.24%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-124-3p	gi|142369296|ref|NM_013464.4|	305.00	-38.17	153.00	-19.70	2	20	5494	 2440 3620
+Complete
+
+Scan Complete
+

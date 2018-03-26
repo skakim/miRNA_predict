@@ -1,0 +1,116 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_14.fas
+Reference Filename:	target_14.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7e MIMAT0000066(22 nt)
+Read Sequence:gi|30581134|ref|NM_006306.2| Homo sapiens structural maintenance of chromosomes 1A (SMC1A), mRNA(9725 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7e vs gi|30581134|ref|NM_006306.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 161.000000  Q:2 to 21  R:4694 to 4716 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' ttGATATGTTGGA--GGATGGAGt 5'
+                  ||| ||||: |  |||||||| 
+   Ref:      5' ggCTA-ACAATATTACCTACCTCa 3'
+
+   Energy:  -23.540001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e	gi|30581134|ref|NM_006306.2|	161.00	-23.54	2 21	4694 4716	21	76.19%	80.95%
+
+
+   Forward:	Score: 161.000000  Q:2 to 20  R:6524 to 6544 Align Len (18) (77.78%) (83.33%)
+
+   Query:    3' ttgATATGTTGGAGGATGGAGt 5'
+                   ||  :|||| |||||||| 
+   Ref:      5' agaTAACTAACC-CCTACCTCa 3'
+
+   Energy:  -24.080000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e	gi|30581134|ref|NM_006306.2|	161.00	-24.08	2 20	6524 6544	18	77.78%	83.33%
+
+
+   Forward:	Score: 154.000000  Q:2 to 16  R:3837 to 3862 Align Len (18) (77.78%) (77.78%)
+
+   Query:    3' ttgatatGTTGGA----GGATGGAGt 5'
+                       ||||||    |||||||| 
+   Ref:      5' tgactccCAACCTTCCCCCTACCTCc 3'
+
+   Energy:  -23.799999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e	gi|30581134|ref|NM_006306.2|	154.00	-23.80	2 16	3837 3862	18	77.78%	77.78%
+
+
+   Forward:	Score: 152.000000  Q:2 to 13  R:8337 to 8358 Align Len (11) (81.82%) (100.00%)
+
+   Query:    3' ttgatatgttGGAGGATGGAGt 5'
+                          ::||||||||| 
+   Ref:      5' tgactccctcTTTCCTACCTCa 3'
+
+   Energy:  -22.719999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e	gi|30581134|ref|NM_006306.2|	152.00	-22.72	2 13	8337 8358	11	81.82%	100.00%
+
+
+   Forward:	Score: 145.000000  Q:2 to 19  R:6081 to 6103 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' ttgaTA-TGTTGGAGGATGGAGt 5'
+                    || |:|| | |||||||: 
+   Ref:      5' ggagATAATAAACACCTACCTTg 3'
+
+   Energy:  -15.420000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e	gi|30581134|ref|NM_006306.2|	145.00	-15.42	2 19	6081 6103	18	72.22%	83.33%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1 to 16 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ttgatatgttggagGATGGAGt 5'
+                              ||||||| 
+   Ref:      5' ------cgcgcgggCTACCTCa 3'
+
+   Energy:  -14.070000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e	gi|30581134|ref|NM_006306.2|	140.00	-14.07	2 9	1 16	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7e	gi|30581134|ref|NM_006306.2|	913.00	-123.63	161.00	-24.08	1	22	9725	 4694 6524 3837 8337 6081 1
+Complete
+
+Scan Complete
+

@@ -1,0 +1,248 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_214.fas
+Reference Filename:	target_214.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-29c MIMAT0000681(22 nt)
+Read Sequence:gi|48762933|ref|NM_000089.3| Homo sapiens collagen, type I, alpha 2 (COL1A2), mRNA(5411 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29c vs gi|48762933|ref|NM_000089.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:2825 to 2845 Align Len (19) (73.68%) (84.21%)
+
+   Query:    3' atTGGCTAAAGTTTACCACGAt 5'
+                  ||:|:||||   ||||||| 
+   Ref:      5' tgACTGGTTTC-CCTGGTGCTg 3'
+
+   Energy:  -25.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	162.00	-25.49	2 21	2825 2845	19	73.68%	84.21%
+
+
+   Forward:	Score: 154.000000  Q:2 to 20  R:2039 to 2062 Align Len (20) (70.00%) (75.00%)
+
+   Query:    3' attGGCTAAAGT--TTACCACGAt 5'
+                   |:|||   |  ||||||||| 
+   Ref:      5' gtcCTGATGGAAACAATGGTGCTc 3'
+
+   Energy:  -17.830000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	154.00	-17.83	2 20	2039 2062	20	70.00%	75.00%
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:5078 to 5099 Align Len (16) (68.75%) (81.25%)
+
+   Query:    3' attggCTAAAGTTTACCACGAt 5'
+                     || | : :|||||||| 
+   Ref:      5' ttgaaGAATGTTGATGGTGCTa 3'
+
+   Energy:  -15.030000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	153.00	-15.03	2 18	5078 5099	16	68.75%	81.25%
+
+
+   Forward:	Score: 152.000000  Q:2 to 21  R:2338 to 2359 Align Len (19) (57.89%) (78.95%)
+
+   Query:    3' atTGGCTAAAGTTTACCACGAt 5'
+                  ||| : | ::: ||||||| 
+   Ref:      5' gaACCTGGTGTGGTTGGTGCTg 3'
+
+   Energy:  -20.549999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	152.00	-20.55	2 21	2338 2359	19	57.89%	78.95%
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:2248 to 2269 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' attGGCTAAAGTTTACCACGAt 5'
+                   || : |  :|:||||||| 
+   Ref:      5' cccCCAGGTGAGAGTGGTGCTg 3'
+
+   Energy:  -22.020000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	151.00	-22.02	2 20	2248 2269	18	61.11%	77.78%
+
+
+   Forward:	Score: 151.000000  Q:2 to 12  R:2473 to 2494 Align Len (10) (90.00%) (100.00%)
+
+   Query:    3' attggctaaagTTTACCACGAt 5'
+                           |:|||||||| 
+   Ref:      5' aaccctggcagAGATGGTGCTc 3'
+
+   Energy:  -17.459999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	151.00	-17.46	2 12	2473 2494	10	90.00%	100.00%
+
+
+   Forward:	Score: 150.000000  Q:2 to 21  R:2006 to 2026 Align Len (19) (57.89%) (84.21%)
+
+   Query:    3' atTGGCTAAAGTTTACCACGAt 5'
+                  :|:|:| |: : ||||||| 
+   Ref:      5' atGCTGGTCTT-GCTGGTGCTc 3'
+
+   Energy:  -15.380000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	150.00	-15.38	2 21	2006 2026	19	57.89%	84.21%
+
+
+   Forward:	Score: 150.000000  Q:2 to 21  R:2660 to 2683 Align Len (21) (66.67%) (76.19%)
+
+   Query:    3' atTGGCTA-AAGTT-TACCACGAt 5'
+                  :|:| |  ||||  ||||||| 
+   Ref:      5' gtGCTGCTGGTCAACCTGGTGCTa 3'
+
+   Energy:  -19.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	150.00	-19.18	2 21	2660 2683	21	66.67%	76.19%
+
+
+   Forward:	Score: 149.000000  Q:2 to 21  R:3121 to 3142 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' atTGG-CTAAAGTTTACCACGAt 5'
+                  ||| |:| |: : ||||||| 
+   Ref:      5' ctACCAGGTGTT-GCTGGTGCTg 3'
+
+   Energy:  -18.480000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	149.00	-18.48	2 21	3121 3142	20	65.00%	80.00%
+
+
+   Forward:	Score: 147.000000  Q:2 to 18  R:4508 to 4528 Align Len (16) (68.75%) (81.25%)
+
+   Query:    3' attggCTAAAGTTTACCACGAt 5'
+                     ||  || ::||||||| 
+   Ref:      5' ctttgGACATC-GGTGGTGCTg 3'
+
+   Energy:  -17.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	147.00	-17.62	2 18	4508 4528	16	68.75%	81.25%
+
+
+   Forward:	Score: 146.000000  Q:2 to 21  R:2645 to 2665 Align Len (19) (57.89%) (78.95%)
+
+   Query:    3' atTGGCTAAAGTTTACCACGAt 5'
+                  :|:|: | | : ||||||| 
+   Ref:      5' ttGCTGG-TCCTGCTGGTGCTg 3'
+
+   Energy:  -17.570000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	146.00	-17.57	2 21	2645 2665	19	57.89%	78.95%
+
+
+   Forward:	Score: 146.000000  Q:2 to 21  R:3329 to 3349 Align Len (19) (57.89%) (78.95%)
+
+   Query:    3' atTGGCTAAAGTTTACCACGAt 5'
+                  |::|: | | : ||||||| 
+   Ref:      5' atATTGG-TCCCGTTGGTGCTg 3'
+
+   Energy:  -19.219999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	146.00	-19.22	2 21	3329 3349	19	57.89%	78.95%
+
+
+   Forward:	Score: 142.000000  Q:2 to 20  R:3183 to 3205 Align Len (19) (63.16%) (68.42%)
+
+   Query:    3' attGGC-TAAAGTTTACCACGAt 5'
+                   ||| : | |   ||||||| 
+   Ref:      5' ggcCCGTGGTCCTCCTGGTGCTg 3'
+
+   Energy:  -18.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	142.00	-18.65	2 20	3183 3205	19	63.16%	68.42%
+
+
+   Forward:	Score: 142.000000  Q:2 to 15  R:3427 to 3448 Align Len (13) (69.23%) (76.92%)
+
+   Query:    3' attggctaAAGTTTACCACGAt 5'
+                        | | : ||||||| 
+   Ref:      5' cctgttggTCCTGCTGGTGCTg 3'
+
+   Energy:  -16.129999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	142.00	-16.13	2 15	3427 3448	13	69.23%	76.92%
+
+
+   Forward:	Score: 141.000000  Q:2 to 18  R:3059 to 3079 Align Len (17) (70.59%) (76.47%)
+
+   Query:    3' attggCTA-AAGTTTACCACGAt 5'
+                     |:| |||   ||||||| 
+   Ref:      5' ctcagGGTCTTC--TTGGTGCTc 3'
+
+   Energy:  -13.790000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	141.00	-13.79	2 18	3059 3079	17	70.59%	76.47%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1456 to 1477 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' attggctaaagtttACCACGAt 5'
+                              ||||||| 
+   Ref:      5' attcctggccctgtTGGTGCTg 3'
+
+   Energy:  -16.000000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	140.00	-16.00	2 9	1456 1477	7	100.00%	100.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:2491 to 2512 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' attggctaaagtttACCACGAt 5'
+                              ||||||| 
+   Ref:      5' gctcgtggtgctccTGGTGCTg 3'
+
+   Energy:  -15.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	140.00	-15.84	2 9	2491 2512	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-29c	gi|48762933|ref|NM_000089.3|	2516.00	-306.24	162.00	-25.49	1	22	5411	 2825 2039 5078 2338 2248 2473 2006 2660 3121 4508 2645 3329 3183 3427 3059 1456 2491
+Complete
+
+Scan Complete
+

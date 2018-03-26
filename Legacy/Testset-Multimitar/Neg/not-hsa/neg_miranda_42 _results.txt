@@ -1,0 +1,99 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_42.txt
+Reference Filename:	target_42.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-16-5p MIMAT0000527(22 nt)
+Read Sequence:gi|56550068|ref|NM_028399.1| Mus musculus cyclin T2 (Ccnt2), mRNA(3514 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-16-5p vs gi|56550068|ref|NM_028399.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 167.000000  Q:2 to 21  R:2327 to 2349 Align Len (20) (80.00%) (80.00%)
+
+   Query:    3' gcGGU-UAUAAAUGCACGACGAu 5'
+                  ||| || | || |||||||| 
+   Ref:      5' ttCCATATTTGTAAGTGCTGCTt 3'
+
+   Energy:  -22.049999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-16-5p	gi|56550068|ref|NM_028399.1|	167.00	-22.05	2 21	2327 2349	20	80.00%	80.00%
+
+
+   Forward:	Score: 150.000000  Q:2 to 19  R:2455 to 2476 Align Len (17) (64.71%) (76.47%)
+
+   Query:    3' gcggUUAUAAAUGCACGACGAu 5'
+                    |||:  |:  ||||||| 
+   Ref:      5' gatgAATGGCTGGCTGCTGCTa 3'
+
+   Energy:  -15.440000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-16-5p	gi|56550068|ref|NM_028399.1|	150.00	-15.44	2 19	2455 2476	17	64.71%	76.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-16-5p	gi|56550068|ref|NM_028399.1|	317.00	-37.49	167.00	-22.05	1	22	3514	 2327 2455
+Complete
+
+Read Sequence:mmu-miR-16-1-3p MIMAT0004625(22 nt)
+Read Sequence:gi|56550068|ref|NM_028399.1| Mus musculus cyclin T2 (Ccnt2), mRNA(3514 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-16-1-3p vs gi|56550068|ref|NM_028399.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-16-2-3p MIMAT0017018(22 nt)
+Read Sequence:gi|56550068|ref|NM_028399.1| Mus musculus cyclin T2 (Ccnt2), mRNA(3514 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-16-2-3p vs gi|56550068|ref|NM_028399.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 16  R:779 to 798 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' uuucgucGUGUUAUUAUAACCa 5'
+                       :|||  |||||||| 
+   Ref:      5' gagtttcTACA--AATATTGGa 3'
+
+   Energy:  -12.070000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-16-2-3p	gi|56550068|ref|NM_028399.1|	148.00	-12.07	2 16	779 798	14	78.57%	85.71%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-16-2-3p	gi|56550068|ref|NM_028399.1|	148.00	-12.07	148.00	-12.07	3	22	3514	 779
+Complete
+
+Scan Complete
+

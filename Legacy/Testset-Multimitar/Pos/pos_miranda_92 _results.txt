@@ -1,0 +1,77 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_92.txt
+Reference Filename:	target_92.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|189217902|ref|NM_172105.3| Homo sapiens eyes absent homolog 4 (Drosophila) (EYA4), transcript variant 4, mRNA(5697 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|189217902|ref|NM_172105.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|189217902|ref|NM_172105.3| Homo sapiens eyes absent homolog 4 (Drosophila) (EYA4), transcript variant 4, mRNA(5697 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|189217902|ref|NM_172105.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 141.000000  Q:2 to 10  R:3016 to 3035 Align Len (8) (87.50%) (100.00%)
+
+   Query:    3' ccguaaguggcGCACGGAAu 5'
+                           :||||||| 
+   Ref:      5' tactgatgtgtTGTGCCTTa 3'
+
+   Energy:  -16.709999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|189217902|ref|NM_172105.3|	141.00	-16.71	2 10	3016 3035	8	87.50%	100.00%
+
+
+   Forward:	Score: 141.000000  Q:2 to 10  R:5021 to 5040 Align Len (8) (87.50%) (100.00%)
+
+   Query:    3' ccguaaguggcGCACGGAAu 5'
+                           :||||||| 
+   Ref:      5' atatggaatatTGTGCCTTa 3'
+
+   Energy:  -14.820000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|189217902|ref|NM_172105.3|	141.00	-14.82	2 10	5021 5040	8	87.50%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|189217902|ref|NM_172105.3|	282.00	-31.53	141.00	-16.71	2	20	5697	 3016 5021
+Complete
+
+Scan Complete
+

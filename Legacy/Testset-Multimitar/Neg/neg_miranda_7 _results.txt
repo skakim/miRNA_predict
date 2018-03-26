@@ -1,0 +1,102 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_7.txt
+Reference Filename:	target_7.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7b-5p MIMAT0000063(22 nt)
+Read Sequence:gi|166197663|ref|NM_001237.3| Homo sapiens cyclin A2 (CCNA2), mRNA(2811 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs gi|166197663|ref|NM_001237.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:1485 to 1503 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' uuGGUGUGUUGGAUGAUGGAGu 5'
+                  :||| ||: |  ||||||| 
+   Ref:      5' ctTCAC-CAGAC--CTACCTCa 3'
+
+   Energy:  -20.469999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	gi|166197663|ref|NM_001237.3|	147.00	-20.47	2 21	1485 1503	19	68.42%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-5p	gi|166197663|ref|NM_001237.3|	147.00	-20.47	147.00	-20.47	1	22	2811	 1485
+Complete
+
+Read Sequence:hsa-let-7b-3p MIMAT0004482(22 nt)
+Read Sequence:gi|166197663|ref|NM_001237.3| Homo sapiens cyclin A2 (CCNA2), mRNA(2811 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-3p vs gi|166197663|ref|NM_001237.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:1747 to 1768 Align Len (18) (66.67%) (72.22%)
+
+   Query:    3' cccUUCCGUCAUCCAACAUAUc 5'
+                   | ||:  ||  ||||||| 
+   Ref:      5' taaATGGTTTTAATTTGTATAt 3'
+
+   Energy:  -6.910000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-3p	gi|166197663|ref|NM_001237.3|	151.00	-6.91	2 20	1747 1768	18	66.67%	72.22%
+
+
+   Forward:	Score: 149.000000  Q:2 to 21  R:1123 to 1145 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' ccCUUC--CGUCAUCCAACAUAUc 5'
+                  ||||  |||| || ||||:|| 
+   Ref:      5' caGAAGTAGCAG-AGTTTGTGTAc 3'
+
+   Energy:  -16.010000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-3p	gi|166197663|ref|NM_001237.3|	149.00	-16.01	2 21	1123 1145	21	76.19%	80.95%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1758 to 1779 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' cccuuccgucauccAACAUAUc 5'
+                              ||||||| 
+   Ref:      5' aatttgtatatcttTTGTATAt 3'
+
+   Energy:  -3.380000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-3p	gi|166197663|ref|NM_001237.3|	140.00	-3.38	2 9	1758 1779	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-3p	gi|166197663|ref|NM_001237.3|	440.00	-26.30	151.00	-16.01	2	22	2811	 1747 1123 1758
+Complete
+
+Scan Complete
+

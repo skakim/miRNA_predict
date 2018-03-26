@@ -1,0 +1,102 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_65.txt
+Reference Filename:	target_65.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|145309325|ref|NM_002293.3| Homo sapiens laminin, gamma 1 (formerly LAMB2) (LAMC1), mRNA(7889 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|145309325|ref|NM_002293.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 144.000000  Q:2 to 15  R:1011 to 1031 Align Len (13) (76.92%) (84.62%)
+
+   Query:    3' uaguuccaGGCGACACUUGUGc 5'
+                        :|||  ||||||| 
+   Ref:      5' actcttaaTCGC-CTGAACACt 3'
+
+   Energy:  -13.530000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-5p	gi|145309325|ref|NM_002293.3|	144.00	-13.53	2 15	1011 1031	13	76.92%	84.62%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-5p	gi|145309325|ref|NM_002293.3|	144.00	-13.53	144.00	-13.53	1	22	7889	 1011
+Complete
+
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|145309325|ref|NM_002293.3| Homo sapiens laminin, gamma 1 (formerly LAMB2) (LAMC1), mRNA(7889 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|145309325|ref|NM_002293.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 154.000000  Q:2 to 15  R:5135 to 5154 Align Len (13) (84.62%) (84.62%)
+
+   Query:    3' ccguaaGUGGCGCACGGAAu 5'
+                      ||| | ||||||| 
+   Ref:      5' tgaggcCACAGAGTGCCTTg 3'
+
+   Energy:  -20.110001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|145309325|ref|NM_002293.3|	154.00	-20.11	2 15	5135 5154	13	84.62%	84.62%
+
+
+   Forward:	Score: 148.000000  Q:2 to 19  R:7737 to 7755 Align Len (17) (64.71%) (82.35%)
+
+   Query:    3' ccGUAAGUGGCGCACGGAAu 5'
+                  | ||:| : :||||||| 
+   Ref:      5' acCTTTTA-TATGTGCCTTc 3'
+
+   Energy:  -13.910000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|145309325|ref|NM_002293.3|	148.00	-13.91	2 19	7737 7755	17	64.71%	82.35%
+
+
+   Forward:	Score: 141.000000  Q:2 to 10  R:6756 to 6775 Align Len (8) (87.50%) (100.00%)
+
+   Query:    3' ccguaaguggcGCACGGAAu 5'
+                           :||||||| 
+   Ref:      5' ctccaaagaatTGTGCCTTg 3'
+
+   Energy:  -13.830000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|145309325|ref|NM_002293.3|	141.00	-13.83	2 10	6756 6775	8	87.50%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|145309325|ref|NM_002293.3|	443.00	-47.85	154.00	-20.11	2	20	7889	 5135 7737 6756
+Complete
+
+Scan Complete
+

@@ -1,0 +1,101 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_35.txt
+Reference Filename:	target_35.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-124-5p MIMAT0004527(22 nt)
+Read Sequence:gi|142365904|ref|NM_009498.4| Mus musculus vesicle-associated membrane protein 3 (Vamp3), mRNA(2115 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-5p vs gi|142365904|ref|NM_009498.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-124-3p MIMAT0000134(20 nt)
+Read Sequence:gi|142365904|ref|NM_009498.4| Mus musculus vesicle-associated membrane protein 3 (Vamp3), mRNA(2115 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-124-3p vs gi|142365904|ref|NM_009498.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 19  R:590 to 610 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' ccGUAAGUGGCG-CACGGAAu 5'
+                  ||||:  | | ||||||| 
+   Ref:      5' caCATTTTGCACAGTGCCTTt 3'
+
+   Energy:  -17.330000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	153.00	-17.33	2 19	590 610	18	72.22%	77.78%
+
+
+   Forward:	Score: 150.000000  Q:2 to 15  R:839 to 858 Align Len (13) (76.92%) (84.62%)
+
+   Query:    3' ccguaaGUGGCGCACGGAAu 5'
+                      ||  |:||||||| 
+   Ref:      5' caatagCAGGGTGTGCCTTa 3'
+
+   Energy:  -18.790001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	150.00	-18.79	2 15	839 858	13	76.92%	84.62%
+
+
+   Forward:	Score: 149.000000  Q:2 to 19  R:78 to 98 Align Len (18) (61.11%) (83.33%)
+
+   Query:    3' ccGUAAGUG-GCGCACGGAAu 5'
+                  ::| :||  |:||||||| 
+   Ref:      5' aaTGTCTACAGGTGTGCCTTc 3'
+
+   Energy:  -16.080000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	149.00	-16.08	2 19	78 98	18	61.11%	83.33%
+
+
+   Forward:	Score: 141.000000  Q:2 to 10  R:526 to 545 Align Len (8) (87.50%) (100.00%)
+
+   Query:    3' ccguaaguggcGCACGGAAu 5'
+                           :||||||| 
+   Ref:      5' tgcctagaaaaTGTGCCTTt 3'
+
+   Energy:  -12.840000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	141.00	-12.84	2 10	526 545	8	87.50%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-124-3p	gi|142365904|ref|NM_009498.4|	593.00	-65.04	153.00	-18.79	2	20	2115	 590 839 78 526
+Complete
+
+Scan Complete
+

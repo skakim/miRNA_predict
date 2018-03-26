@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_43.txt
+Reference Filename:	target_43.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-1 MIMAT0000416(22 nt)
+Read Sequence:gi|343478296|ref|NM_001829.3| Homo sapiens chloride channel, voltage-sensitive 3 (CLCN3), transcript variant b, mRNA(6223 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-1 vs gi|343478296|ref|NM_001829.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 167.000000  Q:2 to 21  R:3509 to 3531 Align Len (20) (75.00%) (85.00%)
+
+   Query:    3' uaUGU-AUGAAGAAAUGUAAGGu 5'
+                  :|| ||| |:| |||||||| 
+   Ref:      5' aaGCATTACCTTTCTACATTCCa 3'
+
+   Energy:  -17.110001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|343478296|ref|NM_001829.3|	167.00	-17.11	2 21	3509 3531	20	75.00%	85.00%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:2002 to 2023 Align Len (19) (63.16%) (63.16%)
+
+   Query:    3' uaUGUAUGAAGAAAUGUAAGGu 5'
+                  | ||  |   | ||||||| 
+   Ref:      5' taAAATTGTCGATGACATTCCt 3'
+
+   Energy:  -10.290000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|343478296|ref|NM_001829.3|	144.00	-10.29	2 21	2002 2023	19	63.16%	63.16%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1	gi|343478296|ref|NM_001829.3|	311.00	-27.40	167.00	-17.11	1	22	6223	 3509 2002
+Complete
+
+Scan Complete
+

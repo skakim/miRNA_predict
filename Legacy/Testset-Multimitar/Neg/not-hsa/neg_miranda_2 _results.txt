@@ -1,0 +1,65 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_2.txt
+Reference Filename:	target_2.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:dme-miR-286-5p MIMAT0020820(22 nt)
+Read Sequence:gi|28571893|ref|NM_080709.3| Drosophila melanogaster bride of sevenless (boss), mRNA(3013 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-286-5p vs gi|28571893|ref|NM_080709.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:dme-miR-286-3p MIMAT0000359(23 nt)
+Read Sequence:gi|28571893|ref|NM_080709.3| Drosophila melanogaster bride of sevenless (boss), mRNA(3013 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: dme-miR-286-3p vs gi|28571893|ref|NM_080709.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 151.000000  Q:2 to 22  R:2864 to 2895 Align Len (29) (65.52%) (65.52%)
+
+   Query:    3' ucGUGCUCACAAG-----CC----AGAUCAGu 5'
+                  ||||||||| |     ||    ||||||| 
+   Ref:      5' ccCACGAGTGTACAATGTGGCACTTCTAGTCa 3'
+
+   Energy:  -29.840000 kCal/Mol
+
+Scores for this hit:
+>dme-miR-286-3p	gi|28571893|ref|NM_080709.3|	151.00	-29.84	2 22	2864 2895	29	65.52%	65.52%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>dme-miR-286-3p	gi|28571893|ref|NM_080709.3|	151.00	-29.84	151.00	-29.84	2	23	3013	 2864
+Complete
+
+Scan Complete
+

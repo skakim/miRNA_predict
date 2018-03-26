@@ -1,0 +1,77 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_152.fas
+Reference Filename:	target_152.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-205* MIMAT0009197(21 nt)
+Read Sequence:gi|45269153|ref|NM_005978.3| Homo sapiens S100 calcium binding protein A2 (S100A2), mRNA(970 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-205* vs gi|45269153|ref|NM_005978.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-205 MIMAT0000266(22 nt)
+Read Sequence:gi|45269153|ref|NM_005978.3| Homo sapiens S100 calcium binding protein A2 (S100A2), mRNA(970 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-205 vs gi|45269153|ref|NM_005978.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 159.000000  Q:2 to 21  R:423 to 445 Align Len (20) (75.00%) (75.00%)
+
+   Query:    3' gtCTGAGGCCACC-TTACTTCCt 5'
+                  || |  || || |||||||| 
+   Ref:      5' ctGAGTAAGGGGGAAATGAAGGa 3'
+
+   Energy:  -21.080000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-205	gi|45269153|ref|NM_005978.3|	159.00	-21.08	2 21	423 445	20	75.00%	75.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:774 to 795 Align Len (19) (63.16%) (73.68%)
+
+   Query:    3' gtCTGAGGCCACCTTACTTCCt 5'
+                  || | | | | :||||:|| 
+   Ref:      5' tgGAGTGCTGGGAGATGAGGGc 3'
+
+   Energy:  -19.190001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-205	gi|45269153|ref|NM_005978.3|	140.00	-19.19	2 21	774 795	19	63.16%	73.68%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-205	gi|45269153|ref|NM_005978.3|	299.00	-40.27	159.00	-21.08	2	22	970	 423 774
+Complete
+
+Scan Complete
+

@@ -1,0 +1,99 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_262.fas
+Reference Filename:	target_262.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-7-1* MIMAT0004553(22 nt)
+Read Sequence:gi|215820658|ref|NM_022169.4| Homo sapiens ATP-binding cassette, sub-family G (WHITE), member 4 (ABCG4), transcript variant 1, mRNA(3874 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7-1* vs gi|215820658|ref|NM_022169.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:3 to 21  R:3765 to 3784 Align Len (18) (77.78%) (83.33%)
+
+   Query:    3' atACCGTCTGACACTAAACAac 5'
+                  || ||| :||| ||||||  
+   Ref:      5' gaTGCCAG-TTGT-ATTTGTgg 3'
+
+   Energy:  -13.920000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7-1*	gi|215820658|ref|NM_022169.4|	140.00	-13.92	3 21	3765 3784	18	77.78%	83.33%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7-1*	gi|215820658|ref|NM_022169.4|	140.00	-13.92	140.00	-13.92	1	22	3874	 3765
+Complete
+
+Read Sequence:hsa-miR-7 MIMAT0000252(23 nt)
+Read Sequence:gi|215820658|ref|NM_022169.4| Homo sapiens ATP-binding cassette, sub-family G (WHITE), member 4 (ABCG4), transcript variant 1, mRNA(3874 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7 vs gi|215820658|ref|NM_022169.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 149.000000  Q:2 to 14  R:2472 to 2494 Align Len (12) (83.33%) (83.33%)
+
+   Query:    3' tgttgttttaGTGATCAGAAGGt 5'
+                          ||  |||||||| 
+   Ref:      5' ccactatgccCAGGAGTCTTCCc 3'
+
+   Energy:  -14.370000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|215820658|ref|NM_022169.4|	149.00	-14.37	2 14	2472 2494	12	83.33%	83.33%
+
+
+   Forward:	Score: 149.000000  Q:2 to 14  R:3332 to 3354 Align Len (12) (83.33%) (83.33%)
+
+   Query:    3' tgttgttttaGTGATCAGAAGGt 5'
+                          | | |||||||| 
+   Ref:      5' ggtgtctaccCCCAAGTCTTCCc 3'
+
+   Energy:  -13.360000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7	gi|215820658|ref|NM_022169.4|	149.00	-13.36	2 14	3332 3354	12	83.33%	83.33%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7	gi|215820658|ref|NM_022169.4|	298.00	-27.73	149.00	-14.37	2	23	3874	 2472 3332
+Complete
+
+Read Sequence:hsa-miR-7-2* MIMAT0004554(22 nt)
+Read Sequence:gi|215820658|ref|NM_022169.4| Homo sapiens ATP-binding cassette, sub-family G (WHITE), member 4 (ABCG4), transcript variant 1, mRNA(3874 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-7-2* vs gi|215820658|ref|NM_022169.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

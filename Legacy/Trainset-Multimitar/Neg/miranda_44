@@ -1,0 +1,78 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_44.fas
+Reference Filename:	target_44.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-143 MIMAT0000435(21 nt)
+Read Sequence:gi|222080048|ref|NM_000867.4| Homo sapiens 5-hydroxytryptamine (serotonin) receptor 2B (HTR2B), mRNA(2240 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-143 vs gi|222080048|ref|NM_000867.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 141.000000  Q:2 to 18  R:2043 to 2063 Align Len (16) (62.50%) (68.75%)
+
+   Query:    3' ctcgATGTCACGAAGTAGAGt 5'
+                    ||:|     ||||||| 
+   Ref:      5' gtcaTATATCAAATCATCTCt 3'
+
+   Energy:  -9.620000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-143	gi|222080048|ref|NM_000867.4|	141.00	-9.62	2 18	2043 2063	16	62.50%	68.75%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-143	gi|222080048|ref|NM_000867.4|	141.00	-9.62	141.00	-9.62	1	21	2240	 2043
+Complete
+
+Read Sequence:hsa-miR-143* MIMAT0004599(22 nt)
+Read Sequence:gi|222080048|ref|NM_000867.4| Homo sapiens 5-hydroxytryptamine (serotonin) receptor 2B (HTR2B), mRNA(2240 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-143* vs gi|222080048|ref|NM_000867.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 154.000000  Q:2 to 21  R:651 to 671 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' tgGTCTCTACGTCGTGACGTGg 5'
+                  |||:||  :|  ||||||| 
+   Ref:      5' aaCAGGGAAATA-AACTGCACt 3'
+
+   Energy:  -21.030001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-143*	gi|222080048|ref|NM_000867.4|	154.00	-21.03	2 21	651 671	19	68.42%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-143*	gi|222080048|ref|NM_000867.4|	154.00	-21.03	154.00	-21.03	2	22	2240	 651
+Complete
+
+Scan Complete
+

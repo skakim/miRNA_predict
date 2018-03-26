@@ -1,0 +1,140 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_86
+Reference Filename:	target_86
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-200a (22 nt)
+Read Sequence:gi|291575183|ref|NM_001128128.2| (6278 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-200a vs gi|291575183|ref|NM_001128128.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 171.000000  Q:2 to 17  R:2602 to 2624 Align Len (16) (93.75%) (93.75%)
+
+   Query:    3' tgtagcAATGGTC-TGTCACAAt 5'
+                      ||||||| |||||||| 
+   Ref:      5' tagtgtTTACCAGAACAGTGTTt 3'
+
+   Energy:  -23.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	171.00	-23.76	2 17	2602 2624	16	93.75%	93.75%
+
+
+   Forward:	Score: 170.000000  Q:2 to 15  R:523 to 544 Align Len (13) (100.00%) (100.00%)
+
+   Query:    3' tgtagcaaTGGTCTGTCACAAt 5'
+                        ||||||||||||| 
+   Ref:      5' gccaacagACCAGACAGTGTTa 3'
+
+   Energy:  -27.040001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	170.00	-27.04	2 15	523 544	13	100.00%	100.00%
+
+
+   Forward:	Score: 170.000000  Q:2 to 21  R:2790 to 2813 Align Len (21) (80.95%) (85.71%)
+
+   Query:    3' tgTAGC-AATGGTC-TGTCACAAt 5'
+                  ||:| | ||||| |||||||| 
+   Ref:      5' ccATTGCTGACCAGAACAGTGTTc 3'
+
+   Energy:  -25.309999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	170.00	-25.31	2 21	2790 2813	21	80.95%	85.71%
+
+
+   Forward:	Score: 155.000000  Q:2 to 17  R:4484 to 4507 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' tgtagcAATGGTCT--GTCACAAt 5'
+                      | |:||||  ||||||| 
+   Ref:      5' gcaaaaTCATCAGAATCAGTGTTt 3'
+
+   Energy:  -16.110001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	155.00	-16.11	2 17	4484 4507	17	76.47%	82.35%
+
+
+   Forward:	Score: 150.000000  Q:2 to 21  R:5238 to 5258 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' tgTAGCAATGGTCTGTCACAAt 5'
+                  ||: | |::  |||||||| 
+   Ref:      5' agATT-TGATTTAACAGTGTTa 3'
+
+   Energy:  -13.060000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	150.00	-13.06	2 21	5238 5258	19	63.16%	78.95%
+
+
+   Forward:	Score: 149.000000  Q:2 to 16  R:5478 to 5498 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' tgtagcaATGGTCTGTCACAAt 5'
+                       || :| |||||||| 
+   Ref:      5' taacttcTA-TAAACAGTGTTg 3'
+
+   Energy:  -12.460000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	149.00	-12.46	2 16	5478 5498	14	78.57%	85.71%
+
+
+   Forward:	Score: 144.000000  Q:3 to 17  R:5112 to 5133 Align Len (14) (78.57%) (92.86%)
+
+   Query:    3' tgtagcAATGGTCTGTCACAat 5'
+                      |||::| |||||||  
+   Ref:      5' ctttatTTATTACACAGTGTag 3'
+
+   Energy:  -12.210000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	144.00	-12.21	3 17	5112 5133	14	78.57%	92.86%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1257 to 1278 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' tgtagcaatggtctGTCACAAt 5'
+                              ||||||| 
+   Ref:      5' gactcaagacatctCAGTGTTc 3'
+
+   Energy:  -11.800000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	140.00	-11.80	2 9	1257 1278	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-200a	gi|291575183|ref|NM_001128128.2|	1249.00	-141.75	171.00	-27.04	1	22	6278	 2602 523 2790 4484 5238 5478 5112 1257
+Complete
+
+Scan Complete
+

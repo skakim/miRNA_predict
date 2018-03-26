@@ -1,0 +1,90 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_156.txt
+Reference Filename:	target_156.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|379056372|ref|NM_153186.4| Homo sapiens KN motif and ankyrin repeat domains 1 (KANK1), transcript variant 2, mRNA(5352 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|379056372|ref|NM_153186.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 164.000000  Q:2 to 21  R:3735 to 3756 Align Len (19) (68.42%) (84.21%)
+
+   Query:    3' uaGUUCCAGGCGACACUUGUGc 5'
+                  ::||||:|  | ||||||| 
+   Ref:      5' taTGAGGTTCTGTCTGAACACc 3'
+
+   Energy:  -17.629999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-5p	gi|379056372|ref|NM_153186.4|	164.00	-17.63	2 21	3735 3756	19	68.42%	84.21%
+
+
+   Forward:	Score: 146.000000  Q:2 to 13  R:2341 to 2361 Align Len (11) (90.91%) (90.91%)
+
+   Query:    3' uaguuccaggCGACACUUGUGc 5'
+                          || |||||||| 
+   Ref:      5' gcctcccgggGC-GTGAACACt 3'
+
+   Energy:  -16.330000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-5p	gi|379056372|ref|NM_153186.4|	146.00	-16.33	2 13	2341 2361	11	90.91%	90.91%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-5p	gi|379056372|ref|NM_153186.4|	310.00	-33.96	164.00	-17.63	1	22	5352	 3735 2341
+Complete
+
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|379056372|ref|NM_153186.4| Homo sapiens KN motif and ankyrin repeat domains 1 (KANK1), transcript variant 2, mRNA(5352 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|379056372|ref|NM_153186.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:5272 to 5291 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ccguaaguggcgCACGGAAu 5'
+                            ||||||| 
+   Ref:      5' taaatgtttgaaGTGCCTTa 3'
+
+   Energy:  -13.420000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|379056372|ref|NM_153186.4|	140.00	-13.42	2 9	5272 5291	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|379056372|ref|NM_153186.4|	140.00	-13.42	140.00	-13.42	2	20	5352	 5272
+Complete
+
+Scan Complete
+

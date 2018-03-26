@@ -1,0 +1,104 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_287.fas
+Reference Filename:	target_287.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-96 MIMAT0000095(23 nt)
+Read Sequence:gi|168480141|ref|NM_015270.3| Homo sapiens adenylate cyclase 6 (ADCY6), transcript variant 1, mRNA(6583 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-96 vs gi|168480141|ref|NM_015270.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 21  R:4756 to 4780 Align Len (21) (71.43%) (80.95%)
+
+   Query:    3' tcgTTTTTAC-ACGAT-CACGGTTt 5'
+                   :|:|||| | | | ||||||| 
+   Ref:      5' cagGAGAATGTTTCCATGTGCCAAa 3'
+
+   Energy:  -18.370001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-96	gi|168480141|ref|NM_015270.3|	158.00	-18.37	2 21	4756 4780	21	71.43%	80.95%
+
+
+   Forward:	Score: 153.000000  Q:2 to 14  R:4947 to 4969 Align Len (12) (83.33%) (91.67%)
+
+   Query:    3' tcgtttttacACGATCACGGTTt 5'
+                          ||| :||||||| 
+   Ref:      5' gaagttcaccTGCAGGTGCCAAa 3'
+
+   Energy:  -16.340000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-96	gi|168480141|ref|NM_015270.3|	153.00	-16.34	2 14	4947 4969	12	83.33%	91.67%
+
+
+   Forward:	Score: 152.000000  Q:2 to 22  R:1513 to 1536 Align Len (21) (61.90%) (76.19%)
+
+   Query:    3' tcGTTTTTACACGA-TCACGGTTt 5'
+                  | ::||   ||| :||||||| 
+   Ref:      5' ctCTGGAAGCAGCTCGGTGCCAAt 3'
+
+   Energy:  -18.219999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-96	gi|168480141|ref|NM_015270.3|	152.00	-18.22	2 22	1513 1536	21	61.90%	76.19%
+
+
+   Forward:	Score: 151.000000  Q:2 to 21  R:5417 to 5440 Align Len (20) (60.00%) (80.00%)
+
+   Query:    3' tcgTTTTTA-CACGATCACGGTTt 5'
+                   |::|:|  | :| ||||||| 
+   Ref:      5' gagAGGAGTCCTTTTTGTGCCAAa 3'
+
+   Energy:  -16.969999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-96	gi|168480141|ref|NM_015270.3|	151.00	-16.97	2 21	5417 5440	20	60.00%	80.00%
+
+
+   Forward:	Score: 145.000000  Q:2 to 22  R:4980 to 5002 Align Len (20) (60.00%) (80.00%)
+
+   Query:    3' tcGTTTTTACACGATCACGGTTt 5'
+                  ||::: || |  |||||||: 
+   Ref:      5' gcCAGGGCTGGGGCAGTGCCAGa 3'
+
+   Energy:  -22.160000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-96	gi|168480141|ref|NM_015270.3|	145.00	-22.16	2 22	4980 5002	20	60.00%	80.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-96	gi|168480141|ref|NM_015270.3|	759.00	-92.06	158.00	-22.16	1	23	6583	 4756 4947 1513 5417 4980
+Complete
+
+Scan Complete
+

@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_31.txt
+Reference Filename:	target_31.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-1 MIMAT0000416(22 nt)
+Read Sequence:gi|284507296|ref|NM_000274.3| Homo sapiens ornithine aminotransferase (OAT), nuclear gene encoding mitochondrial protein, transcript variant 1, mRNA(2102 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-1 vs gi|284507296|ref|NM_000274.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 157.000000  Q:2 to 18  R:1980 to 2001 Align Len (16) (75.00%) (81.25%)
+
+   Query:    3' uauguAUGAAGAAAUGUAAGGu 5'
+                     || | :|| ||||||| 
+   Ref:      5' agaatTAGTGTTTAACATTCCt 3'
+
+   Energy:  -10.750000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|284507296|ref|NM_000274.3|	157.00	-10.75	2 18	1980 2001	16	75.00%	81.25%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1521 to 1542 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' uauguaugaagaaaUGUAAGGu 5'
+                              ||||||| 
+   Ref:      5' ttcctaatgtgggcACATTCCa 3'
+
+   Energy:  -12.770000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1	gi|284507296|ref|NM_000274.3|	140.00	-12.77	2 9	1521 1542	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1	gi|284507296|ref|NM_000274.3|	297.00	-23.52	157.00	-12.77	1	22	2102	 1980 1521
+Complete
+
+Scan Complete
+

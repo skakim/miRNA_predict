@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_18
+Reference Filename:	target_18
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-155 (23 nt)
+Read Sequence:gi|122939142|ref|NM_000685.4| (2362 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-155 vs gi|122939142|ref|NM_000685.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 159.000000  Q:2 to 22  R:1537 to 1558 Align Len (20) (75.00%) (75.00%)
+
+   Query:    3' tgGGGATAGTGCTAATCGTAATt 5'
+                  | ||| ||  || ||||||| 
+   Ref:      5' ttCACTACCA-AATGAGCATTAg 3'
+
+   Energy:  -13.520000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-155	gi|122939142|ref|NM_000685.4|	159.00	-13.52	2 22	1537 1558	20	75.00%	75.00%
+
+
+   Forward:	Score: 141.000000  Q:2 to 22  R:736 to 762 Align Len (24) (66.67%) (83.33%)
+
+   Query:    3' tgGGGAT-AGTGC-TA-A-TCGTAATt 5'
+                  ::||| ||||| :| | ||||||: 
+   Ref:      5' gtTTCTACTCACGTGTCTCAGCATTGa 3'
+
+   Energy:  -20.469999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-155	gi|122939142|ref|NM_000685.4|	141.00	-20.47	2 22	736 762	24	66.67%	83.33%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-155	gi|122939142|ref|NM_000685.4|	300.00	-33.99	159.00	-20.47	1	23	2362	 1537 736
+Complete
+
+Scan Complete
+

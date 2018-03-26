@@ -1,0 +1,92 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_240.fas
+Reference Filename:	target_240.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-373 MIMAT0000726(23 nt)
+Read Sequence:gi|116256450|ref|NM_153042.3| Homo sapiens lysine (K)-specific demethylase 1B (KDM1B), mRNA(3875 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-373 vs gi|116256450|ref|NM_153042.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:2 to 22  R:2181 to 2208 Align Len (25) (68.00%) (72.00%)
+
+   Query:    3' tgTGGGGTTTT-----AGCTTCGTGAAg 5'
+                  |||:|||||     |  |||||||| 
+   Ref:      5' tgACCTCAAAAAACCTTATAAGCACTTa 3'
+
+   Energy:  -19.190001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|116256450|ref|NM_153042.3|	160.00	-19.19	2 22	2181 2208	25	68.00%	72.00%
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:1990 to 2012 Align Len (16) (75.00%) (93.75%)
+
+   Query:    3' tgtgggGTTTTAGCTTCGTGAAg 5'
+                      |||:||:| ||||:|| 
+   Ref:      5' agcaagCAAGATTGCAGCATTTt 3'
+
+   Energy:  -18.740000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|116256450|ref|NM_153042.3|	153.00	-18.74	2 18	1990 2012	16	75.00%	93.75%
+
+
+   Forward:	Score: 141.000000  Q:2 to 22  R:3589 to 3611 Align Len (20) (55.00%) (80.00%)
+
+   Query:    3' tgTGGGGTTTTAGCTTCGTGAAg 5'
+                  |: ::|:  || |:|||||| 
+   Ref:      5' ttATGTTAGTTTCCAGGCACTTg 3'
+
+   Energy:  -15.260000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|116256450|ref|NM_153042.3|	141.00	-15.26	2 22	3589 3611	20	55.00%	80.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 22  R:3240 to 3263 Align Len (21) (61.90%) (90.48%)
+
+   Query:    3' tgTGGGGTTTTA-GCTTCGTGAAg 5'
+                  ||::|||||| : :||:|:|| 
+   Ref:      5' agACTTCAAAATATTGAGTATTTt 3'
+
+   Energy:  -17.559999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373	gi|116256450|ref|NM_153042.3|	140.00	-17.56	2 22	3240 3263	21	61.90%	90.48%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-373	gi|116256450|ref|NM_153042.3|	594.00	-70.75	160.00	-19.19	1	23	3875	 2181 1990 3589 3240
+Complete
+
+Scan Complete
+

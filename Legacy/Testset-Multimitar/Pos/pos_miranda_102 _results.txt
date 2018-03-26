@@ -1,0 +1,65 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_102.txt
+Reference Filename:	target_102.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|115583684|ref|NM_003051.3| Homo sapiens solute carrier family 16, member 1 (monocarboxylic acid transporter 1) (SLC16A1), transcript variant 1, mRNA(3927 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|115583684|ref|NM_003051.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|115583684|ref|NM_003051.3| Homo sapiens solute carrier family 16, member 1 (monocarboxylic acid transporter 1) (SLC16A1), transcript variant 1, mRNA(3927 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|115583684|ref|NM_003051.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 18  R:2131 to 2151 Align Len (17) (64.71%) (82.35%)
+
+   Query:    3' ccgUAA-GUGGCGCACGGAAu 5'
+                   ||| :| : :||||||| 
+   Ref:      5' aagATTATAATATGTGCCTTa 3'
+
+   Energy:  -14.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|115583684|ref|NM_003051.3|	148.00	-14.50	2 18	2131 2151	17	64.71%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|115583684|ref|NM_003051.3|	148.00	-14.50	148.00	-14.50	2	20	3927	 2131
+Complete
+
+Scan Complete
+

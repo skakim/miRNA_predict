@@ -1,0 +1,92 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_175.fas
+Reference Filename:	target_175.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-21 MIMAT0000076(22 nt)
+Read Sequence:gi|223718130|ref|NM_001259.6| Homo sapiens cyclin-dependent kinase 6 (CDK6), transcript variant 1, mRNA(11628 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21 vs gi|223718130|ref|NM_001259.6|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:2198 to 2217 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' agTTGTAGTCAGACTATTCGAt 5'
+                  || || || || :|||||| 
+   Ref:      5' ggAAAAT-AGCCT-GTAAGCTt 3'
+
+   Energy:  -13.000000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|223718130|ref|NM_001259.6|	140.00	-13.00	2 21	2198 2217	19	73.68%	78.95%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:3734 to 3755 Align Len (19) (57.89%) (78.95%)
+
+   Query:    3' agTTGTAGTCAGACTATTCGAt 5'
+                  || | :: |:| |||||:| 
+   Ref:      5' gtAAAAGTGTTTTCATAAGTTc 3'
+
+   Energy:  -6.140000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|223718130|ref|NM_001259.6|	140.00	-6.14	2 21	3734 3755	19	57.89%	78.95%
+
+
+   Forward:	Score: 140.000000  Q:3 to 21  R:5092 to 5113 Align Len (18) (66.67%) (77.78%)
+
+   Query:    3' agTTGTAGTCAGACTATTCGat 5'
+                  | :||:  | ||||||||  
+   Ref:      5' tgACTATTCTTATGATAAGCac 3'
+
+   Energy:  -10.890000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|223718130|ref|NM_001259.6|	140.00	-10.89	3 21	5092 5113	18	66.67%	77.78%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:8981 to 9002 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' agttgtagtcagacTATTCGAt 5'
+                              ||||||| 
+   Ref:      5' gactaagcccccaaATAAGCTg 3'
+
+   Energy:  -8.260000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|223718130|ref|NM_001259.6|	140.00	-8.26	2 9	8981 9002	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21	gi|223718130|ref|NM_001259.6|	560.00	-38.29	140.00	-13.00	1	22	11628	 2198 3734 5092 8981
+Complete
+
+Scan Complete
+

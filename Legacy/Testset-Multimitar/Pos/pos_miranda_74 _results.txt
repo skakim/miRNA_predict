@@ -1,0 +1,78 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_74.txt
+Reference Filename:	target_74.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|221307507|ref|NM_005498.4| Homo sapiens adaptor-related protein complex 1, mu 2 subunit (AP1M2), mRNA(1756 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|221307507|ref|NM_005498.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 146.000000  Q:2 to 13  R:1365 to 1385 Align Len (11) (90.91%) (90.91%)
+
+   Query:    3' uaguuccaggCGACACUUGUGc 5'
+                          ||| ||||||| 
+   Ref:      5' agagatggggGCT-TGAACACg 3'
+
+   Energy:  -19.129999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-5p	gi|221307507|ref|NM_005498.4|	146.00	-19.13	2 13	1365 1385	11	90.91%	90.91%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-5p	gi|221307507|ref|NM_005498.4|	146.00	-19.13	146.00	-19.13	1	22	1756	 1365
+Complete
+
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|221307507|ref|NM_005498.4| Homo sapiens adaptor-related protein complex 1, mu 2 subunit (AP1M2), mRNA(1756 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|221307507|ref|NM_005498.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 150.000000  Q:2 to 16  R:1616 to 1637 Align Len (16) (75.00%) (81.25%)
+
+   Query:    3' ccguaAGUGGCG--CACGGAAu 5'
+                     || :|||  ||||||| 
+   Ref:      5' agtccTCCTCGCGAGTGCCTTc 3'
+
+   Energy:  -18.200001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|221307507|ref|NM_005498.4|	150.00	-18.20	2 16	1616 1637	16	75.00%	81.25%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|221307507|ref|NM_005498.4|	150.00	-18.20	150.00	-18.20	2	20	1756	 1616
+Complete
+
+Scan Complete
+

@@ -1,0 +1,90 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_165.fas
+Reference Filename:	target_165.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-22 MIMAT0000077(22 nt)
+Read Sequence:gi|51896028|ref|NM_001003954.1| Homo sapiens annexin A13 (ANXA13), transcript variant 2, mRNA(1609 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-22 vs gi|51896028|ref|NM_001003954.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 156.000000  Q:2 to 21  R:460 to 481 Align Len (19) (68.42%) (73.68%)
+
+   Query:    3' tgTCAAGAAGTTGACCGTCGAa 5'
+                  ||| |  |: | ||||||| 
+   Ref:      5' cgAGTACGCCGCCCGGCAGCTg 3'
+
+   Energy:  -15.740000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-22	gi|51896028|ref|NM_001003954.1|	156.00	-15.74	2 21	460 481	19	68.42%	73.68%
+
+
+   Forward:	Score: 154.000000  Q:2 to 21  R:1254 to 1274 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' tgTCAAGAAGTTGACCGTCGAa 5'
+                  | | |||:  :|||||||| 
+   Ref:      5' ggATTACTTT-CTTGGCAGCTt 3'
+
+   Energy:  -18.850000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-22	gi|51896028|ref|NM_001003954.1|	154.00	-18.85	2 21	1254 1274	19	68.42%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-22	gi|51896028|ref|NM_001003954.1|	310.00	-34.59	156.00	-18.85	1	22	1609	 460 1254
+Complete
+
+Read Sequence:hsa-miR-22* MIMAT0004495(22 nt)
+Read Sequence:gi|51896028|ref|NM_001003954.1| Homo sapiens annexin A13 (ANXA13), transcript variant 2, mRNA(1609 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-22* vs gi|51896028|ref|NM_001003954.1|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 146.000000  Q:3 to 15  R:855 to 876 Align Len (12) (91.67%) (100.00%)
+
+   Query:    3' atttcgaaCGGTGACTTCTTga 5'
+                        ||||:|||||||  
+   Ref:      5' tagaagaaGCCATTGAAGAAga 3'
+
+   Energy:  -21.420000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-22*	gi|51896028|ref|NM_001003954.1|	146.00	-21.42	3 15	855 876	12	91.67%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-22*	gi|51896028|ref|NM_001003954.1|	146.00	-21.42	146.00	-21.42	2	22	1609	 855
+Complete
+
+Scan Complete
+

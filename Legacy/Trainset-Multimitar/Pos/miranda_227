@@ -1,0 +1,92 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_227.fas
+Reference Filename:	target_227.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-34a MIMAT0000255(22 nt)
+Read Sequence:gi|110735442|ref|NM_005618.3| Homo sapiens delta-like 1 (Drosophila) (DLL1), mRNA(3366 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-34a vs gi|110735442|ref|NM_005618.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 164.000000  Q:2 to 21  R:2825 to 2846 Align Len (19) (63.16%) (89.47%)
+
+   Query:    3' tgTTGGTCGATTCTGTGACGGt 5'
+                  ::||: ||: |:||||||| 
+   Ref:      5' ccGGCCGCCTGCGGCACTGCCt 3'
+
+   Energy:  -29.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-34a	gi|110735442|ref|NM_005618.3|	164.00	-29.10	2 21	2825 2846	19	63.16%	89.47%
+
+
+   Forward:	Score: 151.000000  Q:2 to 21  R:2981 to 3005 Align Len (22) (63.64%) (72.73%)
+
+   Query:    3' tgTTGGTC---GATTCTGTGACGGt 5'
+                  ||::||   |  | |||||||| 
+   Ref:      5' tgAATTAGAAACACAAACACTGCCt 3'
+
+   Energy:  -17.740000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-34a	gi|110735442|ref|NM_005618.3|	151.00	-17.74	2 21	2981 3005	22	63.64%	72.73%
+
+
+   Forward:	Score: 149.000000  Q:2 to 21  R:2923 to 2942 Align Len (19) (68.42%) (73.68%)
+
+   Query:    3' tgTTGGTCGATTCTGTGACGGt 5'
+                  ||  |||  | :||||||| 
+   Ref:      5' atAAGAAGC--ATGCACTGCCt 3'
+
+   Energy:  -17.110001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-34a	gi|110735442|ref|NM_005618.3|	149.00	-17.11	2 21	2923 2942	19	68.42%	73.68%
+
+
+   Forward:	Score: 142.000000  Q:2 to 19  R:1744 to 1765 Align Len (17) (64.71%) (82.35%)
+
+   Query:    3' tgttGGTCGATTCTGTGACGGt 5'
+                    |:| ||: | |:||||| 
+   Ref:      5' atgcCTACCTGTGCCGCTGCCa 3'
+
+   Energy:  -19.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-34a	gi|110735442|ref|NM_005618.3|	142.00	-19.62	2 19	1744 1765	17	64.71%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-34a	gi|110735442|ref|NM_005618.3|	606.00	-83.57	164.00	-29.10	1	22	3366	 2825 2981 2923 1744
+Complete
+
+Scan Complete
+

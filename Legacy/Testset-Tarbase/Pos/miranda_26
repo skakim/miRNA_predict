@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_26
+Reference Filename:	target_26
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-106b (21 nt)
+Read Sequence:gi|310832422|ref|NM_000389.4| (2175 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-106b vs gi|310832422|ref|NM_000389.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 151.000000  Q:2 to 16  R:1075 to 1095 Align Len (14) (71.43%) (85.71%)
+
+   Query:    3' tagacgTGACAGTCGTGAAAt 5'
+                      || | ::||||||| 
+   Ref:      5' aagtaaACAGATGGCACTTTg 3'
+
+   Energy:  -12.120000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-106b	gi|310832422|ref|NM_000389.4|	151.00	-12.12	2 16	1075 1095	14	71.43%	85.71%
+
+
+   Forward:	Score: 149.000000  Q:2 to 20  R:1752 to 1775 Align Len (21) (71.43%) (71.43%)
+
+   Query:    3' taGACGTGAC-AGT--CGTGAAAt 5'
+                  || | | | |||  ||||||| 
+   Ref:      5' ccCTCCCCAGTTCATTGCACTTTg 3'
+
+   Energy:  -11.240000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-106b	gi|310832422|ref|NM_000389.4|	149.00	-11.24	2 20	1752 1775	21	71.43%	71.43%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-106b	gi|310832422|ref|NM_000389.4|	300.00	-23.36	151.00	-12.12	1	21	2175	 1075 1752
+Complete
+
+Scan Complete
+

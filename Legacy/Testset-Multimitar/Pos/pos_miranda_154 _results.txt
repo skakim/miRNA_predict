@@ -1,0 +1,102 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_154.txt
+Reference Filename:	target_154.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|93277111|ref|NM_144578.3| Homo sapiens mitogen-activated protein kinase 1 interacting protein 1-like (MAPK1IP1L), mRNA(6469 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|93277111|ref|NM_144578.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 20  R:3027 to 3045 Align Len (18) (72.22%) (72.22%)
+
+   Query:    3' uagUUCCAGGCGACACUUGUGc 5'
+                   ||||   ||  ||||||| 
+   Ref:      5' ttgAAGG---GCCATGAACACa 3'
+
+   Energy:  -14.980000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-5p	gi|93277111|ref|NM_144578.3|	147.00	-14.98	2 20	3027 3045	18	72.22%	72.22%
+
+
+   Forward:	Score: 145.000000  Q:2 to 19  R:184 to 207 Align Len (19) (68.42%) (68.42%)
+
+   Query:    3' uaguUCCAGGCGA--CACUUGUGc 5'
+                    || | | ||   ||||||| 
+   Ref:      5' tggcAGATGCACTACCTGAACACt 3'
+
+   Energy:  -10.550000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-5p	gi|93277111|ref|NM_144578.3|	145.00	-10.55	2 19	184 207	19	68.42%	68.42%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-5p	gi|93277111|ref|NM_144578.3|	292.00	-25.53	147.00	-14.98	1	22	6469	 3027 184
+Complete
+
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|93277111|ref|NM_144578.3| Homo sapiens mitogen-activated protein kinase 1 interacting protein 1-like (MAPK1IP1L), mRNA(6469 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|93277111|ref|NM_144578.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 149.000000  Q:2 to 19  R:335 to 355 Align Len (18) (72.22%) (72.22%)
+
+   Query:    3' ccGUAAGUGGCG-CACGGAAu 5'
+                  ||  | || | ||||||| 
+   Ref:      5' aaCACCCTCCACTGTGCCTTt 3'
+
+   Energy:  -17.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|93277111|ref|NM_144578.3|	149.00	-17.27	2 19	335 355	18	72.22%	72.22%
+
+
+   Forward:	Score: 148.000000  Q:2 to 19  R:832 to 850 Align Len (17) (70.59%) (76.47%)
+
+   Query:    3' ccGUAAGUGGCGCACGGAAu 5'
+                  | ||: ||  ||||||| 
+   Ref:      5' atCCTTT-CCAAGTGCCTTc 3'
+
+   Energy:  -13.780000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|93277111|ref|NM_144578.3|	148.00	-13.78	2 19	832 850	17	70.59%	76.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|93277111|ref|NM_144578.3|	297.00	-31.05	149.00	-17.27	2	20	6469	 335 832
+Complete
+
+Scan Complete
+

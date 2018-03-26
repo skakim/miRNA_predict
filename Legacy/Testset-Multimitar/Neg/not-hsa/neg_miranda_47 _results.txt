@@ -1,0 +1,173 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_47.txt
+Reference Filename:	target_47.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:mmu-miR-429-5p MIMAT0017178(21 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-429-5p vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:mmu-miR-429-3p MIMAT0001537(22 nt)
+Read Sequence:gi|291575186|ref|NM_030751.5| Homo sapiens zinc finger E-box binding homeobox 1 (ZEB1), transcript variant 2, mRNA(5998 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: mmu-miR-429-3p vs gi|291575186|ref|NM_030751.5|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 15  R:4737 to 4758 Align Len (13) (84.62%) (92.31%)
+
+   Query:    3' ugccguaaUGGUCUGUCAUAAu 5'
+                        ||| |:||||||| 
+   Ref:      5' gtcttcaaACCTGGCAGTATTa 3'
+
+   Energy:  -18.430000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	158.00	-18.43	2 15	4737 4758	13	84.62%	92.31%
+
+
+   Forward:	Score: 156.000000  Q:2 to 17  R:4667 to 4688 Align Len (15) (80.00%) (80.00%)
+
+   Query:    3' ugccguAAUGGUCUGUCAUAAu 5'
+                      |||||   ||||||| 
+   Ref:      5' tgatttTTACCTATCAGTATTa 3'
+
+   Energy:  -15.140000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	156.00	-15.14	2 17	4667 4688	15	80.00%	80.00%
+
+
+   Forward:	Score: 155.000000  Q:2 to 17  R:2322 to 2344 Align Len (16) (87.50%) (93.75%)
+
+   Query:    3' ugccguAAUGGUC-UGUCAUAAu 5'
+                      ||||||| |||||:|| 
+   Ref:      5' tagtgtTTACCAGAACAGTGTTt 3'
+
+   Energy:  -20.629999 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	155.00	-20.63	2 17	2322 2344	16	87.50%	93.75%
+
+
+   Forward:	Score: 154.000000  Q:2 to 15  R:246 to 267 Align Len (13) (92.31%) (100.00%)
+
+   Query:    3' ugccguaaUGGUCUGUCAUAAu 5'
+                        ||||||||||:|| 
+   Ref:      5' gccaacagACCAGACAGTGTTa 3'
+
+   Energy:  -24.480000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	154.00	-24.48	2 15	246 267	13	92.31%	100.00%
+
+
+   Forward:	Score: 154.000000  Q:2 to 20  R:3792 to 3814 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' ugcCGUAAUGGUCU-GUCAUAAu 5'
+                   |: |||:|  | ||||||| 
+   Ref:      5' attGTTTTATCTTATCAGTATTa 3'
+
+   Energy:  -12.960000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	154.00	-12.96	2 20	3792 3814	19	68.42%	78.95%
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:5389 to 5409 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ugccGUAAUGGUCUGUCAUAAu 5'
+                    ||| |::|  ||||||| 
+   Ref:      5' ttttCATCATTA-TCAGTATTt 3'
+
+   Energy:  -11.400000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	152.00	-11.40	2 19	5389 5409	17	70.59%	82.35%
+
+
+   Forward:	Score: 148.000000  Q:2 to 20  R:2512 to 2533 Align Len (19) (78.95%) (84.21%)
+
+   Query:    3' ugcCGUAAUGGUC-UGUCAUAAu 5'
+                   || | ||||| |||||:|| 
+   Ref:      5' attGC-TGACCAGAACAGTGTTc 3'
+
+   Energy:  -19.290001 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	148.00	-19.29	2 20	2512 2533	19	78.95%	84.21%
+
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:4319 to 4337 Align Len (19) (68.42%) (73.68%)
+
+   Query:    3' ugCCGUAAUGGUCUGUCAUAAu 5'
+                  | |||| |:   ||||||| 
+   Ref:      5' gtGCCATTTCT---CAGTATTt 3'
+
+   Energy:  -12.110000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	148.00	-12.11	2 21	4319 4337	19	68.42%	73.68%
+
+
+   Forward:	Score: 144.000000  Q:2 to 18  R:4204 to 4227 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' ugccgUAAUGGUCU--GUCAUAAu 5'
+                     || |:||||  ||||:|| 
+   Ref:      5' gcaaaATCATCAGAATCAGTGTTt 3'
+
+   Energy:  -13.820000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	144.00	-13.82	2 18	4204 4227	18	72.22%	83.33%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:3887 to 3908 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ugccguaauggucuGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' tgctaaatccgcttCAGTATTt 3'
+
+   Energy:  -12.560000 kCal/Mol
+
+Scores for this hit:
+>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	140.00	-12.56	2 9	3887 3908	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>mmu-miR-429-3p	gi|291575186|ref|NM_030751.5|	1509.00	-160.82	158.00	-24.48	2	22	5998	 4737 4667 2322 246 3792 5389 2512 4319 4204 3887
+Complete
+
+Scan Complete
+

@@ -1,0 +1,113 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_52.fas
+Reference Filename:	target_52.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-145* MIMAT0004601(22 nt)
+Read Sequence:gi|105990540|ref|NM_000350.2| Homo sapiens ATP-binding cassette, sub-family A (ABC1), member 4 (ABCA4), mRNA(7326 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-145* vs gi|105990540|ref|NM_000350.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-145 MIMAT0000437(23 nt)
+Read Sequence:gi|105990540|ref|NM_000350.2| Homo sapiens ATP-binding cassette, sub-family A (ABC1), member 4 (ABCA4), mRNA(7326 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-145 vs gi|105990540|ref|NM_000350.2|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 164.000000  Q:2 to 17  R:129 to 151 Align Len (15) (80.00%) (93.33%)
+
+   Query:    3' tccctaaGGACCCTTTTGACCTg 5'
+                       :|||| |:||||||| 
+   Ref:      5' cttttgcTCTGGAAGAACTGGAc 3'
+
+   Energy:  -24.040001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|105990540|ref|NM_000350.2|	164.00	-24.04	2 17	129 151	15	80.00%	93.33%
+
+
+   Forward:	Score: 153.000000  Q:2 to 20  R:1349 to 1370 Align Len (18) (66.67%) (83.33%)
+
+   Query:    3' tcccTAAGGACCCTTTTGACCTg 5'
+                    | |::| | |:||||||| 
+   Ref:      5' ctcaACTTTT-GAAGAACTGGAa 3'
+
+   Energy:  -14.980000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|105990540|ref|NM_000350.2|	153.00	-14.98	2 20	1349 1370	18	66.67%	83.33%
+
+
+   Forward:	Score: 147.000000  Q:2 to 12  R:6243 to 6265 Align Len (10) (90.00%) (90.00%)
+
+   Query:    3' tccctaaggaccCTTTTGACCTg 5'
+                            | |||||||| 
+   Ref:      5' atcgaaaaggttGCAAACTGGAg 3'
+
+   Energy:  -13.360000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|105990540|ref|NM_000350.2|	147.00	-13.36	2 12	6243 6265	10	90.00%	90.00%
+
+
+   Forward:	Score: 147.000000  Q:2 to 22  R:6957 to 6978 Align Len (20) (70.00%) (80.00%)
+
+   Query:    3' tcCCTAAGGACCCTTTTGACCTg 5'
+                  |||  :|||||  |:||||| 
+   Ref:      5' aaGGAACTCTGGG-CAGCTGGAg 3'
+
+   Energy:  -25.370001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|105990540|ref|NM_000350.2|	147.00	-25.37	2 22	6957 6978	20	70.00%	80.00%
+
+
+   Forward:	Score: 141.000000  Q:2 to 18  R:3835 to 3857 Align Len (16) (62.50%) (87.50%)
+
+   Query:    3' tccctaAGGACCCTTTTGACCTg 5'
+                      |::|  ||:|:||||| 
+   Ref:      5' ccagccTTTTCAGAGAGCTGGAg 3'
+
+   Energy:  -17.160000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145	gi|105990540|ref|NM_000350.2|	141.00	-17.16	2 18	3835 3857	16	62.50%	87.50%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-145	gi|105990540|ref|NM_000350.2|	752.00	-94.91	164.00	-25.37	2	23	7326	 129 1349 6243 6957 3835
+Complete
+
+Scan Complete
+

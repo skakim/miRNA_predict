@@ -1,0 +1,77 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_80.txt
+Reference Filename:	target_80.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|55928826|ref|NM_015516.3| Homo sapiens tsukushi small leucine rich proteoglycan homolog (Xenopus laevis) (TSKU), transcript variant 1, mRNA(2725 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|55928826|ref|NM_015516.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|55928826|ref|NM_015516.3| Homo sapiens tsukushi small leucine rich proteoglycan homolog (Xenopus laevis) (TSKU), transcript variant 1, mRNA(2725 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|55928826|ref|NM_015516.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 161.000000  Q:2 to 19  R:827 to 847 Align Len (18) (77.78%) (83.33%)
+
+   Query:    3' ccGUAAGU-GGCGCACGGAAu 5'
+                  |||| : ||| ||||||| 
+   Ref:      5' gtCATTGGTCCGGGTGCCTTc 3'
+
+   Energy:  -22.020000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|55928826|ref|NM_015516.3|	161.00	-22.02	2 19	827 847	18	77.78%	83.33%
+
+
+   Forward:	Score: 154.000000  Q:2 to 19  R:1510 to 1529 Align Len (17) (70.59%) (76.47%)
+
+   Query:    3' ccGUAAGUGGCGCACGGAAu 5'
+                  :|| | ||  ||||||| 
+   Ref:      5' ctTATCCCCCAAGTGCCTTc 3'
+
+   Energy:  -13.830000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|55928826|ref|NM_015516.3|	154.00	-13.83	2 19	1510 1529	17	70.59%	76.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|55928826|ref|NM_015516.3|	315.00	-35.85	161.00	-22.02	2	20	2725	 827 1510
+Complete
+
+Scan Complete
+

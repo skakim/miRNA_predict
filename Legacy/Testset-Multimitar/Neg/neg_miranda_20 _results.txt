@@ -1,0 +1,77 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_20.txt
+Reference Filename:	target_20.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-145-3p MIMAT0004601(22 nt)
+Read Sequence:gi|296317329|ref|NM_014547.4| Homo sapiens tropomodulin 3 (ubiquitous) (TMOD3), mRNA(4682 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-145-3p vs gi|296317329|ref|NM_014547.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:hsa-miR-145-5p MIMAT0000437(23 nt)
+Read Sequence:gi|296317329|ref|NM_014547.4| Homo sapiens tropomodulin 3 (ubiquitous) (TMOD3), mRNA(4682 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-145-5p vs gi|296317329|ref|NM_014547.4|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 151.000000  Q:2 to 16  R:360 to 382 Align Len (14) (78.57%) (78.57%)
+
+   Query:    3' ucccuaagGACCCUUUUGACCUg 5'
+                        |||  | ||||||| 
+   Ref:      5' aaacagaaCTGAAACAACTGGAa 3'
+
+   Energy:  -13.550000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145-5p	gi|296317329|ref|NM_014547.4|	151.00	-13.55	2 16	360 382	14	78.57%	78.57%
+
+
+   Forward:	Score: 140.000000  Q:2 to 22  R:1420 to 1444 Align Len (22) (63.64%) (72.73%)
+
+   Query:    3' ucCCUAAGGACCC--UUUUGACCUg 5'
+                  ||:|    |||  ||:|||||| 
+   Ref:      5' ctGGGTAGAAGGGAAAAGACTGGAa 3'
+
+   Energy:  -21.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-145-5p	gi|296317329|ref|NM_014547.4|	140.00	-21.87	2 22	1420 1444	22	63.64%	72.73%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-145-5p	gi|296317329|ref|NM_014547.4|	291.00	-35.42	151.00	-21.87	2	23	4682	 360 1420
+Complete
+
+Scan Complete
+

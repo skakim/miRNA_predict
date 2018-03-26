@@ -1,0 +1,160 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_23.txt
+Reference Filename:	target_23.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-16-2-3p MIMAT0004518(22 nt)
+Read Sequence:gi|315075317|ref|NM_001241.3| Homo sapiens cyclin T2 (CCNT2), transcript variant a, mRNA(6822 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-16-2-3p vs gi|315075317|ref|NM_001241.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 152.000000  Q:2 to 18  R:3928 to 3951 Align Len (18) (66.67%) (83.33%)
+
+   Query:    3' auuucGUCGUGUC--AUUAUAACc 5'
+                     | |:|::|  |||||||| 
+   Ref:      5' ttgctCTGTATGGCATAATATTGt 3'
+
+   Energy:  -9.230000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-2-3p	gi|315075317|ref|NM_001241.3|	152.00	-9.23	2 18	3928 3951	18	66.67%	83.33%
+
+
+   Forward:	Score: 145.000000  Q:2 to 18  R:4984 to 5005 Align Len (16) (62.50%) (75.00%)
+
+   Query:    3' auuucGUCGUGUCAUUAUAACc 5'
+                     |||: :   ||||||| 
+   Ref:      5' ccattCAGTTTTCCAATATTGa 3'
+
+   Energy:  -8.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-2-3p	gi|315075317|ref|NM_001241.3|	145.00	-8.59	2 18	4984 5005	16	62.50%	75.00%
+
+
+   Forward:	Score: 144.000000  Q:2 to 21  R:746 to 766 Align Len (20) (65.00%) (75.00%)
+
+   Query:    3' auUUCGUCG-UGUCAUUAUAACc 5'
+                  :||:  | |||  ||||||| 
+   Ref:      5' atGAGTTTCTACA--AATATTGg 3'
+
+   Energy:  -12.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-2-3p	gi|315075317|ref|NM_001241.3|	144.00	-12.99	2 21	746 766	20	65.00%	75.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-16-2-3p	gi|315075317|ref|NM_001241.3|	441.00	-30.81	152.00	-12.99	1	22	6822	 3928 4984 746
+Complete
+
+Read Sequence:hsa-miR-16-5p MIMAT0000069(22 nt)
+Read Sequence:gi|315075317|ref|NM_001241.3| Homo sapiens cyclin T2 (CCNT2), transcript variant a, mRNA(6822 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-16-5p vs gi|315075317|ref|NM_001241.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 175.000000  Q:2 to 21  R:2233 to 2256 Align Len (21) (80.95%) (85.71%)
+
+   Query:    3' gcGGUUAUAA--AUGCACGACGAu 5'
+                  :|||||||  || |||||||| 
+   Ref:      5' ctTCAATATTTGTAAGTGCTGCTt 3'
+
+   Energy:  -23.920000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-5p	gi|315075317|ref|NM_001241.3|	175.00	-23.92	2 21	2233 2256	21	80.95%	85.71%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-16-5p	gi|315075317|ref|NM_001241.3|	175.00	-23.92	175.00	-23.92	2	22	6822	 2233
+Complete
+
+Read Sequence:hsa-miR-16-1-3p MIMAT0004489(22 nt)
+Read Sequence:gi|315075317|ref|NM_001241.3| Homo sapiens cyclin T2 (CCNT2), transcript variant a, mRNA(6822 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-16-1-3p vs gi|315075317|ref|NM_001241.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 150.000000  Q:2 to 19  R:2311 to 2332 Align Len (17) (58.82%) (82.35%)
+
+   Query:    3' agucGUCGUGUCAAUUAUGACc 5'
+                    :||:::  | ||||||| 
+   Ref:      5' atgaTAGTGTTATAAATACTGt 3'
+
+   Energy:  -11.850000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	150.00	-11.85	2 19	2311 2332	17	58.82%	82.35%
+
+
+   Forward:	Score: 143.000000  Q:2 to 16  R:1487 to 1508 Align Len (14) (64.29%) (78.57%)
+
+   Query:    3' agucgucGUGUCAAUUAUGACc 5'
+                       :|: |  ||||||| 
+   Ref:      5' aaataccTATCGCAAATACTGa 3'
+
+   Energy:  -9.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	143.00	-9.99	2 16	1487 1508	14	64.29%	78.57%
+
+
+   Forward:	Score: 143.000000  Q:2 to 13  R:2436 to 2458 Align Len (12) (83.33%) (83.33%)
+
+   Query:    3' agucgucgugUCAA-UUAUGACc 5'
+                          | || ||||||| 
+   Ref:      5' attatttatgATTTGAATACTGt 3'
+
+   Energy:  -7.190000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	143.00	-7.19	2 13	2436 2458	12	83.33%	83.33%
+
+
+   Forward:	Score: 140.000000  Q:2 to 21  R:2990 to 3011 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' agUCGUCGUGUCAAUUAUGACc 5'
+                  | ||| :| ||||||| || 
+   Ref:      5' gaAACAGAGCTGTTAATAATGg 3'
+
+   Energy:  -18.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	140.00	-18.49	2 21	2990 3011	19	73.68%	78.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-16-1-3p	gi|315075317|ref|NM_001241.3|	576.00	-47.52	150.00	-18.49	3	22	6822	 2311 1487 2436 2990
+Complete
+
+Scan Complete
+

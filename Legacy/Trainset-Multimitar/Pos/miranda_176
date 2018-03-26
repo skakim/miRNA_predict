@@ -1,0 +1,104 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_176.fas
+Reference Filename:	target_176.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-21 MIMAT0000076(22 nt)
+Read Sequence:gi|189339276|ref|NM_001204.6| Homo sapiens bone morphogenetic protein receptor, type II (serine/threonine kinase) (BMPR2), mRNA(12086 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21 vs gi|189339276|ref|NM_001204.6|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:11561 to 11582 Align Len (19) (63.16%) (68.42%)
+
+   Query:    3' agTTGTAGTCAGACTATTCGAt 5'
+                  :|||  ||    ||||||| 
+   Ref:      5' tgGACAGGAGAAACATAAGCTa 3'
+
+   Energy:  -13.250000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|189339276|ref|NM_001204.6|	148.00	-13.25	2 21	11561 11582	19	63.16%	68.42%
+
+
+   Forward:	Score: 147.000000  Q:2 to 13  R:11745 to 11767 Align Len (12) (83.33%) (91.67%)
+
+   Query:    3' agttgtagtcAGAC-TATTCGAt 5'
+                          |:|| ||||||| 
+   Ref:      5' ttattttgctTTTGTATAAGCTg 3'
+
+   Energy:  -10.920000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|189339276|ref|NM_001204.6|	147.00	-10.92	2 13	11745 11767	12	83.33%	91.67%
+
+
+   Forward:	Score: 146.000000  Q:2 to 20  R:5210 to 5232 Align Len (19) (68.42%) (84.21%)
+
+   Query:    3' agtTGTAGTCA-GACTATTCGAt 5'
+                   ||||:  | :||:|||||| 
+   Ref:      5' aatACATTTTTATTGGTAAGCTt 3'
+
+   Energy:  -16.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|189339276|ref|NM_001204.6|	146.00	-16.44	2 20	5210 5232	19	68.42%	84.21%
+
+
+   Forward:	Score: 141.000000  Q:2 to 20  R:2026 to 2050 Align Len (21) (71.43%) (76.19%)
+
+   Query:    3' agtTGTAGTCA--GA-CTATTCGAt 5'
+                   |||  |||  || |:|||||| 
+   Ref:      5' tccACACAAGTGACTGGGTAAGCTc 3'
+
+   Energy:  -14.880000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|189339276|ref|NM_001204.6|	141.00	-14.88	2 20	2026 2050	21	71.43%	76.19%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:4782 to 4803 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' agttgtagtcagacTATTCGAt 5'
+                              ||||||| 
+   Ref:      5' tttataggccacaaATAAGCTt 3'
+
+   Energy:  -8.020000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21	gi|189339276|ref|NM_001204.6|	140.00	-8.02	2 9	4782 4803	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21	gi|189339276|ref|NM_001204.6|	722.00	-63.51	148.00	-16.44	1	22	12086	 11561 11745 5210 2026 4782
+Complete
+
+Scan Complete
+

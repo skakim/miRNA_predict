@@ -1,0 +1,78 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mir_70.txt
+Reference Filename:	target_70.txt
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-124-5p MIMAT0004591(22 nt)
+Read Sequence:gi|62912490|ref|NM_004670.3| Homo sapiens 3'-phosphoadenosine 5'-phosphosulfate synthase 2 (PAPSS2), transcript variant 1, mRNA(3859 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-5p vs gi|62912490|ref|NM_004670.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 12  R:1251 to 1272 Align Len (10) (90.00%) (90.00%)
+
+   Query:    3' uaguuccaggcGACACUUGUGc 5'
+                           || ||||||| 
+   Ref:      5' gacgctgaattCTATGAACACa 3'
+
+   Energy:  -15.880000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-5p	gi|62912490|ref|NM_004670.3|	147.00	-15.88	2 12	1251 1272	10	90.00%	90.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-5p	gi|62912490|ref|NM_004670.3|	147.00	-15.88	147.00	-15.88	1	22	3859	 1251
+Complete
+
+Read Sequence:hsa-miR-124-3p MIMAT0000422(20 nt)
+Read Sequence:gi|62912490|ref|NM_004670.3| Homo sapiens 3'-phosphoadenosine 5'-phosphosulfate synthase 2 (PAPSS2), transcript variant 1, mRNA(3859 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-124-3p vs gi|62912490|ref|NM_004670.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:3693 to 3712 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' ccguaaguggcgCACGGAAu 5'
+                            ||||||| 
+   Ref:      5' gacaggattataGTGCCTTa 3'
+
+   Energy:  -16.040001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-124-3p	gi|62912490|ref|NM_004670.3|	140.00	-16.04	2 9	3693 3712	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-124-3p	gi|62912490|ref|NM_004670.3|	140.00	-16.04	140.00	-16.04	2	20	3859	 3693
+Complete
+
+Scan Complete
+

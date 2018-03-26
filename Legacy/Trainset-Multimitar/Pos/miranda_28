@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_28.fas
+Reference Filename:	target_28.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-125a-5p MIMAT0000443(24 nt)
+Read Sequence:gi|317171925|ref|NM_001982.3| Homo sapiens v-erb-b2 erythroblastic leukemia viral oncogene homolog 3 (avian) (ERBB3), transcript variant 1, mRNA(5765 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-125a-5p vs gi|317171925|ref|NM_001982.3|
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 150.000000  Q:2 to 23  R:4144 to 4167 Align Len (21) (66.67%) (76.19%)
+
+   Query:    3' agTGTCCAATTTCCCAGAGTCCCt 5'
+                  | || | |:||  |:|||||| 
+   Ref:      5' gaAGAGATGAGAGCTTTTCAGGGg 3'
+
+   Energy:  -18.629999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-125a-5p	gi|317171925|ref|NM_001982.3|	150.00	-18.63	2 23	4144 4167	21	66.67%	76.19%
+
+
+   Forward:	Score: 144.000000  Q:2 to 13  R:4308 to 4331 Align Len (11) (81.82%) (81.82%)
+
+   Query:    3' agtgtccaatttCCCAGAGTCCCt 5'
+                            ||  ||||||| 
+   Ref:      5' cctgctccctgtGGCACTCAGGGa 3'
+
+   Energy:  -17.340000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-125a-5p	gi|317171925|ref|NM_001982.3|	144.00	-17.34	2 13	4308 4331	11	81.82%	81.82%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-125a-5p	gi|317171925|ref|NM_001982.3|	294.00	-35.97	150.00	-18.63	1	24	5765	 4144 4308
+Complete
+
+Scan Complete
+

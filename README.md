@@ -1,0 +1,4 @@
+# miRNA_predict
+Otimização multi-objetiva de ensemble de classificadores para a predição de alvos de microRNAs
+
+MicroRNAs são pequenos RNAs não codificantes que atuam através da inibição da expressão gênica, impactando no funcionamento de processos fisiológicos e no desenvolvimento e progressão de doenças. Dada a sua relevância biológica, atualmente há um grande interesse no desenvolvimento de modelos computacionais capazes de prever de forma mais precisa genes alvos de microRNAs, reduzindo o custo e o tempo necessários para identificação por meio de técnicas experimentais. Neste trabalho, propomos desenvolver uma abordagem baseada em ensemble learning e otimização multi-objetiva a fim de treinar um ensemble de classificadores com melhor trade-off entre desempenho e diversidade dos modelos, visando aprimorar a capacidade de predição de alvos de microRNAs e reduzir a ocorrência de falsos positivos e falsos negativos.

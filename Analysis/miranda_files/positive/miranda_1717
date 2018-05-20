@@ -1,0 +1,454 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_1717.fas
+Reference Filename:	target_1717.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-21-5p (22 nt)
+Read Sequence:ENSG00000115355-v1 (835 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:585 to 608 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' agUUGU-AGUCAGA-CUAUUCGAu 5'
+                  |:|| ||||  | |||||||| 
+   Ref:      5' aaAGCAGTCAGAGTCGATAAGCTt 3'
+
+   Energy:  -20.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v1	162.00	-20.18	2 21	585 608	21	76.19%	80.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v1	162.00	-20.18	162.00	-20.18	1	22	835	 585
+Complete
+
+Read Sequence:ENSG00000115355-v2 (3328 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v3 (729 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:63 to 86 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' agUUGU-AGUCAGA-CUAUUCGAu 5'
+                  |:|| ||||  | |||||||| 
+   Ref:      5' aaAGCAGTCAGAGTCGATAAGCTt 3'
+
+   Energy:  -20.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v3	162.00	-20.18	2 21	63 86	21	76.19%	80.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v3	162.00	-20.18	162.00	-20.18	3	22	729	 63
+Complete
+
+Read Sequence:ENSG00000115355-v4 (2199 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:622 to 643 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' aguuguagucagacUAUUCGAu 5'
+                              ||||||| 
+   Ref:      5' tttggaagaaagcaATAAGCTt 3'
+
+   Energy:  -6.900000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v4	140.00	-6.90	2 9	622 643	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v4	140.00	-6.90	140.00	-6.90	4	22	2199	 622
+Complete
+
+Read Sequence:ENSG00000115355-v5 (790 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v6 (6971 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:2545 to 2566 Align Len (19) (63.16%) (84.21%)
+
+   Query:    3' agUUGUAGUCAGACUAUUCGAu 5'
+                  :||| :|  :|||||||:| 
+   Ref:      5' aaGACAGTACATTGATAAGTTa 3'
+
+   Energy:  -17.309999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v6	148.00	-17.31	2 21	2545 2566	19	63.16%	84.21%
+
+
+   Forward:	Score: 142.000000  Q:2 to 21  R:1253 to 1273 Align Len (19) (68.42%) (78.95%)
+
+   Query:    3' agUUGUAGUCAGACUAUUCGAu 5'
+                  || ||:|  || ||:|||| 
+   Ref:      5' gaAAAATTA-ACTCATGAGCTt 3'
+
+   Energy:  -9.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v6	142.00	-9.41	2 21	1253 1273	19	68.42%	78.95%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:3532 to 3553 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' aguuguagucagacUAUUCGAu 5'
+                              ||||||| 
+   Ref:      5' tttggaagaaagcaATAAGCTt 3'
+
+   Energy:  -6.900000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v6	140.00	-6.90	2 9	3532 3553	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v6	430.00	-33.62	148.00	-17.31	6	22	6971	 2545 1253 3532
+Complete
+
+Read Sequence:ENSG00000115355-v7 (4764 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v7
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 21  R:304 to 325 Align Len (19) (63.16%) (84.21%)
+
+   Query:    3' agUUGUAGUCAGACUAUUCGAu 5'
+                  :||| :|  :|||||||:| 
+   Ref:      5' aaGACAGTACATTGATAAGTTa 3'
+
+   Energy:  -17.309999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v7	148.00	-17.31	2 21	304 325	19	63.16%	84.21%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:1207 to 1228 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' aguuguagucagacUAUUCGAu 5'
+                              ||||||| 
+   Ref:      5' tttggaagaaagcaATAAGCTt 3'
+
+   Energy:  -6.900000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v7	140.00	-6.90	2 9	1207 1228	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v7	288.00	-24.21	148.00	-17.31	7	22	4764	 304 1207
+Complete
+
+Read Sequence:ENSG00000115355-v8 (3352 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v8
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v9 (810 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v9
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:20 to 43 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' agUUGU-AGUCAGA-CUAUUCGAu 5'
+                  |:|| ||||  | |||||||| 
+   Ref:      5' aaAGCAGTCAGAGTCGATAAGCTt 3'
+
+   Energy:  -20.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v9	162.00	-20.18	2 21	20 43	21	76.19%	80.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v9	162.00	-20.18	162.00	-20.18	9	22	810	 20
+Complete
+
+Read Sequence:ENSG00000115355-v10 (1511 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v10
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v11 (3358 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v11
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v12 (2627 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v12
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v13 (869 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v13
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:93 to 116 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' agUUGU-AGUCAGA-CUAUUCGAu 5'
+                  |:|| ||||  | |||||||| 
+   Ref:      5' aaAGCAGTCAGAGTCGATAAGCTt 3'
+
+   Energy:  -20.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v13	162.00	-20.18	2 21	93 116	21	76.19%	80.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v13	162.00	-20.18	162.00	-20.18	13	22	869	 93
+Complete
+
+Read Sequence:ENSG00000115355-v14 (2318 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v14
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:233 to 254 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' aguuguagucagacUAUUCGAu 5'
+                              ||||||| 
+   Ref:      5' tttggaagaaagcaATAAGCTt 3'
+
+   Energy:  -6.900000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v14	140.00	-6.90	2 9	233 254	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v14	140.00	-6.90	140.00	-6.90	14	22	2318	 233
+Complete
+
+Read Sequence:ENSG00000115355-v15 (325 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v15
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v16 (3087 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v16
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v17 (542 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v17
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v18 (811 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v18
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v19 (861 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v19
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:292 to 313 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' aguuguagucagacUAUUCGAu 5'
+                              ||||||| 
+   Ref:      5' tttggaagaaagcaATAAGCTt 3'
+
+   Energy:  -6.900000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v19	140.00	-6.90	2 9	292 313	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v19	140.00	-6.90	140.00	-6.90	19	22	861	 292
+Complete
+
+Read Sequence:ENSG00000115355-v20 (3351 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v20
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v21 (543 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v21
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v22 (545 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v22
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v23 (1088 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v23
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:63 to 86 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' agUUGU-AGUCAGA-CUAUUCGAu 5'
+                  |:|| ||||  | |||||||| 
+   Ref:      5' aaAGCAGTCAGAGTCGATAAGCTt 3'
+
+   Energy:  -20.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v23	162.00	-20.18	2 21	63 86	21	76.19%	80.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v23	162.00	-20.18	162.00	-20.18	23	22	1088	 63
+Complete
+
+Read Sequence:ENSG00000115355-v24 (307 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v24
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v25 (3112 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v25
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v26 (104 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v26
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v27 (253 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v27
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v28 (3074 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v28
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v29 (392 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v29
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000115355-v30 (997 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-21-5p vs ENSG00000115355-v30
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 21  R:137 to 160 Align Len (21) (76.19%) (80.95%)
+
+   Query:    3' agUUGU-AGUCAGA-CUAUUCGAu 5'
+                  |:|| ||||  | |||||||| 
+   Ref:      5' aaAGCAGTCAGAGTCGATAAGCTt 3'
+
+   Energy:  -20.180000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-21-5p	ENSG00000115355-v30	162.00	-20.18	2 21	137 160	21	76.19%	80.95%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-21-5p	ENSG00000115355-v30	162.00	-20.18	162.00	-20.18	30	22	997	 137
+Complete
+
+Scan Complete
+

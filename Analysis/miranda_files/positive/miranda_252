@@ -1,0 +1,224 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_252.fas
+Reference Filename:	target_252.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-520d-5p (20 nt)
+Read Sequence:ENSG00000055208-v1 (1663 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-520d-5p vs ENSG00000055208-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:3 to 17  R:501 to 520 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' cuuuCCCGAAGGGAAACAuc 5'
+                    || ||| :||||||  
+   Ref:      5' tcttGGCCTTGTCTTTGTct 3'
+
+   Energy:  -13.540000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v1	140.00	-13.54	3 17	501 520	14	78.57%	85.71%
+
+
+   Forward:	Score: 140.000000  Q:2 to 18  R:1609 to 1629 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' cuuUCCCGAA-GGGAAACAUc 5'
+                   ||| :|| | :|||||| 
+   Ref:      5' ttcAGGCTTTGCATTTTGTAt 3'
+
+   Energy:  -12.670000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v1	140.00	-12.67	2 18	1609 1629	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-520d-5p	ENSG00000055208-v1	280.00	-26.21	140.00	-13.54	1	20	1663	 501 1609
+Complete
+
+Read Sequence:ENSG00000055208-v2 (1894 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-520d-5p vs ENSG00000055208-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 143.000000  Q:2 to 12  R:1828 to 1847 Align Len (10) (80.00%) (90.00%)
+
+   Query:    3' cuuucccgaAGGGAAACAUc 5'
+                         | :||||||| 
+   Ref:      5' tgggtaaacTATCTTTGTAa 3'
+
+   Energy:  -12.550000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v2	143.00	-12.55	2 12	1828 1847	10	80.00%	90.00%
+
+
+   Forward:	Score: 140.000000  Q:3 to 17  R:501 to 520 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' cuuuCCCGAAGGGAAACAuc 5'
+                    || ||| :||||||  
+   Ref:      5' tcttGGCCTTGTCTTTGTct 3'
+
+   Energy:  -13.540000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v2	140.00	-13.54	3 17	501 520	14	78.57%	85.71%
+
+
+   Forward:	Score: 140.000000  Q:2 to 18  R:1609 to 1629 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' cuuUCCCGAA-GGGAAACAUc 5'
+                   ||| :|| | :|||||| 
+   Ref:      5' ttcAGGCTTTGCATTTTGTAt 3'
+
+   Energy:  -12.670000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v2	140.00	-12.67	2 18	1609 1629	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-520d-5p	ENSG00000055208-v2	423.00	-38.76	143.00	-13.54	2	20	1894	 1828 501 1609
+Complete
+
+Read Sequence:ENSG00000055208-v3 (1892 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-520d-5p vs ENSG00000055208-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 143.000000  Q:2 to 12  R:1828 to 1847 Align Len (10) (80.00%) (90.00%)
+
+   Query:    3' cuuucccgaAGGGAAACAUc 5'
+                         | :||||||| 
+   Ref:      5' tgggtaaacTATCTTTGTAa 3'
+
+   Energy:  -12.550000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v3	143.00	-12.55	2 12	1828 1847	10	80.00%	90.00%
+
+
+   Forward:	Score: 140.000000  Q:3 to 17  R:501 to 520 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' cuuuCCCGAAGGGAAACAuc 5'
+                    || ||| :||||||  
+   Ref:      5' tcttGGCCTTGTCTTTGTct 3'
+
+   Energy:  -13.540000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v3	140.00	-13.54	3 17	501 520	14	78.57%	85.71%
+
+
+   Forward:	Score: 140.000000  Q:2 to 18  R:1609 to 1629 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' cuuUCCCGAA-GGGAAACAUc 5'
+                   ||| :|| | :|||||| 
+   Ref:      5' ttcAGGCTTTGCATTTTGTAt 3'
+
+   Energy:  -12.670000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v3	140.00	-12.67	2 18	1609 1629	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-520d-5p	ENSG00000055208-v3	423.00	-38.76	143.00	-13.54	3	20	1892	 1828 501 1609
+Complete
+
+Read Sequence:ENSG00000055208-v4 (1676 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-520d-5p vs ENSG00000055208-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:3 to 17  R:501 to 520 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' cuuuCCCGAAGGGAAACAuc 5'
+                    || ||| :||||||  
+   Ref:      5' tcttGGCCTTGTCTTTGTct 3'
+
+   Energy:  -13.540000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v4	140.00	-13.54	3 17	501 520	14	78.57%	85.71%
+
+
+   Forward:	Score: 140.000000  Q:2 to 18  R:1609 to 1629 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' cuuUCCCGAA-GGGAAACAUc 5'
+                   ||| :|| | :|||||| 
+   Ref:      5' ttcAGGCTTTGCATTTTGTAt 3'
+
+   Energy:  -12.670000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v4	140.00	-12.67	2 18	1609 1629	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-520d-5p	ENSG00000055208-v4	280.00	-26.21	140.00	-13.54	4	20	1676	 501 1609
+Complete
+
+Read Sequence:ENSG00000055208-v5 (2478 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-520d-5p vs ENSG00000055208-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 140.000000  Q:3 to 17  R:1182 to 1201 Align Len (14) (78.57%) (85.71%)
+
+   Query:    3' cuuuCCCGAAGGGAAACAuc 5'
+                    || ||| :||||||  
+   Ref:      5' tcttGGCCTTGTCTTTGTct 3'
+
+   Energy:  -13.540000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v5	140.00	-13.54	3 17	1182 1201	14	78.57%	85.71%
+
+
+   Forward:	Score: 140.000000  Q:2 to 18  R:2290 to 2310 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' cuuUCCCGAA-GGGAAACAUc 5'
+                   ||| :|| | :|||||| 
+   Ref:      5' ttcAGGCTTTGCATTTTGTAt 3'
+
+   Energy:  -12.670000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-520d-5p	ENSG00000055208-v5	140.00	-12.67	2 18	2290 2310	17	70.59%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-520d-5p	ENSG00000055208-v5	280.00	-26.21	140.00	-13.54	5	20	2478	 1182 2290
+Complete
+
+Scan Complete
+

@@ -1,0 +1,148 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_1255.fas
+Reference Filename:	target_1255.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7c-5p (22 nt)
+Read Sequence:ENSG00000106462-v1 (262 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7c-5p vs ENSG00000106462-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 157.000000  Q:2 to 14  R:1 to 14 Align Len (12) (83.33%) (100.00%)
+
+   Query:    3' uugguauguUGGAUGAUGGAGu 5'
+                         |:||:||||||| 
+   Ref:      5' --------cATCTGCTACCTCc 3'
+
+   Energy:  -18.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7c-5p	ENSG00000106462-v1	157.00	-18.76	2 14	1 14	12	83.33%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7c-5p	ENSG00000106462-v1	157.00	-18.76	157.00	-18.76	1	22	262	 1
+Complete
+
+Read Sequence:ENSG00000106462-v2 (891 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7c-5p vs ENSG00000106462-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000106462-v3 (261 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7c-5p vs ENSG00000106462-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 157.000000  Q:2 to 14  R:1 to 14 Align Len (12) (83.33%) (100.00%)
+
+   Query:    3' uugguauguUGGAUGAUGGAGu 5'
+                         |:||:||||||| 
+   Ref:      5' --------cATCTGCTACCTCc 3'
+
+   Energy:  -18.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7c-5p	ENSG00000106462-v3	157.00	-18.76	2 14	1 14	12	83.33%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7c-5p	ENSG00000106462-v3	157.00	-18.76	157.00	-18.76	3	22	261	 1
+Complete
+
+Read Sequence:ENSG00000106462-v4 (2509 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7c-5p vs ENSG00000106462-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 164.000000  Q:2 to 21  R:2239 to 2260 Align Len (19) (68.42%) (84.21%)
+
+   Query:    3' uuGGUAUGUUGGAUGAUGGAGu 5'
+                  || |:  |:||:||||||| 
+   Ref:      5' tcCCTTGACATCTGCTACCTCc 3'
+
+   Energy:  -22.959999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7c-5p	ENSG00000106462-v4	164.00	-22.96	2 21	2239 2260	19	68.42%	84.21%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7c-5p	ENSG00000106462-v4	164.00	-22.96	164.00	-22.96	4	22	2509	 2239
+Complete
+
+Read Sequence:ENSG00000106462-v5 (121 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7c-5p vs ENSG00000106462-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 157.000000  Q:2 to 14  R:1 to 14 Align Len (12) (83.33%) (100.00%)
+
+   Query:    3' uugguauguUGGAUGAUGGAGu 5'
+                         |:||:||||||| 
+   Ref:      5' --------cATCTGCTACCTCc 3'
+
+   Energy:  -18.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7c-5p	ENSG00000106462-v5	157.00	-18.76	2 14	1 14	12	83.33%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7c-5p	ENSG00000106462-v5	157.00	-18.76	157.00	-18.76	5	22	121	 1
+Complete
+
+Read Sequence:ENSG00000106462-v6 (164 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7c-5p vs ENSG00000106462-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 157.000000  Q:2 to 14  R:1 to 14 Align Len (12) (83.33%) (100.00%)
+
+   Query:    3' uugguauguUGGAUGAUGGAGu 5'
+                         |:||:||||||| 
+   Ref:      5' --------cATCTGCTACCTCc 3'
+
+   Energy:  -18.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7c-5p	ENSG00000106462-v6	157.00	-18.76	2 14	1 14	12	83.33%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7c-5p	ENSG00000106462-v6	157.00	-18.76	157.00	-18.76	6	22	164	 1
+Complete
+
+Scan Complete
+

@@ -1,0 +1,117 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_3487.fas
+Reference Filename:	target_3487.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-522-5p (22 nt)
+Read Sequence:ENSG00000153046-v1 (317 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-522-5p vs ENSG00000153046-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000153046-v2 (200 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-522-5p vs ENSG00000153046-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000153046-v3 (1491 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-522-5p vs ENSG00000153046-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 21  R:678 to 698 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' guCUUUCGCGAAGGGAGAUCUc 5'
+                  |||| | | | :||||||| 
+   Ref:      5' aaGAAACCAC-TGTCTCTAGAa 3'
+
+   Energy:  -17.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-522-5p	ENSG00000153046-v3	158.00	-17.65	2 21	678 698	19	73.68%	78.95%
+
+
+   Forward:	Score: 149.000000  Q:2 to 14  R:380 to 401 Align Len (12) (91.67%) (100.00%)
+
+   Query:    3' gucuuucgcGAAGGGAGAUCUc 5'
+                         |||||:|||||| 
+   Ref:      5' tcctcatttCTTCCTTCTAGAa 3'
+
+   Energy:  -19.379999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-522-5p	ENSG00000153046-v3	149.00	-19.38	2 14	380 401	12	91.67%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-522-5p	ENSG00000153046-v3	307.00	-37.03	158.00	-19.38	3	22	1491	 678 380
+Complete
+
+Read Sequence:ENSG00000153046-v4 (1495 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-522-5p vs ENSG00000153046-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 158.000000  Q:2 to 21  R:678 to 698 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' guCUUUCGCGAAGGGAGAUCUc 5'
+                  |||| | | | :||||||| 
+   Ref:      5' aaGAAACCAC-TGTCTCTAGAa 3'
+
+   Energy:  -17.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-522-5p	ENSG00000153046-v4	158.00	-17.65	2 21	678 698	19	73.68%	78.95%
+
+
+   Forward:	Score: 149.000000  Q:2 to 14  R:380 to 401 Align Len (12) (91.67%) (100.00%)
+
+   Query:    3' gucuuucgcGAAGGGAGAUCUc 5'
+                         |||||:|||||| 
+   Ref:      5' tcctcatttCTTCCTTCTAGAa 3'
+
+   Energy:  -19.379999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-522-5p	ENSG00000153046-v4	149.00	-19.38	2 14	380 401	12	91.67%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-522-5p	ENSG00000153046-v4	307.00	-37.03	158.00	-19.38	4	22	1495	 678 380
+Complete
+
+Scan Complete
+

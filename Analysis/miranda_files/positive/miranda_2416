@@ -1,0 +1,218 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_2416.fas
+Reference Filename:	target_2416.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-320a (22 nt)
+Read Sequence:ENSG00000131778-v1 (253 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-320a vs ENSG00000131778-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:3 to 21  R:200 to 221 Align Len (18) (83.33%) (88.89%)
+
+   Query:    3' agCGGGAGAGUUGGGUCGAAaa 5'
+                  |||||:| | ||||||||  
+   Ref:      5' aaGCCCTTTGACCCCAGCTTgc 3'
+
+   Energy:  -27.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v1	160.00	-27.43	3 21	200 221	18	83.33%	88.89%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-320a	ENSG00000131778-v1	160.00	-27.43	160.00	-27.43	1	22	253	 200
+Complete
+
+Read Sequence:ENSG00000131778-v2 (386 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-320a vs ENSG00000131778-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 142.000000  Q:3 to 19  R:157 to 178 Align Len (16) (68.75%) (87.50%)
+
+   Query:    3' agcgGGAGAGUUGGGUCGAAaa 5'
+                    | |:|:: ||||||||  
+   Ref:      5' agaaCATTTTGTCCCAGCTTcg 3'
+
+   Energy:  -16.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v2	142.00	-16.44	3 19	157 178	16	68.75%	87.50%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-320a	ENSG00000131778-v2	142.00	-16.44	142.00	-16.44	2	22	386	 157
+Complete
+
+Read Sequence:ENSG00000131778-v3 (256 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-320a vs ENSG00000131778-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:3 to 21  R:200 to 221 Align Len (18) (83.33%) (88.89%)
+
+   Query:    3' agCGGGAGAGUUGGGUCGAAaa 5'
+                  |||||:| | ||||||||  
+   Ref:      5' aaGCCCTTTGACCCCAGCTTgc 3'
+
+   Energy:  -27.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v3	160.00	-27.43	3 21	200 221	18	83.33%	88.89%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-320a	ENSG00000131778-v3	160.00	-27.43	160.00	-27.43	3	22	256	 200
+Complete
+
+Read Sequence:ENSG00000131778-v4 (257 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-320a vs ENSG00000131778-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:3 to 21  R:200 to 221 Align Len (18) (83.33%) (88.89%)
+
+   Query:    3' agCGGGAGAGUUGGGUCGAAaa 5'
+                  |||||:| | ||||||||  
+   Ref:      5' aaGCCCTTTGACCCCAGCTTgc 3'
+
+   Energy:  -27.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v4	160.00	-27.43	3 21	200 221	18	83.33%	88.89%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-320a	ENSG00000131778-v4	160.00	-27.43	160.00	-27.43	4	22	257	 200
+Complete
+
+Read Sequence:ENSG00000131778-v5 (1628 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-320a vs ENSG00000131778-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:3 to 21  R:1575 to 1596 Align Len (18) (83.33%) (88.89%)
+
+   Query:    3' agCGGGAGAGUUGGGUCGAAaa 5'
+                  |||||:| | ||||||||  
+   Ref:      5' aaGCCCTTTGACCCCAGCTTgc 3'
+
+   Energy:  -27.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v5	160.00	-27.43	3 21	1575 1596	18	83.33%	88.89%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-320a	ENSG00000131778-v5	160.00	-27.43	160.00	-27.43	5	22	1628	 1575
+Complete
+
+Read Sequence:ENSG00000131778-v6 (2668 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-320a vs ENSG00000131778-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:3 to 21  R:2617 to 2638 Align Len (18) (83.33%) (88.89%)
+
+   Query:    3' agCGGGAGAGUUGGGUCGAAaa 5'
+                  |||||:| | ||||||||  
+   Ref:      5' aaGCCCTTTGACCCCAGCTTgc 3'
+
+   Energy:  -27.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v6	160.00	-27.43	3 21	2617 2638	18	83.33%	88.89%
+
+
+   Forward:	Score: 142.000000  Q:3 to 19  R:658 to 679 Align Len (16) (68.75%) (87.50%)
+
+   Query:    3' agcgGGAGAGUUGGGUCGAAaa 5'
+                    | |:|:: ||||||||  
+   Ref:      5' agaaCATTTTGTCCCAGCTTcg 3'
+
+   Energy:  -16.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v6	142.00	-16.44	3 19	658 679	16	68.75%	87.50%
+
+
+   Forward:	Score: 141.000000  Q:2 to 18  R:360 to 381 Align Len (16) (68.75%) (81.25%)
+
+   Query:    3' agcggGAGAGUUGGGUCGAAAa 5'
+                     ||| |  |:|||:||| 
+   Ref:      5' ctctaCTCCCTCCTCAGTTTTg 3'
+
+   Energy:  -18.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v6	141.00	-18.78	2 18	360 381	16	68.75%	81.25%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-320a	ENSG00000131778-v6	443.00	-62.65	160.00	-27.43	6	22	2668	 2617 658 360
+Complete
+
+Read Sequence:ENSG00000131778-v7 (2244 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-320a vs ENSG00000131778-v7
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:3 to 21  R:2193 to 2214 Align Len (18) (83.33%) (88.89%)
+
+   Query:    3' agCGGGAGAGUUGGGUCGAAaa 5'
+                  |||||:| | ||||||||  
+   Ref:      5' aaGCCCTTTGACCCCAGCTTgc 3'
+
+   Energy:  -27.430000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v7	160.00	-27.43	3 21	2193 2214	18	83.33%	88.89%
+
+
+   Forward:	Score: 142.000000  Q:3 to 19  R:234 to 255 Align Len (16) (68.75%) (87.50%)
+
+   Query:    3' agcgGGAGAGUUGGGUCGAAaa 5'
+                    | |:|:: ||||||||  
+   Ref:      5' agaaCATTTTGTCCCAGCTTcg 3'
+
+   Energy:  -16.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-320a	ENSG00000131778-v7	142.00	-16.44	3 19	234 255	16	68.75%	87.50%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-320a	ENSG00000131778-v7	302.00	-43.87	160.00	-27.43	7	22	2244	 2193 234
+Complete
+
+Scan Complete
+

@@ -1,0 +1,188 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_4238.fas
+Reference Filename:	target_4238.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-29b-3p (23 nt)
+Read Sequence:ENSG00000168487-v1 (598 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000168487-v2 (279 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 12  R:121 to 143 Align Len (10) (90.00%) (90.00%)
+
+   Query:    3' uugugacuaaagUUUACCACGAu 5'
+                            || ||||||| 
+   Ref:      5' ctggccggacagAACTGGTGCTc 3'
+
+   Energy:  -14.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29b-3p	ENSG00000168487-v2	147.00	-14.65	2 12	121 143	10	90.00%	90.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-29b-3p	ENSG00000168487-v2	147.00	-14.65	147.00	-14.65	2	23	279	 121
+Complete
+
+Read Sequence:ENSG00000168487-v3 (2814 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000168487-v4 (2592 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000168487-v5 (160 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000168487-v6 (1447 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000168487-v7 (3657 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v7
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 12  R:2161 to 2183 Align Len (10) (90.00%) (90.00%)
+
+   Query:    3' uugugacuaaagUUUACCACGAu 5'
+                            || ||||||| 
+   Ref:      5' ctggccggacagAACTGGTGCTc 3'
+
+   Energy:  -14.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29b-3p	ENSG00000168487-v7	147.00	-14.65	2 12	2161 2183	10	90.00%	90.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-29b-3p	ENSG00000168487-v7	147.00	-14.65	147.00	-14.65	7	23	3657	 2161
+Complete
+
+Read Sequence:ENSG00000168487-v8 (820 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v8
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000168487-v9 (418 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v9
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 155.000000  Q:2 to 12  R:229 to 251 Align Len (10) (100.00%) (100.00%)
+
+   Query:    3' uugugacuaaagUUUACCACGAu 5'
+                            |||||||||| 
+   Ref:      5' ctgtggctctagAAATGGTGCTt 3'
+
+   Energy:  -15.530000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29b-3p	ENSG00000168487-v9	155.00	-15.53	2 12	229 251	10	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-29b-3p	ENSG00000168487-v9	155.00	-15.53	155.00	-15.53	9	23	418	 229
+Complete
+
+Read Sequence:ENSG00000168487-v10 (1921 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v10
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 12  R:121 to 143 Align Len (10) (90.00%) (90.00%)
+
+   Query:    3' uugugacuaaagUUUACCACGAu 5'
+                            || ||||||| 
+   Ref:      5' ctggccggacagAACTGGTGCTc 3'
+
+   Energy:  -14.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29b-3p	ENSG00000168487-v10	147.00	-14.65	2 12	121 143	10	90.00%	90.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-29b-3p	ENSG00000168487-v10	147.00	-14.65	147.00	-14.65	10	23	1921	 121
+Complete
+
+Read Sequence:ENSG00000168487-v11 (1939 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-29b-3p vs ENSG00000168487-v11
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 147.000000  Q:2 to 12  R:1781 to 1803 Align Len (10) (90.00%) (90.00%)
+
+   Query:    3' uugugacuaaagUUUACCACGAu 5'
+                            || ||||||| 
+   Ref:      5' ctggccggacagAACTGGTGCTc 3'
+
+   Energy:  -14.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-29b-3p	ENSG00000168487-v11	147.00	-14.65	2 12	1781 1803	10	90.00%	90.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-29b-3p	ENSG00000168487-v11	147.00	-14.65	147.00	-14.65	11	23	1939	 1781
+Complete
+
+Scan Complete
+

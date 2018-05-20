@@ -1,0 +1,89 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_302.fas
+Reference Filename:	target_302.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-449a (22 nt)
+Read Sequence:ENSG00000064205-v1 (353 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-449a vs ENSG00000064205-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 18  R:60 to 78 Align Len (16) (81.25%) (81.25%)
+
+   Query:    3' uggucGAUUGUUAUGUGACGGu 5'
+                     |||||  | ||||||| 
+   Ref:      5' ttcctCTAAC--T-CACTGCCt 3'
+
+   Energy:  -20.340000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-449a	ENSG00000064205-v1	148.00	-20.34	2 18	60 78	16	81.25%	81.25%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-449a	ENSG00000064205-v1	148.00	-20.34	148.00	-20.34	1	22	353	 60
+Complete
+
+Read Sequence:ENSG00000064205-v2 (504 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-449a vs ENSG00000064205-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 18  R:211 to 229 Align Len (16) (81.25%) (81.25%)
+
+   Query:    3' uggucGAUUGUUAUGUGACGGu 5'
+                     |||||  | ||||||| 
+   Ref:      5' ttcctCTAAC--T-CACTGCCt 3'
+
+   Energy:  -20.340000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-449a	ENSG00000064205-v2	148.00	-20.34	2 18	211 229	16	81.25%	81.25%
+
+
+   Forward:	Score: 144.000000  Q:2 to 17  R:140 to 161 Align Len (15) (73.33%) (86.67%)
+
+   Query:    3' uggucgAUUGUUAUGUGACGGu 5'
+                      || :|| ||:||||| 
+   Ref:      5' caccaaTATTAACACGCTGCCt 3'
+
+   Energy:  -20.090000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-449a	ENSG00000064205-v2	144.00	-20.09	2 17	140 161	15	73.33%	86.67%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-449a	ENSG00000064205-v2	292.00	-40.43	148.00	-20.34	2	22	504	 211 140
+Complete
+
+Scan Complete
+

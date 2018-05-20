@@ -1,0 +1,106 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_1783.fas
+Reference Filename:	target_1783.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-100-5p (22 nt)
+Read Sequence:ENSG00000197147-v1 (4805 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-100-5p vs ENSG00000197147-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 146.000000  Q:2 to 12  R:1344 to 1366 Align Len (11) (90.91%) (90.91%)
+
+   Query:    3' guguucaagccUAG-AUGCCCAa 5'
+                           ||| ||||||| 
+   Ref:      5' gttgctgtgcaATCGTACGGGTa 3'
+
+   Energy:  -14.140000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-100-5p	ENSG00000197147-v1	146.00	-14.14	2 12	1344 1366	11	90.91%	90.91%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-100-5p	ENSG00000197147-v1	146.00	-14.14	146.00	-14.14	1	22	4805	 1344
+Complete
+
+Read Sequence:ENSG00000197147-v2 (4821 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-100-5p vs ENSG00000197147-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 146.000000  Q:2 to 12  R:1344 to 1366 Align Len (11) (90.91%) (90.91%)
+
+   Query:    3' guguucaagccUAG-AUGCCCAa 5'
+                           ||| ||||||| 
+   Ref:      5' gttgctgtgcaATCGTACGGGTa 3'
+
+   Energy:  -14.140000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-100-5p	ENSG00000197147-v2	146.00	-14.14	2 12	1344 1366	11	90.91%	90.91%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-100-5p	ENSG00000197147-v2	146.00	-14.14	146.00	-14.14	2	22	4821	 1344
+Complete
+
+Read Sequence:ENSG00000197147-v3 (4816 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-100-5p vs ENSG00000197147-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 146.000000  Q:2 to 12  R:1344 to 1366 Align Len (11) (90.91%) (90.91%)
+
+   Query:    3' guguucaagccUAG-AUGCCCAa 5'
+                           ||| ||||||| 
+   Ref:      5' gttgctgtgcaATCGTACGGGTa 3'
+
+   Energy:  -14.140000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-100-5p	ENSG00000197147-v3	146.00	-14.14	2 12	1344 1366	11	90.91%	90.91%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-100-5p	ENSG00000197147-v3	146.00	-14.14	146.00	-14.14	3	22	4816	 1344
+Complete
+
+Read Sequence:ENSG00000197147-v4 (1117 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-100-5p vs ENSG00000197147-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

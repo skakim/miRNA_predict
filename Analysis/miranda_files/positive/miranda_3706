@@ -1,0 +1,104 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_3706.fas
+Reference Filename:	target_3706.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-877-3p (21 nt)
+Read Sequence:ENSG00000159217-v1 (6206 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-877-3p vs ENSG00000159217-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 162.000000  Q:2 to 15  R:5387 to 5407 Align Len (13) (92.31%) (92.31%)
+
+   Query:    3' gacccucCUCCCUCUUCUCCu 5'
+                       || |||||||||| 
+   Ref:      5' ggctctaGAAGGAGAAGAGGt 3'
+
+   Energy:  -21.320000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-877-3p	ENSG00000159217-v1	162.00	-21.32	2 15	5387 5407	13	92.31%	92.31%
+
+
+   Forward:	Score: 152.000000  Q:2 to 17  R:613 to 633 Align Len (15) (73.33%) (80.00%)
+
+   Query:    3' gacccUCCUCCCUCUUCUCCu 5'
+                     :| | | |||||||| 
+   Ref:      5' aatacGGAATGAAGAAGAGGg 3'
+
+   Energy:  -18.790001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-877-3p	ENSG00000159217-v1	152.00	-18.79	2 17	613 633	15	73.33%	80.00%
+
+
+   Forward:	Score: 142.000000  Q:2 to 15  R:4050 to 4070 Align Len (13) (76.92%) (92.31%)
+
+   Query:    3' gacccucCUCCCUCUUCUCCu 5'
+                       |:|| ||:||||| 
+   Ref:      5' gcactttGGGGAAGGAGAGGa 3'
+
+   Energy:  -23.809999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-877-3p	ENSG00000159217-v1	142.00	-23.81	2 15	4050 4070	13	76.92%	92.31%
+
+
+   Forward:	Score: 141.000000  Q:2 to 18  R:926 to 946 Align Len (16) (68.75%) (81.25%)
+
+   Query:    3' gaccCUCCUCCCUCUUCUCCu 5'
+                    ||| |  |:||||:|| 
+   Ref:      5' atatGAGCACTGGGAAGGGGa 3'
+
+   Energy:  -18.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-877-3p	ENSG00000159217-v1	141.00	-18.84	2 18	926 946	16	68.75%	81.25%
+
+
+   Forward:	Score: 140.000000  Q:2 to 17  R:4671 to 4691 Align Len (15) (66.67%) (86.67%)
+
+   Query:    3' gacccUCCUCCCUCUUCUCCu 5'
+                     :|||  |:||:|||| 
+   Ref:      5' ggtacGGGACAGGGAGGAGGc 3'
+
+   Energy:  -23.600000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-877-3p	ENSG00000159217-v1	140.00	-23.60	2 17	4671 4691	15	66.67%	86.67%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-877-3p	ENSG00000159217-v1	737.00	-106.36	162.00	-23.81	1	21	6206	 5387 613 4050 926 4671
+Complete
+
+Scan Complete
+

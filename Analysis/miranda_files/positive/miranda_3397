@@ -1,0 +1,68 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_3397.fas
+Reference Filename:	target_3397.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-373-3p (23 nt)
+Read Sequence:ENSG00000150457-v1 (1838 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-373-3p vs ENSG00000150457-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 14  R:346 to 369 Align Len (13) (84.62%) (84.62%)
+
+   Query:    3' ugugggguuuUAGCU-UCGUGAAg 5'
+                          ||| | ||||||| 
+   Ref:      5' tttgtattttATCCATAGCACTTa 3'
+
+   Energy:  -12.540000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373-3p	ENSG00000150457-v1	148.00	-12.54	2 14	346 369	13	84.62%	84.62%
+
+
+   Forward:	Score: 146.000000  Q:2 to 22  R:249 to 269 Align Len (20) (55.00%) (80.00%)
+
+   Query:    3' ugUGGGGUUUUAGCUUCGUGAAg 5'
+                  | :::|:||   :||||||| 
+   Ref:      5' acAGTTTAGAA--AGAGCACTTa 3'
+
+   Energy:  -16.350000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-373-3p	ENSG00000150457-v1	146.00	-16.35	2 22	249 269	20	55.00%	80.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-373-3p	ENSG00000150457-v1	294.00	-28.89	148.00	-16.35	1	23	1838	 346 249
+Complete
+
+Scan Complete
+

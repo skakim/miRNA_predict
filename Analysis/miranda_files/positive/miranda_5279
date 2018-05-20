@@ -1,0 +1,516 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_5279.fas
+Reference Filename:	target_5279.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7b-5p (22 nt)
+Read Sequence:ENSG00000198625-v1 (9080 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs ENSG00000198625-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:3354 to 3375 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGU-GUGUUGGAUGAUGGAGu 5'
+                  :|| |:|||||| ||:|||| 
+   Ref:      5' gcTCACCGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v1	153.00	-26.62	2 21	3354 3375	20	75.00%	90.00%
+
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:3907 to 3928 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGUG-UGUUGGAUGAUGGAGu 5'
+                  :||| :|||||| ||:|||| 
+   Ref:      5' gcTCACTGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v1	153.00	-26.62	2 21	3907 3928	20	75.00%	90.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 21  R:2237 to 2259 Align Len (20) (70.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :||| ||| ||:|||| 
+   Ref:      5' ccTCAAGCAACCCTCCTGCCTCa 3'
+
+   Energy:  -23.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v1	151.00	-23.27	2 21	2237 2259	20	70.00%	85.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:7993 to 8014 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' uugGUGUGUUGGAUGAUGGAGu 5'
+                   | :||  ::| ||||||| 
+   Ref:      5' ataCCTACCCTTTTCTACCTCa 3'
+
+   Energy:  -21.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v1	151.00	-21.76	2 20	7993 8014	18	61.11%	77.78%
+
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:8459 to 8481 Align Len (20) (65.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :|:| ||| ||:|||| 
+   Ref:      5' gtTCAAGCGATCCTCCTGCCTCa 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v1	147.00	-22.99	2 21	8459 8481	20	65.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:3932 to 3954 Align Len (20) (60.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| |::| :|| ||:|||| 
+   Ref:      5' gtTCAAATGATTCTCCTGCCTCa 3'
+
+   Energy:  -17.549999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v1	143.00	-17.55	2 21	3932 3954	20	60.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:6211 to 6233 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' uuGGU-GUGUUGGAUGAUGGAGu 5'
+                  :|| | || :|| ||:|||| 
+   Ref:      5' gtTCACCCCATTCTCCTGCCTCa 3'
+
+   Energy:  -21.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v1	143.00	-21.84	2 21	6211 6233	20	65.00%	80.00%
+
+
+   Forward:	Score: 141.000000  Q:2 to 21  R:5148 to 5167 Align Len (19) (57.89%) (89.47%)
+
+   Query:    3' uuGGUGUGUUGGAUGAUGGAGu 5'
+                  |:|:::||  |::|||||| 
+   Ref:      5' agCTATGTAA--TGTTACCTCt 3'
+
+   Energy:  -16.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v1	141.00	-16.78	2 21	5148 5167	19	57.89%	89.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-5p	ENSG00000198625-v1	1182.00	-177.43	153.00	-26.62	1	22	9080	 3354 3907 2237 7993 8459 3932 6211 5148
+Complete
+
+Read Sequence:ENSG00000198625-v2 (8437 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs ENSG00000198625-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:2711 to 2732 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGU-GUGUUGGAUGAUGGAGu 5'
+                  :|| |:|||||| ||:|||| 
+   Ref:      5' gcTCACCGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v2	153.00	-26.62	2 21	2711 2732	20	75.00%	90.00%
+
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:3264 to 3285 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGUG-UGUUGGAUGAUGGAGu 5'
+                  :||| :|||||| ||:|||| 
+   Ref:      5' gcTCACTGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v2	153.00	-26.62	2 21	3264 3285	20	75.00%	90.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 21  R:1594 to 1616 Align Len (20) (70.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :||| ||| ||:|||| 
+   Ref:      5' ccTCAAGCAACCCTCCTGCCTCa 3'
+
+   Energy:  -23.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v2	151.00	-23.27	2 21	1594 1616	20	70.00%	85.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:7350 to 7371 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' uugGUGUGUUGGAUGAUGGAGu 5'
+                   | :||  ::| ||||||| 
+   Ref:      5' ataCCTACCCTTTTCTACCTCa 3'
+
+   Energy:  -21.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v2	151.00	-21.76	2 20	7350 7371	18	61.11%	77.78%
+
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:7816 to 7838 Align Len (20) (65.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :|:| ||| ||:|||| 
+   Ref:      5' gtTCAAGCGATCCTCCTGCCTCa 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v2	147.00	-22.99	2 21	7816 7838	20	65.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:3289 to 3311 Align Len (20) (60.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| |::| :|| ||:|||| 
+   Ref:      5' gtTCAAATGATTCTCCTGCCTCa 3'
+
+   Energy:  -17.549999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v2	143.00	-17.55	2 21	3289 3311	20	60.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:5568 to 5590 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' uuGGU-GUGUUGGAUGAUGGAGu 5'
+                  :|| | || :|| ||:|||| 
+   Ref:      5' gtTCACCCCATTCTCCTGCCTCa 3'
+
+   Energy:  -21.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v2	143.00	-21.84	2 21	5568 5590	20	65.00%	80.00%
+
+
+   Forward:	Score: 141.000000  Q:2 to 21  R:4505 to 4524 Align Len (19) (57.89%) (89.47%)
+
+   Query:    3' uuGGUGUGUUGGAUGAUGGAGu 5'
+                  |:|:::||  |::|||||| 
+   Ref:      5' agCTATGTAA--TGTTACCTCt 3'
+
+   Energy:  -16.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v2	141.00	-16.78	2 21	4505 4524	19	57.89%	89.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-5p	ENSG00000198625-v2	1182.00	-177.43	153.00	-26.62	2	22	8437	 2711 3264 1594 7350 7816 3289 5568 4505
+Complete
+
+Read Sequence:ENSG00000198625-v3 (58 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs ENSG00000198625-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000198625-v4 (8438 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs ENSG00000198625-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:2711 to 2732 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGU-GUGUUGGAUGAUGGAGu 5'
+                  :|| |:|||||| ||:|||| 
+   Ref:      5' gcTCACCGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v4	153.00	-26.62	2 21	2711 2732	20	75.00%	90.00%
+
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:3264 to 3285 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGUG-UGUUGGAUGAUGGAGu 5'
+                  :||| :|||||| ||:|||| 
+   Ref:      5' gcTCACTGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v4	153.00	-26.62	2 21	3264 3285	20	75.00%	90.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 21  R:1594 to 1616 Align Len (20) (70.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :||| ||| ||:|||| 
+   Ref:      5' ccTCAAGCAACCCTCCTGCCTCa 3'
+
+   Energy:  -23.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v4	151.00	-23.27	2 21	1594 1616	20	70.00%	85.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:7350 to 7371 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' uugGUGUGUUGGAUGAUGGAGu 5'
+                   | :||  ::| ||||||| 
+   Ref:      5' ataCCTACCCTTTTCTACCTCa 3'
+
+   Energy:  -21.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v4	151.00	-21.76	2 20	7350 7371	18	61.11%	77.78%
+
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:7816 to 7838 Align Len (20) (65.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :|:| ||| ||:|||| 
+   Ref:      5' gtTCAAGCGATCCTCCTGCCTCa 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v4	147.00	-22.99	2 21	7816 7838	20	65.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:3289 to 3311 Align Len (20) (60.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| |::| :|| ||:|||| 
+   Ref:      5' gtTCAAATGATTCTCCTGCCTCa 3'
+
+   Energy:  -17.549999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v4	143.00	-17.55	2 21	3289 3311	20	60.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:5568 to 5590 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' uuGGU-GUGUUGGAUGAUGGAGu 5'
+                  :|| | || :|| ||:|||| 
+   Ref:      5' gtTCACCCCATTCTCCTGCCTCa 3'
+
+   Energy:  -21.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v4	143.00	-21.84	2 21	5568 5590	20	65.00%	80.00%
+
+
+   Forward:	Score: 141.000000  Q:2 to 21  R:4505 to 4524 Align Len (19) (57.89%) (89.47%)
+
+   Query:    3' uuGGUGUGUUGGAUGAUGGAGu 5'
+                  |:|:::||  |::|||||| 
+   Ref:      5' agCTATGTAA--TGTTACCTCt 3'
+
+   Energy:  -16.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v4	141.00	-16.78	2 21	4505 4524	19	57.89%	89.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-5p	ENSG00000198625-v4	1182.00	-177.43	153.00	-26.62	4	22	8438	 2711 3264 1594 7350 7816 3289 5568 4505
+Complete
+
+Read Sequence:ENSG00000198625-v5 (122 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs ENSG00000198625-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000198625-v6 (9419 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs ENSG00000198625-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:3693 to 3714 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGU-GUGUUGGAUGAUGGAGu 5'
+                  :|| |:|||||| ||:|||| 
+   Ref:      5' gcTCACCGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v6	153.00	-26.62	2 21	3693 3714	20	75.00%	90.00%
+
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:4246 to 4267 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGUG-UGUUGGAUGAUGGAGu 5'
+                  :||| :|||||| ||:|||| 
+   Ref:      5' gcTCACTGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v6	153.00	-26.62	2 21	4246 4267	20	75.00%	90.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 21  R:2576 to 2598 Align Len (20) (70.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :||| ||| ||:|||| 
+   Ref:      5' ccTCAAGCAACCCTCCTGCCTCa 3'
+
+   Energy:  -23.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v6	151.00	-23.27	2 21	2576 2598	20	70.00%	85.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:8332 to 8353 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' uugGUGUGUUGGAUGAUGGAGu 5'
+                   | :||  ::| ||||||| 
+   Ref:      5' ataCCTACCCTTTTCTACCTCa 3'
+
+   Energy:  -21.760000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v6	151.00	-21.76	2 20	8332 8353	18	61.11%	77.78%
+
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:8798 to 8820 Align Len (20) (65.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :|:| ||| ||:|||| 
+   Ref:      5' gtTCAAGCGATCCTCCTGCCTCa 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v6	147.00	-22.99	2 21	8798 8820	20	65.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:4271 to 4293 Align Len (20) (60.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| |::| :|| ||:|||| 
+   Ref:      5' gtTCAAATGATTCTCCTGCCTCa 3'
+
+   Energy:  -17.549999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v6	143.00	-17.55	2 21	4271 4293	20	60.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:6550 to 6572 Align Len (20) (65.00%) (80.00%)
+
+   Query:    3' uuGGU-GUGUUGGAUGAUGGAGu 5'
+                  :|| | || :|| ||:|||| 
+   Ref:      5' gtTCACCCCATTCTCCTGCCTCa 3'
+
+   Energy:  -21.840000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v6	143.00	-21.84	2 21	6550 6572	20	65.00%	80.00%
+
+
+   Forward:	Score: 141.000000  Q:2 to 21  R:5487 to 5506 Align Len (19) (57.89%) (89.47%)
+
+   Query:    3' uuGGUGUGUUGGAUGAUGGAGu 5'
+                  |:|:::||  |::|||||| 
+   Ref:      5' agCTATGTAA--TGTTACCTCt 3'
+
+   Energy:  -16.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v6	141.00	-16.78	2 21	5487 5506	19	57.89%	89.47%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-5p	ENSG00000198625-v6	1182.00	-177.43	153.00	-26.62	6	22	9419	 3693 4246 2576 8332 8798 4271 6550 5487
+Complete
+
+Read Sequence:ENSG00000198625-v7 (4991 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7b-5p vs ENSG00000198625-v7
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 153.000000  Q:2 to 21  R:3737 to 3758 Align Len (20) (75.00%) (90.00%)
+
+   Query:    3' uuGGUG-UGUUGGAUGAUGGAGu 5'
+                  :||| :|||||| ||:|||| 
+   Ref:      5' gcTCACTGCAACCT-CTGCCTCc 3'
+
+   Energy:  -26.620001 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v7	153.00	-26.62	2 21	3737 3758	20	75.00%	90.00%
+
+
+   Forward:	Score: 151.000000  Q:2 to 21  R:2576 to 2598 Align Len (20) (70.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| :||| ||| ||:|||| 
+   Ref:      5' ccTCAAGCAACCCTCCTGCCTCa 3'
+
+   Energy:  -23.270000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v7	151.00	-23.27	2 21	2576 2598	20	70.00%	85.00%
+
+
+   Forward:	Score: 143.000000  Q:2 to 21  R:3762 to 3784 Align Len (20) (60.00%) (85.00%)
+
+   Query:    3' uuGGUGUGUU-GGAUGAUGGAGu 5'
+                  :|| |::| :|| ||:|||| 
+   Ref:      5' gtTCAAATGATTCTCCTGCCTCa 3'
+
+   Energy:  -17.549999 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7b-5p	ENSG00000198625-v7	143.00	-17.55	2 21	3762 3784	20	60.00%	85.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7b-5p	ENSG00000198625-v7	447.00	-67.44	153.00	-26.62	7	22	4991	 3737 2576 3762
+Complete
+
+Scan Complete
+

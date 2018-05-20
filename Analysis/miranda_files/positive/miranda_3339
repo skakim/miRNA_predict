@@ -1,0 +1,310 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_3339.fas
+Reference Filename:	target_3339.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-200b-3p (22 nt)
+Read Sequence:ENSG00000148516-v1 (30 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-200b-3p vs ENSG00000148516-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000148516-v2 (1938 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-200b-3p vs ENSG00000148516-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 165.000000  Q:2 to 20  R:1300 to 1320 Align Len (18) (83.33%) (83.33%)
+
+   Query:    3' aguAGUAAUGGUCCGUCAUAAu 5'
+                   |||  ||| ||||||||| 
+   Ref:      5' tctTCA-AACCTGGCAGTATTa 3'
+
+   Energy:  -21.799999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v2	165.00	-21.80	2 20	1300 1320	18	83.33%	83.33%
+
+
+   Forward:	Score: 164.000000  Q:2 to 21  R:1229 to 1250 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' agUAGUAAUGGUCCGUCAUAAu 5'
+                  ||: |||||   ||||||| 
+   Ref:      5' tgATTTTTACCTATCAGTATTa 3'
+
+   Energy:  -15.610000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v2	164.00	-15.61	2 21	1229 1250	19	73.68%	78.95%
+
+
+   Forward:	Score: 146.000000  Q:2 to 19  R:881 to 899 Align Len (17) (70.59%) (76.47%)
+
+   Query:    3' aguaGUAAUGGUCCGUCAUAAu 5'
+                    |||| |:   ||||||| 
+   Ref:      5' gtgcCATTTCT---CAGTATTt 3'
+
+   Energy:  -11.400000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v2	146.00	-11.40	2 19	881 899	17	70.59%	76.47%
+
+
+   Forward:	Score: 143.000000  Q:2 to 17  R:354 to 376 Align Len (16) (68.75%) (75.00%)
+
+   Query:    3' aguaguAAU-GGUCCGUCAUAAu 5'
+                      ||| |:   ||||||| 
+   Ref:      5' attgttTTATCTTATCAGTATTa 3'
+
+   Energy:  -11.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v2	143.00	-11.49	2 17	354 376	16	68.75%	75.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:449 to 470 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' aguaguaaugguccGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' tgctaaatccgcttCAGTATTt 3'
+
+   Energy:  -10.880000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v2	140.00	-10.88	2 9	449 470	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-200b-3p	ENSG00000148516-v2	758.00	-71.18	165.00	-21.80	2	22	1938	 1300 1229 881 354 449
+Complete
+
+Read Sequence:ENSG00000148516-v3 (2549 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-200b-3p vs ENSG00000148516-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 165.000000  Q:2 to 20  R:1300 to 1320 Align Len (18) (83.33%) (83.33%)
+
+   Query:    3' aguAGUAAUGGUCCGUCAUAAu 5'
+                   |||  ||| ||||||||| 
+   Ref:      5' tctTCA-AACCTGGCAGTATTa 3'
+
+   Energy:  -21.799999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v3	165.00	-21.80	2 20	1300 1320	18	83.33%	83.33%
+
+
+   Forward:	Score: 164.000000  Q:2 to 21  R:1229 to 1250 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' agUAGUAAUGGUCCGUCAUAAu 5'
+                  ||: |||||   ||||||| 
+   Ref:      5' tgATTTTTACCTATCAGTATTa 3'
+
+   Energy:  -15.610000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v3	164.00	-15.61	2 21	1229 1250	19	73.68%	78.95%
+
+
+   Forward:	Score: 157.000000  Q:2 to 20  R:1951 to 1971 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' aguAGUAAUGGUCCGUCAUAAu 5'
+                   |||| |::|  ||||||| 
+   Ref:      5' tttTCATCATTA-TCAGTATTt 3'
+
+   Energy:  -17.290001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v3	157.00	-17.29	2 20	1951 1971	18	72.22%	83.33%
+
+
+   Forward:	Score: 146.000000  Q:2 to 19  R:881 to 899 Align Len (17) (70.59%) (76.47%)
+
+   Query:    3' aguaGUAAUGGUCCGUCAUAAu 5'
+                    |||| |:   ||||||| 
+   Ref:      5' gtgcCATTTCT---CAGTATTt 3'
+
+   Energy:  -11.400000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v3	146.00	-11.40	2 19	881 899	17	70.59%	76.47%
+
+
+   Forward:	Score: 143.000000  Q:2 to 17  R:354 to 376 Align Len (16) (68.75%) (75.00%)
+
+   Query:    3' aguaguAAU-GGUCCGUCAUAAu 5'
+                      ||| |:   ||||||| 
+   Ref:      5' attgttTTATCTTATCAGTATTa 3'
+
+   Energy:  -11.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v3	143.00	-11.49	2 17	354 376	16	68.75%	75.00%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:449 to 470 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' aguaguaaugguccGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' tgctaaatccgcttCAGTATTt 3'
+
+   Energy:  -10.880000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v3	140.00	-10.88	2 9	449 470	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-200b-3p	ENSG00000148516-v3	915.00	-88.47	165.00	-21.80	3	22	2549	 1300 1229 1951 881 354 449
+Complete
+
+Read Sequence:ENSG00000148516-v4 (6065 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-200b-3p vs ENSG00000148516-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 165.000000  Q:2 to 20  R:4815 to 4835 Align Len (18) (83.33%) (83.33%)
+
+   Query:    3' aguAGUAAUGGUCCGUCAUAAu 5'
+                   |||  ||| ||||||||| 
+   Ref:      5' tctTCA-AACCTGGCAGTATTa 3'
+
+   Energy:  -21.799999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	165.00	-21.80	2 20	4815 4835	18	83.33%	83.33%
+
+
+   Forward:	Score: 164.000000  Q:2 to 21  R:4744 to 4765 Align Len (19) (73.68%) (78.95%)
+
+   Query:    3' agUAGUAAUGGUCCGUCAUAAu 5'
+                  ||: |||||   ||||||| 
+   Ref:      5' tgATTTTTACCTATCAGTATTa 3'
+
+   Energy:  -15.610000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	164.00	-15.61	2 21	4744 4765	19	73.68%	78.95%
+
+
+   Forward:	Score: 157.000000  Q:2 to 20  R:5466 to 5486 Align Len (18) (72.22%) (83.33%)
+
+   Query:    3' aguAGUAAUGGUCCGUCAUAAu 5'
+                   |||| |::|  ||||||| 
+   Ref:      5' tttTCATCATTA-TCAGTATTt 3'
+
+   Energy:  -17.290001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	157.00	-17.29	2 20	5466 5486	18	72.22%	83.33%
+
+
+   Forward:	Score: 147.000000  Q:2 to 17  R:2399 to 2421 Align Len (16) (81.25%) (87.50%)
+
+   Query:    3' aguaguAAUGGUC-CGUCAUAAu 5'
+                      |||||||  ||||:|| 
+   Ref:      5' tagtgtTTACCAGAACAGTGTTt 3'
+
+   Energy:  -16.889999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	147.00	-16.89	2 17	2399 2421	16	81.25%	87.50%
+
+
+   Forward:	Score: 146.000000  Q:2 to 15  R:320 to 341 Align Len (13) (84.62%) (92.31%)
+
+   Query:    3' aguaguaaUGGUCCGUCAUAAu 5'
+                        ||||| ||||:|| 
+   Ref:      5' gccaacagACCAGACAGTGTTa 3'
+
+   Energy:  -19.830000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	146.00	-19.83	2 15	320 341	13	84.62%	92.31%
+
+
+   Forward:	Score: 146.000000  Q:2 to 19  R:4396 to 4414 Align Len (17) (70.59%) (76.47%)
+
+   Query:    3' aguaGUAAUGGUCCGUCAUAAu 5'
+                    |||| |:   ||||||| 
+   Ref:      5' gtgcCATTTCT---CAGTATTt 3'
+
+   Energy:  -11.400000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	146.00	-11.40	2 19	4396 4414	17	70.59%	76.47%
+
+
+   Forward:	Score: 143.000000  Q:2 to 17  R:3869 to 3891 Align Len (16) (68.75%) (75.00%)
+
+   Query:    3' aguaguAAU-GGUCCGUCAUAAu 5'
+                      ||| |:   ||||||| 
+   Ref:      5' attgttTTATCTTATCAGTATTa 3'
+
+   Energy:  -11.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	143.00	-11.49	2 17	3869 3891	16	68.75%	75.00%
+
+
+   Forward:	Score: 142.000000  Q:2 to 21  R:2587 to 2610 Align Len (21) (66.67%) (80.95%)
+
+   Query:    3' agUAGU-AAUGGUC-CGUCAUAAu 5'
+                  ||:: | |||||  ||||:|| 
+   Ref:      5' ccATTGCTGACCAGAACAGTGTTc 3'
+
+   Energy:  -17.459999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	142.00	-17.46	2 21	2587 2610	21	66.67%	80.95%
+
+
+   Forward:	Score: 140.000000  Q:2 to 9  R:3964 to 3985 Align Len (7) (100.00%) (100.00%)
+
+   Query:    3' aguaguaaugguccGUCAUAAu 5'
+                              ||||||| 
+   Ref:      5' tgctaaatccgcttCAGTATTt 3'
+
+   Energy:  -10.880000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-200b-3p	ENSG00000148516-v4	140.00	-10.88	2 9	3964 3985	7	100.00%	100.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-200b-3p	ENSG00000148516-v4	1350.00	-142.65	165.00	-21.80	4	22	6065	 4815 4744 5466 2399 320 4396 3869 2587 3964
+Complete
+
+Scan Complete
+

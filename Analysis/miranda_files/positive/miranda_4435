@@ -1,0 +1,120 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_4435.fas
+Reference Filename:	target_4435.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-let-7e-5p (22 nt)
+Read Sequence:ENSG00000171490-v1 (478 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7e-5p vs ENSG00000171490-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000171490-v2 (1282 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7e-5p vs ENSG00000171490-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000171490-v3 (560 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7e-5p vs ENSG00000171490-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000171490-v4 (3937 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7e-5p vs ENSG00000171490-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 148.000000  Q:2 to 19  R:1981 to 2001 Align Len (17) (76.47%) (88.24%)
+
+   Query:    3' uugaUAUGUUGGAGGAUGGAGu 5'
+                    ||:||| | |||:|||| 
+   Ref:      5' cagaATGCAAGC-CCTGCCTCa 3'
+
+   Energy:  -24.520000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	ENSG00000171490-v4	148.00	-24.52	2 19	1981 2001	17	76.47%	88.24%
+
+
+   Forward:	Score: 146.000000  Q:2 to 16  R:2885 to 2908 Align Len (16) (81.25%) (87.50%)
+
+   Query:    3' uugauauGUU--GGAGGAUGGAGu 5'
+                       |||  ||||||:|||| 
+   Ref:      5' ctgggctCAAGTCCTCCTGCCTCa 3'
+
+   Energy:  -26.490000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	ENSG00000171490-v4	146.00	-26.49	2 16	2885 2908	16	81.25%	87.50%
+
+
+   Forward:	Score: 140.000000  Q:3 to 21  R:1112 to 1133 Align Len (18) (66.67%) (77.78%)
+
+   Query:    3' uuGAUAUGUUGGAGGAUGGAgu 5'
+                  ||| |: :  ||||||||  
+   Ref:      5' gaCTAAATTGAATCCTACCTac 3'
+
+   Energy:  -18.150000 kCal/Mol
+
+Scores for this hit:
+>hsa-let-7e-5p	ENSG00000171490-v4	140.00	-18.15	3 21	1112 1133	18	66.67%	77.78%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-let-7e-5p	ENSG00000171490-v4	434.00	-69.16	148.00	-26.49	4	22	3937	 1981 2885 1112
+Complete
+
+Read Sequence:ENSG00000171490-v5 (619 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7e-5p vs ENSG00000171490-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000171490-v6 (709 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-let-7e-5p vs ENSG00000171490-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

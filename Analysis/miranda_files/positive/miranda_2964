@@ -1,0 +1,177 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_2964.fas
+Reference Filename:	target_2964.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-17-5p (23 nt)
+Read Sequence:ENSG00000140992-v1 (498 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-17-5p vs ENSG00000140992-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000140992-v2 (161 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-17-5p vs ENSG00000140992-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000140992-v3 (5421 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-17-5p vs ENSG00000140992-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:2 to 17  R:3043 to 3065 Align Len (15) (86.67%) (100.00%)
+
+   Query:    3' gauggacGUGACAUUCGUGAAAc 5'
+                       ||||||:||||:||| 
+   Ref:      5' agaagacCACTGTGAGCATTTTg 3'
+
+   Energy:  -26.080000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-17-5p	ENSG00000140992-v3	160.00	-26.08	2 17	3043 3065	15	86.67%	100.00%
+
+
+   Forward:	Score: 155.000000  Q:2 to 21  R:3145 to 3168 Align Len (20) (70.00%) (90.00%)
+
+   Query:    3' gauGGAC-GUGACAUUCGUGAAAc 5'
+                   |:|| :|:| ||||||:||| 
+   Ref:      5' tccCTTGATATTTTAAGCATTTTc 3'
+
+   Energy:  -15.470000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-17-5p	ENSG00000140992-v3	155.00	-15.47	2 21	3145 3168	20	70.00%	90.00%
+
+
+   Forward:	Score: 149.000000  Q:3 to 22  R:4478 to 4500 Align Len (19) (68.42%) (84.21%)
+
+   Query:    3' gaUGGACGUGACAUUCGUGAAac 5'
+                  |:| | :||| |:||||||  
+   Ref:      5' gaATCGGGGCTGGAGGCACTTca 3'
+
+   Energy:  -18.440001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-17-5p	ENSG00000140992-v3	149.00	-18.44	3 22	4478 4500	19	68.42%	84.21%
+
+
+   Forward:	Score: 148.000000  Q:2 to 22  R:4586 to 4609 Align Len (21) (57.14%) (76.19%)
+
+   Query:    3' gaUGGACG-UGACAUUCGUGAAAc 5'
+                  :::| | ||   :|||||||| 
+   Ref:      5' ctGTTTCCAACAAAGAGCACTTTc 3'
+
+   Energy:  -14.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-17-5p	ENSG00000140992-v3	148.00	-14.41	2 22	4586 4609	21	57.14%	76.19%
+
+
+   Forward:	Score: 142.000000  Q:2 to 19  R:4342 to 4364 Align Len (17) (64.71%) (82.35%)
+
+   Query:    3' gauggACGUGACAUUCGUGAAAc 5'
+                     | |: || |:|:||||| 
+   Ref:      5' gagaaTACGGTGAAGGTACTTTg 3'
+
+   Energy:  -18.190001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-17-5p	ENSG00000140992-v3	142.00	-18.19	2 19	4342 4364	17	64.71%	82.35%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-17-5p	ENSG00000140992-v3	754.00	-92.59	160.00	-26.08	3	23	5421	 3043 3145 4478 4586 4342
+Complete
+
+Read Sequence:ENSG00000140992-v4 (3328 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-17-5p vs ENSG00000140992-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:2 to 17  R:3043 to 3065 Align Len (15) (86.67%) (100.00%)
+
+   Query:    3' gauggacGUGACAUUCGUGAAAc 5'
+                       ||||||:||||:||| 
+   Ref:      5' agaagacCACTGTGAGCATTTTg 3'
+
+   Energy:  -26.080000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-17-5p	ENSG00000140992-v4	160.00	-26.08	2 17	3043 3065	15	86.67%	100.00%
+
+
+   Forward:	Score: 155.000000  Q:2 to 21  R:3145 to 3168 Align Len (20) (70.00%) (90.00%)
+
+   Query:    3' gauGGAC-GUGACAUUCGUGAAAc 5'
+                   |:|| :|:| ||||||:||| 
+   Ref:      5' tccCTTGATATTTTAAGCATTTTc 3'
+
+   Energy:  -15.470000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-17-5p	ENSG00000140992-v4	155.00	-15.47	2 21	3145 3168	20	70.00%	90.00%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-17-5p	ENSG00000140992-v4	315.00	-41.55	160.00	-26.08	4	23	3328	 3043 3145
+Complete
+
+Read Sequence:ENSG00000140992-v5 (248 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-17-5p vs ENSG00000140992-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000140992-v6 (292 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-17-5p vs ENSG00000140992-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000140992-v7 (324 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-17-5p vs ENSG00000140992-v7
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

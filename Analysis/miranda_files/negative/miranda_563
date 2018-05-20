@@ -1,0 +1,133 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_563.fas
+Reference Filename:	target_563.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-941 (23 nt)
+Read Sequence:ENSG00000112763-v1 (2282 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-941 vs ENSG00000112763-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 143.000000  Q:2 to 18  R:974 to 995 Align Len (16) (68.75%) (75.00%)
+
+   Query:    3' cguguaCACGUGUGUCGGCCCAc 5'
+                      || | | : ||||||| 
+   Ref:      5' gaaggaGT-CCCTTTGCCGGGTg 3'
+
+   Energy:  -22.940001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-941	ENSG00000112763-v1	143.00	-22.94	2 18	974 995	16	68.75%	75.00%
+
+
+   Forward:	Score: 140.000000  Q:3 to 21  R:760 to 782 Align Len (18) (66.67%) (77.78%)
+
+   Query:    3' cguGUACACGUGUGUCGGCCCac 5'
+                   | ||||: |  :||||||  
+   Ref:      5' agcCTTGTGTCCTAGGCCGGGag 3'
+
+   Energy:  -22.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-941	ENSG00000112763-v1	140.00	-22.87	3 21	760 782	18	66.67%	77.78%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-941	ENSG00000112763-v1	283.00	-45.81	143.00	-22.94	1	23	2282	 974 760
+Complete
+
+Read Sequence:ENSG00000112763-v2 (1104 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-941 vs ENSG00000112763-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000112763-v3 (451 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-941 vs ENSG00000112763-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000112763-v4 (1896 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-941 vs ENSG00000112763-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 143.000000  Q:2 to 18  R:553 to 574 Align Len (16) (68.75%) (75.00%)
+
+   Query:    3' cguguaCACGUGUGUCGGCCCAc 5'
+                      || | | : ||||||| 
+   Ref:      5' gaaggaGT-CCCTTTGCCGGGTg 3'
+
+   Energy:  -22.940001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-941	ENSG00000112763-v4	143.00	-22.94	2 18	553 574	16	68.75%	75.00%
+
+
+   Forward:	Score: 140.000000  Q:3 to 21  R:339 to 361 Align Len (18) (66.67%) (77.78%)
+
+   Query:    3' cguGUACACGUGUGUCGGCCCac 5'
+                   | ||||: |  :||||||  
+   Ref:      5' agcCTTGTGTCCTAGGCCGGGag 3'
+
+   Energy:  -22.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-941	ENSG00000112763-v4	140.00	-22.87	3 21	339 361	18	66.67%	77.78%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-941	ENSG00000112763-v4	283.00	-45.81	143.00	-22.94	4	23	1896	 553 339
+Complete
+
+Read Sequence:ENSG00000112763-v5 (1088 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-941 vs ENSG00000112763-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000112763-v6 (489 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-941 vs ENSG00000112763-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

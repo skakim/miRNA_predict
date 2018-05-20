@@ -1,0 +1,169 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_1660.fas
+Reference Filename:	target_1660.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-138-5p (23 nt)
+Read Sequence:ENSG00000114353-v1 (996 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-5p vs ENSG00000114353-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 163.000000  Q:2 to 21  R:358 to 382 Align Len (21) (76.19%) (76.19%)
+
+   Query:    3' gccGGACUAA--GUGUUGUGGUCGa 5'
+                   || | ||  | |||||||||| 
+   Ref:      5' cccCCAGCTTTGCCCAACACCAGCc 3'
+
+   Energy:  -21.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	ENSG00000114353-v1	163.00	-21.41	2 21	358 382	21	76.19%	76.19%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-5p	ENSG00000114353-v1	163.00	-21.41	163.00	-21.41	1	23	996	 358
+Complete
+
+Read Sequence:ENSG00000114353-v2 (1258 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-5p vs ENSG00000114353-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 163.000000  Q:2 to 21  R:1061 to 1085 Align Len (21) (76.19%) (76.19%)
+
+   Query:    3' gccGGACUAA--GUGUUGUGGUCGa 5'
+                   || | ||  | |||||||||| 
+   Ref:      5' cccCCAGCTTTGCCCAACACCAGCc 3'
+
+   Energy:  -21.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	ENSG00000114353-v2	163.00	-21.41	2 21	1061 1085	21	76.19%	76.19%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-5p	ENSG00000114353-v2	163.00	-21.41	163.00	-21.41	2	23	1258	 1061
+Complete
+
+Read Sequence:ENSG00000114353-v3 (555 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-5p vs ENSG00000114353-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 163.000000  Q:2 to 21  R:358 to 382 Align Len (21) (76.19%) (76.19%)
+
+   Query:    3' gccGGACUAA--GUGUUGUGGUCGa 5'
+                   || | ||  | |||||||||| 
+   Ref:      5' cccCCAGCTTTGCCCAACACCAGCc 3'
+
+   Energy:  -21.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	ENSG00000114353-v3	163.00	-21.41	2 21	358 382	21	76.19%	76.19%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-5p	ENSG00000114353-v3	163.00	-21.41	163.00	-21.41	3	23	555	 358
+Complete
+
+Read Sequence:ENSG00000114353-v4 (408 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-5p vs ENSG00000114353-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 163.000000  Q:2 to 21  R:358 to 382 Align Len (21) (76.19%) (76.19%)
+
+   Query:    3' gccGGACUAA--GUGUUGUGGUCGa 5'
+                   || | ||  | |||||||||| 
+   Ref:      5' cccCCAGCTTTGCCCAACACCAGCc 3'
+
+   Energy:  -21.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	ENSG00000114353-v4	163.00	-21.41	2 21	358 382	21	76.19%	76.19%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-5p	ENSG00000114353-v4	163.00	-21.41	163.00	-21.41	4	23	408	 358
+Complete
+
+Read Sequence:ENSG00000114353-v5 (1012 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-5p vs ENSG00000114353-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 163.000000  Q:2 to 21  R:358 to 382 Align Len (21) (76.19%) (76.19%)
+
+   Query:    3' gccGGACUAA--GUGUUGUGGUCGa 5'
+                   || | ||  | |||||||||| 
+   Ref:      5' cccCCAGCTTTGCCCAACACCAGCc 3'
+
+   Energy:  -21.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	ENSG00000114353-v5	163.00	-21.41	2 21	358 382	21	76.19%	76.19%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-5p	ENSG00000114353-v5	163.00	-21.41	163.00	-21.41	5	23	1012	 358
+Complete
+
+Read Sequence:ENSG00000114353-v6 (1607 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-5p vs ENSG00000114353-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 163.000000  Q:2 to 21  R:954 to 978 Align Len (21) (76.19%) (76.19%)
+
+   Query:    3' gccGGACUAA--GUGUUGUGGUCGa 5'
+                   || | ||  | |||||||||| 
+   Ref:      5' cccCCAGCTTTGCCCAACACCAGCc 3'
+
+   Energy:  -21.410000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-138-5p	ENSG00000114353-v6	163.00	-21.41	2 21	954 978	21	76.19%	76.19%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-138-5p	ENSG00000114353-v6	163.00	-21.41	163.00	-21.41	6	23	1607	 954
+Complete
+
+Read Sequence:ENSG00000114353-v7 (354 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-138-5p vs ENSG00000114353-v7
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

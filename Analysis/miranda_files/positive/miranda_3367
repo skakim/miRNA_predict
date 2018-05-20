@@ -1,0 +1,140 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mirna_3367.fas
+Reference Filename:	target_3367.fas
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	140.000000
+Energy Threshold:	1.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Read Sequence:hsa-miR-484 (22 nt)
+Read Sequence:ENSG00000149428-v1 (2220 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-484 vs ENSG00000149428-v1
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 160.000000  Q:2 to 20  R:1784 to 1806 Align Len (20) (80.00%) (80.00%)
+
+   Query:    3' uagCCCUC--CCCUGACUCGGACu 5'
+                   |||||   |||| ||||||| 
+   Ref:      5' gagGGGAGCAAGGAC-GAGCCTGg 3'
+
+   Energy:  -32.290001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-484	ENSG00000149428-v1	160.00	-32.29	2 20	1784 1806	20	80.00%	80.00%
+
+
+   Forward:	Score: 157.000000  Q:2 to 20  R:1138 to 1162 Align Len (21) (76.19%) (76.19%)
+
+   Query:    3' uagCCCUCC-CCU--GACUCGGACu 5'
+                   |||||| |||    ||||||| 
+   Ref:      5' cgaGGGAGGTGGAGGAGGAGCCTGg 3'
+
+   Energy:  -33.400002 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-484	ENSG00000149428-v1	157.00	-33.40	2 20	1138 1162	21	76.19%	76.19%
+
+
+   Forward:	Score: 147.000000  Q:2 to 21  R:855 to 877 Align Len (20) (70.00%) (80.00%)
+
+   Query:    3' uaGCCCUCCC-CUGACUCGGACu 5'
+                  :| | ||| | |||:||||| 
+   Ref:      5' ttTGAGCGGGTGCCTGGGCCTGt 3'
+
+   Energy:  -27.020000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-484	ENSG00000149428-v1	147.00	-27.02	2 21	855 877	20	70.00%	80.00%
+
+
+   Forward:	Score: 141.000000  Q:2 to 20  R:1960 to 1980 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' uagCCCUCCCCUGACUCGGACu 5'
+                   || || || | |:||||| 
+   Ref:      5' gaaGGCAGAGG-CAGGGCCTGa 3'
+
+   Energy:  -20.660000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-484	ENSG00000149428-v1	141.00	-20.66	2 20	1960 1980	18	72.22%	77.78%
+
+Score for this Scan:
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-484	ENSG00000149428-v1	605.00	-113.37	160.00	-33.40	1	22	2220	 1784 1138 855 1960
+Complete
+
+Read Sequence:ENSG00000149428-v2 (923 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-484 vs ENSG00000149428-v2
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000149428-v3 (1076 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-484 vs ENSG00000149428-v3
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000149428-v4 (282 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-484 vs ENSG00000149428-v4
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000149428-v5 (376 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-484 vs ENSG00000149428-v5
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000149428-v6 (1401 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-484 vs ENSG00000149428-v6
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Read Sequence:ENSG00000149428-v7 (1404 nt)
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Performing Scan: hsa-miR-484 vs ENSG00000149428-v7
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Score for this Scan:
+No Hits Found above Threshold
+Complete
+
+Scan Complete
+

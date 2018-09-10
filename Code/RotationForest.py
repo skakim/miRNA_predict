@@ -14,16 +14,20 @@ References
 """
 
 import os
+import sys
 import random
 import numpy as np
-np.seterr(divide='ignore', invalid='ignore')
+import pandas as pd
 
+from sklearn.utils import shuffle
 from scipy.stats import mode
 
 #from sklearn import model_selection
 from sklearn.decomposition import PCA
 
 from sklearn.tree import DecisionTreeClassifier
+
+np.seterr(divide='ignore', invalid='ignore')
 
 
 __all__ = ["RotationForest"]
@@ -84,8 +88,7 @@ class RotationForest(object):
 
         Returns an instance of self.
         """
-        n_samps, NF = X.shape
-        
+
         # Compute mean, std and noise for z-score
         self._std = np.std(X,axis=0)
         self._med = np.mean(X,axis=0)
@@ -103,6 +106,12 @@ class RotationForest(object):
             # NF: the number of total features
             # {w1,w2,.., wc}: the set of class labels
             #L
+
+            # Downsample the dataset
+            #Xdown, Ydown = downsample(Xz, Y)
+            #Xdown, Ydown = oversample(Xz, Y)
+            Xdown, Ydown = Xz, Y
+            n_samps, NF = Xdown.shape
 
             # Prepare the rotaton matrix R:
             # Split F (the feature set) into K subsets Fij (for j=1,..,K/4)
@@ -125,7 +134,7 @@ class RotationForest(object):
 
                 vpos = [pos[m] for m in range(0, len(pos))]
        
-                Xzij = Xz[:, vpos]
+                Xzij = Xdown[:, vpos]
                 pca = self._apply_pca(Xzij, Y, len(pos))
 
                 for indI in range(0,len(pca.components_)):
@@ -134,10 +143,10 @@ class RotationForest(object):
 
                         
             self._inforotar.append(R)
-            Xrot = Xz.dot(R)
+            Xrot = Xdown.dot(R)
             
             cl = classifier
-            cl.fit(Xrot, Y)
+            cl.fit(Xrot, Ydown)
             self._classifiers.append(cl)
 
         return self
@@ -169,3 +178,43 @@ class RotationForest(object):
         y_pred = mode(ensemble_output, axis=1)[0]
         
         return y_pred
+
+def downsample(X, Y):
+    # Convert to Dataframe
+    data = np.concatenate((X, np.array([Y]).T), axis=1)
+    df = pd.DataFrame(data)
+
+    # Divide by class
+    df_class_0 = df[df[34] == 0.0]
+    df_class_1 = df[df[34] == 1.0]
+
+    count_class_0 = len(df_class_0)
+    count_class_1 = len(df_class_1)
+
+    df_class_1_under = df_class_1.sample(count_class_0)
+    df_test_under = shuffle(pd.concat([df_class_1_under, df_class_0], axis=0))
+
+    Ydown = df_test_under[34]
+    Xdown = df_test_under.loc[:, df_test_under.columns != 34]
+
+    return Xdown.values, Ydown.values
+
+def oversample(X, Y):
+    # Convert to Dataframe
+    data = np.concatenate((X, np.array([Y]).T), axis=1)
+    df = pd.DataFrame(data)
+
+    # Divide by class
+    df_class_0 = df[df[34] == 0.0]
+    df_class_1 = df[df[34] == 1.0]
+
+    count_class_0 = len(df_class_0)
+    count_class_1 = len(df_class_1)
+
+    df_class_0_over = df_class_0.sample(count_class_1, replace=True)
+    df_test_under = shuffle(pd.concat([df_class_0_over, df_class_1], axis=0))
+
+    Ydown = df_test_under[34]
+    Xdown = df_test_under.loc[:, df_test_under.columns != 34]
+
+    return Xdown.values, Ydown.values

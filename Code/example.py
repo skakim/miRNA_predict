@@ -11,7 +11,7 @@ import warnings
 from sklearn.utils import shuffle
 
 from sklearn import model_selection
-from sklearn.metrics import confusion_matrix, f1_score, roc_auc_score
+from sklearn.metrics import confusion_matrix, f1_score, matthews_corrcoef, roc_auc_score
 from sklearn.model_selection import StratifiedKFold
 from sklearn.ensemble import BaggingClassifier, VotingClassifier
 
@@ -129,6 +129,7 @@ if __name__ == '__main__':
         vAcc = []
         vAUC = []
         vF1 = []
+        vMCC = []
         vTime = []
         rAcc = []
         rAUC = []
@@ -171,7 +172,7 @@ if __name__ == '__main__':
             print(format(end - init,'.2f'), "s", sep='')
 
             # For testing x_test & y_test
-            print("cl_name, acc, AUC, F1")
+            print("cl_name, acc, AUC, F1, MCC")
             y_pred = rotfor.predict(x_test)
 
             cm = confusion_matrix(y_test, y_pred)
@@ -179,11 +180,13 @@ if __name__ == '__main__':
             acc = float(cm.trace())/cm.sum()
             AUC = roc_auc_score(y_test, y_pred)
             F1 = f1_score(y_test, y_pred)
+            MCC = matthews_corrcoef(y_test, y_pred)
             vAcc.append(acc)
             vAUC.append(AUC)
             vF1.append(F1)
+            vMCC.append(MCC)
             vTime.append(end-init)
-            print("RotationForest", format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(F1 * 100, '.2f'), sep=',')
+            print("RotationForest", format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(F1 * 100, '.2f'), format(MCC * 100, '.2f'), sep=',')
 
             i = 0
             for classifier in rotfor._classifiers:
@@ -193,7 +196,8 @@ if __name__ == '__main__':
                 acc = float(cm.trace())/cm.sum()
                 AUC = roc_auc_score(y_test, y_pred)
                 F1 = f1_score(y_test, y_pred)
-                print(type(classifier).__name__, format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(F1 * 100, '.2f'), sep=',')
+                MCC = matthews_corrcoef(y_test, y_pred)
+                print(type(classifier).__name__, format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(MCC * 100, '.2f'), sep=',')
                 i += 1
 
             del rotfor
@@ -226,19 +230,22 @@ if __name__ == '__main__':
             del ranfor
             """
 
-        print("algr, acc_avg, acc_std, auc_avg, auc_std, f1_avg, f1_std, t_avg, t_std")
+        print("algr, acc_avg, acc_std, auc_avg, auc_std, f1_avg, f1_std, mcc_avg, mcc_std, t_avg, t_std")
         bd_std = np.std(vAcc)
         bd_acc = np.mean(vAcc)
         auc_std = np.std(vAUC)
         auc_acc = np.mean(vAUC)
         f1_std = np.std(vF1)
         f1_acc = np.mean(vF1)
+        mcc_std = np.std(vMCC)
+        mcc_acc = np.mean(vMCC)
         t_std = np.std(vTime)
         t_acc = np.mean(vTime)
         print("rotfor", format(bd_acc*100,'.2f'), format(bd_std*100,'.2f'),
               format(auc_acc * 100, '.2f'), format(auc_std * 100, '.2f'),
               format(f1_acc * 100, '.2f'), format(f1_std * 100, '.2f'),
-              format(t_acc,'.2f'), format(t_std,'.2f'), sep=',')
+              format(mcc_acc, '.2f'), format(mcc_std, '.2f'),
+              format(t_acc,'.2f'), format(t_std, '.2f'), sep=',')
 
         """
         bd_std = np.std(rAcc)

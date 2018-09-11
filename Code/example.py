@@ -186,7 +186,7 @@ if __name__ == '__main__':
             vF1.append(F1)
             vMCC.append(MCC)
             vTime.append(end-init)
-            print("RotationForest", format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(F1 * 100, '.2f'), format(MCC * 100, '.2f'), sep=',')
+            print("RotationForest", format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(F1 * 100, '.2f'), format(MCC, '.2f'), sep=',')
 
             i = 0
             for classifier in rotfor._classifiers:
@@ -197,7 +197,7 @@ if __name__ == '__main__':
                 AUC = roc_auc_score(y_test, y_pred)
                 F1 = f1_score(y_test, y_pred)
                 MCC = matthews_corrcoef(y_test, y_pred)
-                print(type(classifier).__name__, format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(MCC * 100, '.2f'), sep=',')
+                print(type(classifier).__name__, format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(MCC, '.2f'), sep=',')
                 i += 1
 
             del rotfor

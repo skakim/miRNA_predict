@@ -139,50 +139,92 @@ if __name__ == '__main__':
 
         train_indexes = []
         test_indexes = []
-        
+        k = 0
         for train, test in cv.split(X, Y):
+            k += 1
+            print("Fold", k)
             train_indexes.append(train)
             test_indexes.append(test)
             x_train, x_test, y_train, y_test = X[train,:], X[test,:], Y[train], Y[test]
             #print(len(x_train), len(x_test), len(x_train)/len(X))
+
+            classifiers_list = [GaussianNB(),
+                                DecisionTreeClassifier(max_depth=3, criterion='gini'),
+                                DecisionTreeClassifier(max_depth=3, criterion='entropy'),
+                                QuadraticDiscriminantAnalysis(),
+                                MLPClassifier(hidden_layer_sizes=(1, 10), max_iter=25),
+                                MLPClassifier(hidden_layer_sizes=(1, 5, 5), max_iter=25),
+                                MLPClassifier(hidden_layer_sizes=(1, 3, 3, 3), max_iter=25),
+                                SVC(kernel='rbf'),
+                                SVC(kernel='linear'),
+                                SVC(kernel='poly'),
+                                SVC(kernel='sigmoid'),
+                                KNeighborsClassifier(n_neighbors=3),
+                                KNeighborsClassifier(n_neighbors=5),
+                                KNeighborsClassifier(n_neighbors=7)]
           
-            rotfor = RotationForest(classifiers=[GaussianNB(), DecisionTreeClassifier(max_depth=5, criterion='gini'), DecisionTreeClassifier(max_depth=5, criterion='entropy'),
-                                                 QuadraticDiscriminantAnalysis(), MLPClassifier(hidden_layer_sizes=(1,10), max_iter=100), SVC(),
-                                                 KNeighborsClassifier(n_neighbors=1), KNeighborsClassifier(n_neighbors=3), KNeighborsClassifier(n_neighbors=5)])
+            rotfor = RotationForest(classifiers=classifiers_list)
+            print("Rotation Forest...", end=' ', flush=True)
             init = time.time()
             rotfor = rotfor.fit(x_train, y_train)
             end = time.time()
+            print(format(end - init,'.2f'), "s", sep='')
 
             # For testing x_test & y_test
+            print("cl_name, acc, AUC, F1")
             y_pred = rotfor.predict(x_test)
 
             cm = confusion_matrix(y_test, y_pred)
-            #print(cm)
+            print(cm)
             acc = float(cm.trace())/cm.sum()
+            AUC = roc_auc_score(y_test, y_pred)
+            F1 = f1_score(y_test, y_pred)
             vAcc.append(acc)
-            vAUC.append(roc_auc_score(y_test, y_pred))
-            vF1.append(f1_score(y_test, y_pred))
+            vAUC.append(AUC)
+            vF1.append(F1)
             vTime.append(end-init)
+            print("RotationForest", format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(F1 * 100, '.2f'), sep=',')
 
-            #ranfor = BaggingClassifier(n_estimators=9)
+            i = 0
+            for classifier in rotfor._classifiers:
+                y_pred = classifier.predict(x_test)
+                cm = confusion_matrix(y_test, y_pred)
+                print(cm)
+                acc = float(cm.trace())/cm.sum()
+                AUC = roc_auc_score(y_test, y_pred)
+                F1 = f1_score(y_test, y_pred)
+                print(type(classifier).__name__, format(acc * 100, '.2f'), format(AUC * 100, '.2f'), format(F1 * 100, '.2f'), sep=',')
+                i += 1
+
+            del rotfor
+
+            """
+            ranfor = BaggingClassifier(n_estimators=13)
             ranfor = VotingClassifier(estimators=[('nb', GaussianNB()),
                                                   ('dtg', DecisionTreeClassifier(max_depth=5, criterion='gini')), ('dte', DecisionTreeClassifier(max_depth=5, criterion='entropy')),
-                                                  ('qda', QuadraticDiscriminantAnalysis()), ('mlp', MLPClassifier(hidden_layer_sizes=(1,10), max_iter=100)),
-                                                  ('svc', SVC()), ('nc', NearestCentroid()),
+                                                  ('qda', QuadraticDiscriminantAnalysis()),
+                                                  ('mlp10', MLPClassifier(hidden_layer_sizes=(1, 10), max_iter=100)),
+                                                  ('svcr', SVC(kernel='rbf')), ('svcl', SVC(kernel='linear')), ('svcp', SVC(kernel='poly')), ('svcs', SVC(kernel='sigmoid')),
+                                                  ('nc', NearestCentroid()),
                                                   ('kn1', KNeighborsClassifier(n_neighbors=1)), ('kn3', KNeighborsClassifier(n_neighbors=3)), ('kn5', KNeighborsClassifier(n_neighbors=5))])
+            print("Bagging Classifier...", end=' ', flush=True)
             init = time.time()
             ranfor = ranfor.fit(x_train, y_train)
             end = time.time()
+            print(format(end - init, '.2f'), "s", sep='')
 
             # For testing x_test & y_test
             y_pred = ranfor.predict(x_test)
             
             cm = confusion_matrix(y_test, y_pred)
+            print(cm)
             acc = float(cm.trace())/cm.sum()
             rAcc.append(acc)
             rAUC.append(roc_auc_score(y_test, y_pred))
             rF1.append(f1_score(y_test, y_pred))
             rTime.append(end-init)
+            del ranfor
+            """
 
         print("algr, acc_avg, acc_std, auc_avg, auc_std, f1_avg, f1_std, t_avg, t_std")
         bd_std = np.std(vAcc)
@@ -198,6 +240,7 @@ if __name__ == '__main__':
               format(f1_acc * 100, '.2f'), format(f1_std * 100, '.2f'),
               format(t_acc,'.2f'), format(t_std,'.2f'), sep=',')
 
+        """
         bd_std = np.std(rAcc)
         bd_acc = np.mean(rAcc)
         auc_std = np.std(rAUC)
@@ -206,7 +249,8 @@ if __name__ == '__main__':
         f1_acc = np.mean(rF1)
         t_std = np.std(rTime)
         t_acc = np.mean(rTime)
-        print("voting", format(bd_acc * 100, '.2f'), format(bd_std * 100, '.2f'),
+        print("bagging", format(bd_acc * 100, '.2f'), format(bd_std * 100, '.2f'),
               format(auc_acc * 100, '.2f'), format(auc_std * 100, '.2f'),
               format(f1_acc * 100, '.2f'), format(f1_std * 100, '.2f'),
               format(t_acc, '.2f'), format(t_std, '.2f'), sep=',')
+        """

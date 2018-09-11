@@ -108,9 +108,9 @@ class RotationForest(object):
             #L
 
             # Downsample the dataset
-            #Xdown, Ydown = downsample(Xz, Y)
+            Xdown, Ydown = downsample(Xz, Y)
             #Xdown, Ydown = oversample(Xz, Y)
-            Xdown, Ydown = Xz, Y
+            #Xdown, Ydown = Xz, Y
             n_samps, NF = Xdown.shape
 
             # Prepare the rotaton matrix R:

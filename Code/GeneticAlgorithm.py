@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from copy import deepcopy
+from copy import copy, deepcopy
 from operator import attrgetter
 from sklearn.utils import shuffle
 
@@ -53,6 +53,8 @@ class GeneticAlgorithm(object):
 
         self.X, self.Y = read_mirna_dataset()
 
+        self.cache = {}
+
         self.population = self.generate_initial_population()
         self.best_individual = None
         self.generation = 0
@@ -64,10 +66,19 @@ class GeneticAlgorithm(object):
         return sorted(l, reverse=True)
 
     def generate_initial_population(self):
+        print("Creating initial generation")
         population = []
         for i in range(self.population_size):
             random_initial = list(np.random.randint(2, size=len(self.base_classifiers)))
-            population.append(Individual(random_initial, self.base_classifiers, self.X, self.Y))
+            if tuple(random_initial) not in self.cache:
+                ind = Individual(random_initial, self.base_classifiers, self.X, self.Y, self.fit_attr)
+                print("Finished creating individual", i, ind.phenotype)
+            else:
+                ind = self.cache[tuple(random_initial)]
+                print("Cache used for individual", i, ind.phenotype)
+            population.append(ind)
+            if tuple(ind.phenotype) not in self.cache:
+                self.cache[tuple(ind.phenotype)] = ind
         return population
 
     def generate_next_population(self):
@@ -76,12 +87,27 @@ class GeneticAlgorithm(object):
 
         # test if best_individual needs to be updated
         best_from_population = max(old_population, key=attrgetter(self.fit_attr))
-        if not(self.best_individual) or getattr(best_from_population, self.fit_attr) >= getattr(self.best_individual, self.fit_attr):
-            self.best_individual = best_from_population
+        if not(self.best_individual) or \
+                (getattr(best_from_population, self.fit_attr) >= getattr(self.best_individual, self.fit_attr) and
+                 best_from_population.phenotype != self.best_individual.phenotype):
+            self.best_individual = deepcopy(best_from_population)
+
+        # delete ensembles from cache
+        # release memory (no need to maintain the ensembles in memory (the best one was already copied above)
+        for phen in self.cache:
+            try:
+                del self.cache[phen].ensemble
+            except:
+                pass
+
+        print("Generation {} completed".format(self.generation))
+        self.generation += 1
+        print("Creating generation {}".format(self.generation))
 
         # generate offspring
         # elitism
         new_population.append(self.best_individual)
+        print("Copied best individual to new generation", self.best_individual.phenotype)
 
         # let the games begin!
         for i in range(self.population_size//2):
@@ -89,18 +115,33 @@ class GeneticAlgorithm(object):
             ind1, ind2 = self.selTournament()
             phen1, phen2 = self.crossover(ind1, ind2)
 
-            #mutation
+            # mutation
             phen1 = self.mutation(phen1)
             phen2 = self.mutation(phen2)
 
-            new1 = Individual(phen1, self.base_classifiers, self.X, self.Y)
-            new2 = Individual(phen2, self.base_classifiers, self.X, self.Y)
+            # retrieve from cache or create
+            if tuple(phen1) in self.cache:
+                new1 = self.cache[tuple(phen1)]
+                print("Cache used for individual", (i*2) + 1, new1.phenotype)
+            else:
+                new1 = Individual(phen1, self.base_classifiers, self.X, self.Y, self.fit_attr)
+                print("Finished creating individual", (i*2) + 1, new1.phenotype)
+                if tuple(new1.phenotype) not in self.cache:
+                    self.cache[tuple(new1.phenotype)] = new1
+
+            if tuple(phen2) in self.cache:
+                new2 = self.cache[tuple(phen2)]
+                print("Cache used for individual", (i*2) + 2, new2.phenotype)
+            else:
+                new2 = Individual(phen2, self.base_classifiers, self.X, self.Y, self.fit_attr)
+                print("Finished creating individual", (i*2) + 2, new2.phenotype)
+                if tuple(new2.phenotype) not in self.cache:
+                    self.cache[tuple(new2.phenotype)] = new2
 
             new_population.append(new1)
             new_population.append(new2)
 
         self.population = new_population
-        self.generation += 1
 
     def crossover(self, ind1, ind2):
         r = np.random.rand()
@@ -130,7 +171,7 @@ class GeneticAlgorithm(object):
                 phen[i] = 1 - phen[i]
         return phen
 
-    def selRandom(self, k):
+    def selRandom(self, individuals, k):
         """Select *k* individuals at random from the input *individuals* with
         replacement. The list returned contains references to the input
         *individuals*.
@@ -142,7 +183,7 @@ class GeneticAlgorithm(object):
         This function uses the :func:`~random.choice` function from the
         python base :mod:`random` module.
         """
-        return np.random.choice(self.population, size=k)
+        return np.random.choice(individuals, size=k)
 
     def selTournament(self, k=2):
         """Select the best individual among *tournsize* randomly chosen
@@ -155,20 +196,48 @@ class GeneticAlgorithm(object):
         :param self.fit_attr: The attribute of individuals to use as selection criterion (accuracy, AUC, F1 or MCC)
         :returns: A list of selected individuals.
         """
+        population_copy = copy(self.population)
         chosen = []
-        for i in range(k):
-            aspirants = self.selRandom(self.tournament_size)
-            chosen.append(max(aspirants, key=attrgetter(self.fit_attr)))
+        # choose first
+        aspirants = self.selRandom(population_copy, self.tournament_size)
+        chosen1 = max(aspirants, key=attrgetter(self.fit_attr))
+        chosen.append(chosen1)
+        # choose second
+        del population_copy[population_copy.index(chosen1)]
+        aspirants = self.selRandom(population_copy, self.tournament_size)
+        chosen2 = max(aspirants, key=attrgetter(self.fit_attr))
+        chosen.append(chosen2)
         return chosen
 
 
 class Individual(object):
-    def __init__(self, phenotype, base_classifiers, X, Y):
+    def __init__(self, phenotype, base_classifiers, X, Y, fit_attr, fitness = None):
         while all(v == 0 for v in phenotype): # avoid all-zero phenotypes
             phenotype = list(np.random.randint(2, size=len(base_classifiers)))
         self.phenotype = phenotype
-        self.classifiers = self.generate_classifiers(base_classifiers)
-        self.ensemble, self.accuracy, self.AUC, self.F1, self.MCC = run_ensemble(X, Y, classifiers_list=self.classifiers)
+        self.classifiers = []
+        self.ensemble, self.accuracy, self.AUC, self.F1, self.MCC = self.calculate_measures(X, Y, base_classifiers, fit_attr)
+
+    def calculate_measures(self, X, Y, base_classifiers, fit_attr):
+        best_ensemble = None
+        vAcc = []
+        vAUC = []
+        vF1 = []
+        vMCC = []
+        for _ in range(5):
+            self.classifiers = self.generate_classifiers(base_classifiers)
+            ensemble, accuracy, AUC, F1, MCC = run_ensemble(X, Y, classifiers_list=self.classifiers)
+            vAcc.append(accuracy)
+            vAUC.append(AUC)
+            vF1.append(F1)
+            vMCC.append(MCC)
+
+            if not(best_ensemble) or eval(fit_attr) >= best_ensemble[1]:
+                best_ensemble = (ensemble, eval(fit_attr))
+
+        return best_ensemble[0], np.mean(vAcc), np.mean(vAUC), np.mean(vF1), np.mean(vMCC)
+
+
 
     def generate_classifiers(self, base_classifiers):
         classifiers = []

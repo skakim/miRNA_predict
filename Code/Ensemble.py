@@ -8,6 +8,8 @@ import numpy as np
 import pandas as pd
 import warnings
 
+from math import floor, ceil
+
 from sklearn.utils import shuffle
 
 from sklearn import model_selection
@@ -21,6 +23,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis, LinearDiscriminantAnalysis
 from sklearn.neural_network import MLPClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import SGDClassifier, LogisticRegression
 from VotingClassifier import VotingClassifier
 
 warnings.simplefilter("ignore")
@@ -100,9 +104,8 @@ def read_mirna_dataset():
 
     return X.values, Y.values
 
-def run_ensemble(X, Y, classifiers_list = [], dry_run=False):
-
-    x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
+def run_ensemble(x_train, x_test, y_train, y_test, classifiers_list = [], dry_run=False):
+    
     ensemble = VotingClassifier(classifiers=classifiers_list, z_score=False, downsample=False)
 
     if dry_run:
@@ -122,6 +125,26 @@ def run_ensemble(X, Y, classifiers_list = [], dry_run=False):
     F1 = f1_score(y_test, y_pred)
     MCC = matthews_corrcoef(y_test, y_pred)
 
+    disagreements = []
+    L = len(classifiers_list)
+    if L == 1:
+        entropy = 0.5
+    else:
+        m_L = ceil(L/2)
+        for sample in x_test:
+            sample_positive = 0
+            sample_negative = 0
+            for classifier in ensemble._classifiers:
+                y_pred = classifier.predict(sample.reshape(1, -1))
+                if y_pred < 0.5:
+                    sample_negative += 1
+                else:
+                    sample_positive += 1
+            lower_agreement = min(sample_negative, sample_positive)
+            disagreements.append(lower_agreement/(L - m_L))
+
+        entropy = np.average(disagreements)
+
     if dry_run:
         print("cl_name, acc, AUC, F1, MCC")
         print(cm)
@@ -140,21 +163,25 @@ def run_ensemble(X, Y, classifiers_list = [], dry_run=False):
                   format(F1 * 100, '.2f'), format(MCC, '.2f'),
                   sep=',')
 
-    return ensemble, acc, AUC, F1, MCC
+    return ensemble, acc, AUC, F1, MCC, entropy
 
 if __name__ == '__main__':
     X, Y = read_mirna_dataset()
     run_ensemble(X, Y,
                  classifiers_list = [GaussianNB(),
-                                DecisionTreeClassifier(max_depth=3, criterion='gini'),
-                                DecisionTreeClassifier(max_depth=3, criterion='entropy'),
-                                QuadraticDiscriminantAnalysis(),
-                                MLPClassifier(hidden_layer_sizes=(1, 10), max_iter=25),
-                                MLPClassifier(hidden_layer_sizes=(1, 5, 5), max_iter=25),
-                                MLPClassifier(hidden_layer_sizes=(1, 3, 3, 3), max_iter=25),
-                                SVC(kernel='rbf'),
-                                SVC(kernel='sigmoid'),
-                                KNeighborsClassifier(n_neighbors=3),
-                                KNeighborsClassifier(n_neighbors=5),
-                                KNeighborsClassifier(n_neighbors=7)],
+                    DecisionTreeClassifier(max_depth=5, criterion='gini'),
+                    DecisionTreeClassifier(max_depth=5, criterion='entropy'),
+                    RandomForestClassifier(max_depth=5, criterion='gini'),
+                    RandomForestClassifier(max_depth=5, criterion='entropy'),
+                    QuadraticDiscriminantAnalysis(),
+                    MLPClassifier(hidden_layer_sizes=(1, 10), max_iter=50),
+                    MLPClassifier(hidden_layer_sizes=(1, 5, 5), max_iter=50),
+                    MLPClassifier(hidden_layer_sizes=(1, 3, 3, 3), max_iter=50),
+                    SVC(kernel='rbf', probability=True),
+                    SVC(kernel='sigmoid', probability=True),
+                    KNeighborsClassifier(n_neighbors=3),
+                    KNeighborsClassifier(n_neighbors=5),
+                    KNeighborsClassifier(n_neighbors=7),
+                    SGDClassifier(loss='modified_huber'),
+                    LogisticRegression()],
                  dry_run=True)

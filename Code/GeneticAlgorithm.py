@@ -1,8 +1,10 @@
+import sys
 import numpy as np
 import pandas as pd
 from copy import copy, deepcopy
 from operator import attrgetter
 from sklearn.utils import shuffle
+from sklearn.model_selection import StratifiedKFold
 
 from Ensemble import run_ensemble
 
@@ -43,13 +45,14 @@ def read_mirna_dataset():
     return X.values, Y.values
 
 class GeneticAlgorithm(object):
-    def __init__(self, base_classifiers, crossover_chance, mutation_chance, tournament_size, population_size, fit_attr):
+    def __init__(self, base_classifiers, crossover_chance, mutation_chance, tournament_size, population_size, fit_attr, diversity_proportion):
         self.base_classifiers = base_classifiers
         self.crossover_chance = crossover_chance
         self.mutation_chance = mutation_chance
         self.tournament_size = tournament_size
         self.population_size = population_size
         self.fit_attr = fit_attr
+        self.diversity_proportion = diversity_proportion
 
         self.X, self.Y = read_mirna_dataset()
 
@@ -71,11 +74,11 @@ class GeneticAlgorithm(object):
         for i in range(self.population_size):
             random_initial = list(np.random.randint(2, size=len(self.base_classifiers)))
             if tuple(random_initial) not in self.cache:
-                ind = Individual(random_initial, self.base_classifiers, self.X, self.Y, self.fit_attr)
-                print("Finished creating individual", i, ind.phenotype)
+                ind = Individual(random_initial, self.base_classifiers, self.X, self.Y, self.fit_attr, self.diversity_proportion)
+                print("Finished creating individual", i, ind.phenotype, ind.fitness)
             else:
                 ind = self.cache[tuple(random_initial)]
-                print("Cache used for individual", i, ind.phenotype)
+                print("Cache used for individual", i, ind.phenotype, ind.fitness)
             population.append(ind)
             if tuple(ind.phenotype) not in self.cache:
                 self.cache[tuple(ind.phenotype)] = ind
@@ -86,9 +89,9 @@ class GeneticAlgorithm(object):
         new_population = []
 
         # test if best_individual needs to be updated
-        best_from_population = max(old_population, key=attrgetter(self.fit_attr))
+        best_from_population = max(old_population, key=attrgetter('fitness'))
         if not(self.best_individual) or \
-                (getattr(best_from_population, self.fit_attr) >= getattr(self.best_individual, self.fit_attr) and
+                (getattr(best_from_population, 'fitness') >= getattr(self.best_individual, 'fitness') and
                  best_from_population.phenotype != self.best_individual.phenotype):
             self.best_individual = deepcopy(best_from_population)
 
@@ -122,19 +125,19 @@ class GeneticAlgorithm(object):
             # retrieve from cache or create
             if tuple(phen1) in self.cache:
                 new1 = self.cache[tuple(phen1)]
-                print("Cache used for individual", (i*2) + 1, new1.phenotype)
+                print("Cache used for individual", (i*2) + 1, new1.phenotype, new1.fitness)
             else:
-                new1 = Individual(phen1, self.base_classifiers, self.X, self.Y, self.fit_attr)
-                print("Finished creating individual", (i*2) + 1, new1.phenotype)
+                new1 = Individual(phen1, self.base_classifiers, self.X, self.Y, self.fit_attr, self.diversity_proportion)
+                print("Finished creating individual", (i*2) + 1, new1.phenotype, new1.fitness)
                 if tuple(new1.phenotype) not in self.cache:
                     self.cache[tuple(new1.phenotype)] = new1
 
             if tuple(phen2) in self.cache:
                 new2 = self.cache[tuple(phen2)]
-                print("Cache used for individual", (i*2) + 2, new2.phenotype)
+                print("Cache used for individual", (i*2) + 2, new2.phenotype, new2.fitness)
             else:
-                new2 = Individual(phen2, self.base_classifiers, self.X, self.Y, self.fit_attr)
-                print("Finished creating individual", (i*2) + 2, new2.phenotype)
+                new2 = Individual(phen2, self.base_classifiers, self.X, self.Y, self.fit_attr, self.diversity_proportion)
+                print("Finished creating individual", (i*2) + 2, new2.phenotype, new2.fitness)
                 if tuple(new2.phenotype) not in self.cache:
                     self.cache[tuple(new2.phenotype)] = new2
 
@@ -200,23 +203,24 @@ class GeneticAlgorithm(object):
         chosen = []
         # choose first
         aspirants = self.selRandom(population_copy, self.tournament_size)
-        chosen1 = max(aspirants, key=attrgetter(self.fit_attr))
+        chosen1 = max(aspirants, key=attrgetter('fitness'))
         chosen.append(chosen1)
         # choose second
         del population_copy[population_copy.index(chosen1)]
         aspirants = self.selRandom(population_copy, self.tournament_size)
-        chosen2 = max(aspirants, key=attrgetter(self.fit_attr))
+        chosen2 = max(aspirants, key=attrgetter('fitness'))
         chosen.append(chosen2)
         return chosen
 
 
 class Individual(object):
-    def __init__(self, phenotype, base_classifiers, X, Y, fit_attr, fitness = None):
+    def __init__(self, phenotype, base_classifiers, X, Y, fit_attr, diversity_proportion):
         while all(v == 0 for v in phenotype): # avoid all-zero phenotypes
             phenotype = list(np.random.randint(2, size=len(base_classifiers)))
         self.phenotype = phenotype
         self.classifiers = []
-        self.ensemble, self.accuracy, self.AUC, self.F1, self.MCC = self.calculate_measures(X, Y, base_classifiers, fit_attr)
+        self.ensemble, self.accuracy, self.AUC, self.F1, self.MCC, self.entropy = self.calculate_measures(X, Y, base_classifiers, fit_attr)
+        self.fitness = ((1.0 - diversity_proportion)*getattr(self, fit_attr)) + (diversity_proportion*self.entropy)
 
     def calculate_measures(self, X, Y, base_classifiers, fit_attr):
         best_ensemble = None
@@ -224,18 +228,23 @@ class Individual(object):
         vAUC = []
         vF1 = []
         vMCC = []
-        for _ in range(5):
+        vEntropy = []
+        skf = StratifiedKFold(n_splits=5)
+        for train_index, test_index in skf.split(X, Y):
             self.classifiers = self.generate_classifiers(base_classifiers)
-            ensemble, accuracy, AUC, F1, MCC = run_ensemble(X, Y, classifiers_list=self.classifiers)
+            x_train, x_test, = X[train_index], X[test_index]
+            y_train, y_test = Y[train_index], Y[test_index]
+            ensemble, accuracy, AUC, F1, MCC, entropy = run_ensemble(x_train, x_test, y_train, y_test, classifiers_list=self.classifiers)
             vAcc.append(accuracy)
             vAUC.append(AUC)
             vF1.append(F1)
             vMCC.append(MCC)
+            vEntropy.append(entropy)
 
             if not(best_ensemble) or eval(fit_attr) >= best_ensemble[1]:
                 best_ensemble = (ensemble, eval(fit_attr))
 
-        return best_ensemble[0], np.mean(vAcc), np.mean(vAUC), np.mean(vF1), np.mean(vMCC)
+        return best_ensemble[0], np.mean(vAcc), np.mean(vAUC), np.mean(vF1), np.mean(vMCC), np.mean(vEntropy)
 
 
 

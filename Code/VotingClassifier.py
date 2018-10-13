@@ -95,7 +95,10 @@ class VotingClassifier(object):
 
         return self
 
-    def predict(self, X):
+    def predict(self, X, proba=True, weights=None):
+        #print(list(Y))
+        #X, Y = downsample(X, Y)
+        #print(list(Y))
         """
         Predict values using the model
 
@@ -114,12 +117,54 @@ class VotingClassifier(object):
             # Z-score
             X = (X - self._med) / (self._std + self._noise)
 
-        for i in range(0, dim):
-            ensemble_output[:, i] = self._classifiers[i].predict(X)
-            # print(self._classifiers[i].predict(X))
-            # print(i, self._classifiers[i].predict(xrot_z))
+        if proba:
+            probas = np.asarray([clf.predict_proba(X) for clf in self._classifiers])
+            y_avg = np.average(probas, axis=0, weights=weights)
+            y_pred = np.argmax(y_avg, axis=1)
 
-        y_pred = mode(ensemble_output, axis=1)[0]
+            """
+            # generate heatmap
+            classifiers_names = ["GNB",
+                                 "DT (gini)",
+                                 "DT (entropy)",
+                                 "RF (gini)",
+                                 "RF (entropy)",
+                                 "QDA",
+                                 "MLP 1-10",
+                                 "MLP 1-5-5",
+                                 "MLP 1-3-3-3",
+                                 "SVC (rbf)",
+                                 "SVC (sigmoid)",
+                                 "3-KNN",
+                                 "5-KNN",
+                                 "7-KNN",
+                                 "SGD",
+                                 "LogisticRegression"]
+
+            with open("results/heatmap_full.csv", 'w') as f:
+                for i in range(len(self._classifiers)):
+                    f.write(classifiers_names[i] + ';' +
+                            ';'.join(map(str,self._classifiers[i].predict_proba(X)[:,1])) + '\n')
+                f.write('EXPECTED' + ';' + ';'.join(map(str,Y)))
+        """
+        else:
+            for i in range(0, dim):
+                if proba:
+                    #print(self._classifiers[i].predict_proba(X)[:,1])
+                    ensemble_output[:, i] = self._classifiers[i].predict_proba(X)[:,1]
+                else:
+                    ensemble_output[:, i] = self._classifiers[i].predict(X)
+                # print(self._classifiers[i].predict(X))
+                # print(i, self._classifiers[i].predict(xrot_z))
+
+            if proba:
+                if not weights:
+                    weights = [1.0]*dim
+                y_avg = np.average(ensemble_output, axis=1, weights=weights)
+                y_pred = np.around(y_avg)
+            else:
+                y_pred = mode(ensemble_output, axis=1)[0]
+
 
         return y_pred
 
@@ -138,6 +183,8 @@ def downsample(X, Y):
 
     df_class_1_under = df_class_1.sample(count_class_0)
     df_test_under = shuffle(pd.concat([df_class_1_under, df_class_0], axis=0))
+
+    #df_test_under = pd.concat([df_class_0, df_class_1], axis=0)
 
     Ydown = df_test_under[34]
     Xdown = df_test_under.loc[:, df_test_under.columns != 34]

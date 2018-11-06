@@ -98,45 +98,51 @@ def population_size():
     k = len(base_classifiers)
     return min((5*k), ((2**k)//2))
 
-for measure in ["AUC", "accuracy", "F1", "MCC"]:
-    timestr = time.strftime("%Y%m%d-%H%M%S")
-    os.makedirs("results/final/" + measure + "+50diversity")
+for j in range(0,10):
+    for measure in ["AUC", "accuracy", "F1", "MCC"]:
+        percentage_diversity = [0.0, 0.25, 0.5, 0.75]
+        for div in percentage_diversity:
+            timestr = time.strftime("%Y%m%d-%H%M%S")
+            try:
+                os.makedirs("results/final{}/{}+{}diversity".format(j, measure, div))
+            except:
+                pass
 
-    print("============ MEASURE:", measure)
+            print("============ MEASURE:", measure, div, "Diversity")
 
-    with open("results/final/{}+50diversity/log.txt".format(measure), "w") as log_file:
-        pop_size = population_size()
-        fit_attr = measure
-        GA = GeneticAlgorithm(base_classifiers=base_classifiers,
-                              crossover_chance=0.6,
-                              mutation_chance=0.01,
-                              tournament_size=pop_size//10,
-                              population_size=pop_size,
-                              fit_attr=fit_attr,
-                              diversity_proportion=0.50)
+            with open("results/final{}/{}+{}diversity/log.txt".format(j, measure, div), "w") as log_file:
+                pop_size = population_size()
+                fit_attr = measure
+                GA = GeneticAlgorithm(base_classifiers=base_classifiers,
+                                      crossover_chance=0.6,
+                                      mutation_chance=0.01,
+                                      tournament_size=pop_size//10,
+                                      population_size=pop_size,
+                                      fit_attr=fit_attr,
+                                      diversity_proportion=div)
 
-        #print("0", None, ','.join(map(str,GA.fitnesses())), sep=',')
-        #log_file.write("0,None," + ','.join(map(str,GA.fitnesses())) + '\n')
-        #log_file.flush()
+                #print("0", None, ','.join(map(str,GA.fitnesses())), sep=',')
+                #log_file.write("0,None," + ','.join(map(str,GA.fitnesses())) + '\n')
+                #log_file.flush()
 
-        i = 1
-        try:
-            while i <= 10:
-                GA.generate_next_population()
-                print(i)
-                #log_file.write(str(i) + "," + str(GA.best_individual.phenotype) + "," + ','.join(map(str, GA.fitnesses())) + '\n')
-                log_file.write(str(i) + "," + str(GA.best_individual.accuracy) + "," +
-                               str(GA.best_individual.AUC) + "," +
-                               str(GA.best_individual.F1) + "," +
-                               str(GA.best_individual.MCC) + '\n')
-                log_file.flush()
-                #best_individual_filename = str(GA.fitnesses()[0]) + "-" + ''.join(map(str, GA.best_individual.phenotype))
-                #if not(os.path.exists("results/{}/{}.ens".format(timestr, best_individual_filename))):
-                    #with open("results/{}/{}.ens".format(timestr, best_individual_filename), 'wb') as f:
-                        #pickle.dump(GA.best_individual.ensemble, f, pickle.HIGHEST_PROTOCOL)
+                i = 1
+                try:
+                    while i <= 10:
+                        GA.generate_next_population()
+                        print(i)
+                        #log_file.write(str(i) + "," + str(GA.best_individual.phenotype) + "," + ','.join(map(str, GA.fitnesses())) + '\n')
+                        log_file.write(str(i) + "," + str(GA.best_individual.accuracy) + "," +
+                                       str(GA.best_individual.AUC) + "," +
+                                       str(GA.best_individual.F1) + "," +
+                                       str(GA.best_individual.MCC) + '\n')
+                        log_file.flush()
+                        #best_individual_filename = str(GA.fitnesses()[0]) + "-" + ''.join(map(str, GA.best_individual.phenotype))
+                        #if not(os.path.exists("results/{}/{}.ens".format(timestr, best_individual_filename))):
+                            #with open("results/{}/{}.ens".format(timestr, best_individual_filename), 'wb') as f:
+                                #pickle.dump(GA.best_individual.ensemble, f, pickle.HIGHEST_PROTOCOL)
 
-                i += 1
-        finally:
-            # generate heatmap
-            # create_heatmap(GA.cache, fit_attr, "results/{}/heatmap.csv".format(timestr))
-            pass
+                        i += 1
+                finally:
+                    # generate heatmap
+                    # create_heatmap(GA.cache, fit_attr, "results/{}/heatmap.csv".format(timestr))
+                    pass

@@ -167,21 +167,32 @@ def run_ensemble(x_train, x_test, y_train, y_test, classifiers_list = [], dry_ru
 
 if __name__ == '__main__':
     X, Y = read_mirna_dataset()
-    run_ensemble(X, Y,
-                 classifiers_list = [GaussianNB(),
-                    DecisionTreeClassifier(max_depth=5, criterion='gini'),
-                    DecisionTreeClassifier(max_depth=5, criterion='entropy'),
-                    RandomForestClassifier(max_depth=5, criterion='gini'),
-                    RandomForestClassifier(max_depth=5, criterion='entropy'),
-                    QuadraticDiscriminantAnalysis(),
-                    MLPClassifier(hidden_layer_sizes=(1, 10), max_iter=50),
-                    MLPClassifier(hidden_layer_sizes=(1, 5, 5), max_iter=50),
-                    MLPClassifier(hidden_layer_sizes=(1, 3, 3, 3), max_iter=50),
-                    SVC(kernel='rbf', probability=True),
-                    SVC(kernel='sigmoid', probability=True),
-                    KNeighborsClassifier(n_neighbors=3),
-                    KNeighborsClassifier(n_neighbors=5),
-                    KNeighborsClassifier(n_neighbors=7),
-                    SGDClassifier(loss='modified_huber'),
-                    LogisticRegression()],
-                 dry_run=True)
+    vAcc = []
+    vAUC = []
+    vF1 = []
+    vMCC = []
+    vEntropy = []
+    skf = StratifiedKFold(n_splits=5)
+    for train_index, test_index in skf.split(X, Y):
+        x_train, x_test, = X[train_index], X[test_index]
+        y_train, y_test = Y[train_index], Y[test_index]
+        ensemble, accuracy, AUC, F1, MCC, entropy = run_ensemble(x_train, x_test, y_train, y_test,
+                     classifiers_list = [GaussianNB(),
+                        DecisionTreeClassifier(max_depth=5, criterion='gini'),
+                        DecisionTreeClassifier(max_depth=5, criterion='entropy'),
+                        RandomForestClassifier(max_depth=5, criterion='gini'),
+                        RandomForestClassifier(max_depth=5, criterion='entropy'),
+                        QuadraticDiscriminantAnalysis(),
+                        SVC(kernel='rbf', probability=True),
+                        KNeighborsClassifier(n_neighbors=3),
+                        KNeighborsClassifier(n_neighbors=5),
+                        KNeighborsClassifier(n_neighbors=7),
+                        LogisticRegression()
+                                         ],
+                     dry_run=True)
+        vAcc.append(accuracy)
+        vAUC.append(AUC)
+        vF1.append(F1)
+        vMCC.append(MCC)
+        vEntropy.append(entropy)
+    print(np.mean(vAcc), np.mean(vAUC), np.mean(vF1), np.mean(vMCC), np.mean(vEntropy))
